@@ -16,12 +16,8 @@ export const useLanguage = () => {
 
   return {
     ...context,
-
-    // translate(key, options?)
     translate: (key: string, options?: TOptions | string) =>
       context.t(key, options as any),
-
-    // translateNS(namespace, key, options?)
     translateNS: (ns: string, key: string, options?: TOptions | string) =>
       context.t(`${ns}:${key}`, options as any),
   };

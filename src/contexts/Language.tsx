@@ -3,12 +3,13 @@ import { createContext, useContext } from 'react';
 import type { User } from '../interfaces/User';
 import type { TFunction, i18n as i18nType } from 'i18next';
 
-interface LanguageContextType {
+export interface LanguageContextType {
   user: User | null;
   loading: boolean;
   currentLanguage: 'en' | 'es';
   changeLanguage: (lng: 'en' | 'es') => Promise<void>;
-  t: TFunction;
+  // Usamos el genérico por defecto para indicar que puede recibir cualquier string
+  t: TFunction<string, string>; 
   i18n: i18nType;
   ready: boolean;
 }

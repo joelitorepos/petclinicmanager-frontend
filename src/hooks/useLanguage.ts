@@ -10,11 +10,13 @@ export const useLanguage = () => {
     throw new Error('useLanguage debe usarse dentro de LanguageProvider');
   }
 
-  // Solo exponemos datos y funciones, NO ejecutamos lógica aquí.
   return {
-    ...context, // user, loading, currentLanguage, changeLanguage, t, etc.
-    translate: (key: string, options?: TOptions) => context.t(key, options),
-    translateNS: (ns: string, key: string, options?: TOptions) => 
-      context.t(`${ns}:${key}`, options),
+    ...context,
+    // Definimos options como un registro de valores desconocidos
+    translate: (key: string, options?: Record<string, unknown>) => 
+      context.t(key, options as TOptions),
+    
+    translateNS: (ns: string, key: string, options?: Record<string, unknown>) => 
+      context.t(`${ns}:${key}`, options as TOptions),
   };
 };

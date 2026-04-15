@@ -33,6 +33,11 @@ interface PhotoArrayCellProps {
   maxFiles?: number;
 }
 
+interface BackendPhotoItem {
+  url?: string;
+  key?: string;
+}
+
 const PhotoArrayCell = ({
   id,
   value,
@@ -68,24 +73,24 @@ const PhotoArrayCell = ({
     )
       return [];
 
-    // Si value ya es el objeto de control (bug antiguo), ignorarlo
     if (typeof value === "object" && !Array.isArray(value)) return [];
 
     try {
       if (typeof value === "string") {
         const parsed = JSON.parse(value);
         if (Array.isArray(parsed)) {
+          // --- SOLUCIÓN AL 'any' (Línea 79) ---
           return parsed
-            .map((item: any): PhotoData | null => {
-              if (typeof item === "object" && item?.key) {
-                let finalUrl = item.url;
+            .map((item: BackendPhotoItem | string): PhotoData | null => {
+              if (typeof item === "object" && item !== null && "key" in item) {
+                let finalUrl = item.url || "";
                 if (
                   item.url?.includes("r2.cloudflarestorage.com") ||
                   !item.url?.startsWith("http")
                 ) {
                   finalUrl = `${BASE_IMAGE_URL}/${item.key}`;
                 }
-                return { url: finalUrl, key: item.key };
+                return { url: finalUrl, key: item.key || "" };
               } else if (typeof item === "string" && item.startsWith("http")) {
                 return { url: item, key: "" };
               }
@@ -137,10 +142,15 @@ const PhotoArrayCell = ({
   }, [committedNewUrls]);
 
   // Cuando llega un value nuevo del backend (tras refetch), limpiar estado pendiente
-  useEffect(() => {
+  const [prevValue, setPrevValue] = useState(value);
+
+  // Si el value que viene por props es distinto al que teníamos guardado,
+  // reseteamos los estados comprometidos directamente en la fase de renderizado.
+  if (value !== prevValue) {
+    setPrevValue(value);
     setCommittedDeleteKeys([]);
     setCommittedNewFiles([]);
-  }, [value]);
+  }
 
   const totalCellPhotos = cellVisiblePhotos.length + committedNewFiles.length;
   const hasPhotos = totalCellPhotos > 0;
@@ -248,9 +258,7 @@ const PhotoArrayCell = ({
   };
 
   const handleNext = () => {
-    setCurrentViewIndex((prev) =>
-      prev < totalCellPhotos - 1 ? prev + 1 : 0,
-    );
+    setCurrentViewIndex((prev) => (prev < totalCellPhotos - 1 ? prev + 1 : 0));
   };
 
   const getCurrentViewPhoto = () => {

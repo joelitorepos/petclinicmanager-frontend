@@ -30,7 +30,6 @@ import {
 } from "../../modal/ConfirmationModals";
 import findErichedData from "../../../utils/findEnrichedData";
 import { useEditableTable } from "../../../hooks/useEditableTable";
-import mongoose from "mongoose";
 // import ExcelTable from "../../excelTable/ExcelTable";
 // import {
 //   APPOINTMENT_EXAMPLE_DATA,
@@ -144,9 +143,9 @@ interface PopulatedAppointment extends Omit<
   Appointment,
   "patientId" | "ownerId" | "veterinarianId"
 > {
-  patientId: PopulatedPatient | string | mongoose.Types.ObjectId;
-  ownerId: PopulatedOwner | string | mongoose.Types.ObjectId;
-  veterinarianId: PopulatedVeterinarian | string | mongoose.Types.ObjectId;
+  patientId: PopulatedPatient | string;
+  ownerId: PopulatedOwner | string;
+  veterinarianId: PopulatedVeterinarian | string;
 }
 
 // algunos componentes requieren que se haga el extends Record<string, unknown> como SelectWhitSearch

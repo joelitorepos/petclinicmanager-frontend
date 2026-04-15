@@ -19,7 +19,6 @@ import { type Patient } from "../../../interfaces/Patient";
 import { type Appointment } from "../../../interfaces/Appointment";
 import { type WorkspaceMember } from "../../../interfaces/WorkspaceMember";
 import { type Workspace } from "../../../interfaces/Workspace";
-import mongoose from "mongoose";
 import Input from "../../ui/Input";
 import DateInput from "../../ui/DateInput";
 import SelectWithSearch from "../../ui/SelectWithSearch";
@@ -121,9 +120,9 @@ interface PopulatedClinicalRecord
     ClinicalRecord,
     "patientId" | "appointmentId" | "veterinarianId"
   > {
-  patientId: PopulatedPatient | string | mongoose.Types.ObjectId;
-  appointmentId?: PopulatedAppointment | string | mongoose.Types.ObjectId;
-  veterinarianId: PopulatedVeterinarian | string | mongoose.Types.ObjectId;
+  patientId: PopulatedPatient | string;
+  appointmentId?: PopulatedAppointment | string;
+  veterinarianId: PopulatedVeterinarian | string;
 }
 
 interface IPatient extends Patient, Record<string, unknown> {}

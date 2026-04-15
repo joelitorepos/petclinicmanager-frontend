@@ -1,15 +1,25 @@
-import mongoose from 'mongoose';
-import type { IBaseEntity, IPhone, MemberRole, MemberStatus } from './shared.types';
+import type {
+  IBaseEntity,
+  IPhone,
+  MemberRole,
+  MemberStatus,
+} from "./shared.types";
 
 export interface WorkspaceMember {
-  _id?: string | mongoose.Types.ObjectId;
-  workspaceId: string | mongoose.Types.ObjectId;
-  userId: string | mongoose.Types.ObjectId | null;
+  _id?: string;
+  workspaceId: string;
+  userId: string | null;
   pendingEmail?: string;
-  role: 'admin' | 'veterinario' | 'recepcion' | 'asistente' | 'contador' | 'auditor';
-  status: 'active' | 'pending' | 'removed';
-  invitedBy: string | mongoose.Types.ObjectId;
-  updatedBy?: string | mongoose.Types.ObjectId;
+  role:
+    | "admin"
+    | "veterinario"
+    | "recepcion"
+    | "asistente"
+    | "contador"
+    | "auditor";
+  status: "active" | "pending" | "removed";
+  invitedBy: string;
+  updatedBy?: string;
   phone?: string;
   country?: string;
   createdAt?: Date;

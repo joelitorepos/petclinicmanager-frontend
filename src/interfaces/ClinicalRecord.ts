@@ -1,5 +1,3 @@
-import mongoose from 'mongoose';
-
 export interface Diagnostic {
   diagnosis: string;
   notes?: string;
@@ -23,12 +21,12 @@ export interface ClinicalFile {
 }
 
 export interface ClinicalRecord {
-  _id: string; 
-  workspaceId: string | mongoose.Types.ObjectId;
-  patientId: string | mongoose.Types.ObjectId;
-  appointmentId?: string | mongoose.Types.ObjectId;
+  _id: string;
+  workspaceId: string;
+  patientId: string;
+  appointmentId?: string;
   date: Date | string;
-  veterinarianId: string | mongoose.Types.ObjectId;
+  veterinarianId: string;
   weight?: number;
   temperature?: number;
   diagnostics?: Diagnostic[];
@@ -36,8 +34,8 @@ export interface ClinicalRecord {
   vaccinations?: Vaccination[];
   files?: ClinicalFile[];
   notes?: string;
-  createdBy: string | mongoose.Types.ObjectId;
-  updatedBy: string | mongoose.Types.ObjectId;
+  createdBy: string;
+  updatedBy: string;
   createdAt?: Date | string;
   updatedAt?: Date | string;
   deleted: boolean;

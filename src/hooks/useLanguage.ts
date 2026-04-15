@@ -4,11 +4,9 @@ import { LanguageContext } from "../contexts/Language";
 import type { TOptions } from "i18next";
 
 /**
- * Usamos un tipo que herede de TOptions pero que asegure
- * compatibilidad con las firmas de i18next.
+ * Wrapper seguro para la función t de i18next
+ * Usamos 'as any' solo en la llamada interna (es el cast mínimo y más seguro)
  */
-type SafeTranslationOptions = TOptions & Record<string, unknown>;
-
 export const useLanguage = () => {
   const context = useContext(LanguageContext);
 
@@ -19,12 +17,12 @@ export const useLanguage = () => {
   return {
     ...context,
 
-    // Al usar "as TOptions", le indicamos a TS que ignore las sobrecargas
-    // de 'defaultValue' (que es un string) y use la de 'options'.
-    translate: (key: string, options?: SafeTranslationOptions) =>
-      context.t(key, options as TOptions),
+    // translate(key, options?)
+    translate: (key: string, options?: TOptions | string) =>
+      context.t(key, options as any),
 
-    translateNS: (ns: string, key: string, options?: SafeTranslationOptions) =>
-      context.t(`${ns}:${key}`, options as TOptions),
+    // translateNS(namespace, key, options?)
+    translateNS: (ns: string, key: string, options?: TOptions | string) =>
+      context.t(`${ns}:${key}`, options as any),
   };
 };

@@ -1,0 +1,66 @@
+{
+  "google_signin": "Sign in",
+  "google_modal_title": "Sign in to continue",
+  "google_modal_subtitle": "You need to be logged in with Google to access your personal clinic.",
+  "language": "Language: ",
+  "my_clinic": "My clinic",
+  "confirm_creation": "Confirm creation",
+  "menu": "Menu",
+  "countries": {
+    "GT": "Guatemala",
+    "ES": "Spain",
+    "US": "United States",
+    "MX": "Mexico",
+    "AR": "Argentina"
+  },
+  "tools": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "owners": "Owners",
+    "patients": "Patients",
+    "workspaceMembers": "Members",
+    "appointments": "Appointments",
+    "clinicalRecords": "Clinical Records",
+    "inventory": "Inventory",
+    "inventoryBatch": "Inventory Batches",
+    "services": "Services",
+    "billing": "Billing",
+    "reports": "Reports",
+    "audit": "Audit",
+    "settings": "Settings"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Spanish"
+  },
+  "views": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "massiveImport": {
+    "title": "Mass Import",
+    "planNote": "The import will automatically stop if you reach the record limit allowed by your current plan.",
+    "planNoteLabel": "Plan note:",
+    "buttonImporting": "Importing...",
+    "buttonProcess": "Process and Import Data",
+    "errorMissingData": "Cannot import: missing file, workspace, or user",
+    "errorUpload": "Error uploading file",
+    "progressMessage": "Uploading file...",
+    "successMessage": "Import completed:",
+    "successOf": "of",
+    "successRecords": "records imported",
+    "failMessage": "Import failed:",
+    "failErrors": "errors",
+    "panelTitleDefault": "Import Progress",
+    "panelTitleOwners": "Importing Owners",
+    "panelTitlePatients": "Importing Patients",
+    "panelTitleMembers": "Importing Members",
+    "panelTitleAppointments": "Importing Appointments",
+    "panelTitleClinicalRecords": "Importing Clinical Records",
+    "panelTitleInventory": "Importing Inventory",
+    "panelTitleInventoryBatch": "Importing Batches",
+    "panelTitleServices": "Importing Services"
+  }
+}

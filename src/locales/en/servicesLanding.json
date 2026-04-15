@@ -1,0 +1,39 @@
+{
+  "hero_title": "Our Plans",
+  "hero_subtitle": "Choose the plan that fits the size and needs of your veterinary clinic",
+
+  "plan_free_title": "Free Plan",
+  "plan_free_description": "Ideal for small clinics or getting started at no cost.",
+  "plan_free_feature1": "1 clinic available",
+  "plan_free_feature2": "Up to 3 members per clinic",
+  "plan_free_feature3": "Limited number of clinical records per month",
+  "plan_free_feature4": "Appointments, invoicing, and payments with monthly limits",
+  "plan_free_feature5": "Basic data import and limited image storage",
+  "plan_free_badge": "Free",
+
+  "plan_basic_title": "Basic Plan",
+  "plan_basic_description": "For growing clinics that need more capacity.",
+  "plan_basic_feature1": "Up to 5 members per clinic",
+  "plan_basic_feature2": "Increased number of clinical records available per month",
+  "plan_basic_feature3": "Appointments, invoicing, and payments with higher limits",
+  "plan_basic_feature4": "Improved import and more image storage",
+  "plan_basic_badge": "Basic",
+
+  "plan_pro_title": "Pro Plan",
+  "plan_pro_description": "For professional clinics with advanced needs.",
+  "plan_pro_feature1": "Up to 10 members per clinic",
+  "plan_pro_feature2": "Higher number of clinical records per month",
+  "plan_pro_feature3": "Unlimited appointments and payments, high-limit invoicing",
+  "plan_pro_feature4": "Concurrent imports and expanded image storage",
+  "plan_pro_badge": "Professional",
+
+  "plan_enterprise_title": "Enterprise Plan",
+  "plan_enterprise_description": "For large clinics or unlimited requirements.",
+  "plan_enterprise_feature1": "Unlimited members per clinic",
+  "plan_enterprise_feature2": "Unlimited clinical records per month",
+  "plan_enterprise_feature3": "Everything unlimited: appointments, invoicing, payments, and more",
+  "plan_enterprise_feature4": "Priority support, unlimited imports, and maximum storage",
+  "plan_enterprise_badge": "Enterprise",
+
+  "closing_message": "Only 1 workspace is allowed per account/user, regardless of the selected plan. Check and configure your plans, limits, and memberships within your workspace."
+}

@@ -1,0 +1,65 @@
+{
+  "titles": {
+    "form": "Register Batch",
+    "table": "Inventory Batches"
+  },
+  "placeholders": {
+    "product": "Search product...",
+    "quantity": "Batch quantity",
+    "purchasePrice": "Purchase price per unit",
+    "supplier": "Supplier name (optional)",
+    "batchNumber": "Batch number or code (optional)",
+    "search": "Search by batch, supplier, or date..."
+  },
+  "labels": {
+    "product": "Product",
+    "batchNumber": "Batch number",
+    "quantity": "Quantity",
+    "purchasePrice": "Purchase price",
+    "supplier": "Supplier",
+    "purchaseDate": "Purchase date",
+    "expirationDate": "Expiration date"
+  },
+  "buttons": {
+    "form": {
+      "submit": "Register Batch",
+      "submitLoading": "Creating..."
+    },
+    "table": {
+      "refetch": "Reload list"
+    }
+  },
+  "messages": {
+    "loadingWorkspace": "Loading clinic...",
+    "loadingBatches": "Loading batches...",
+    "emptyTable": "No batches registered for this product.",
+    "selectItemFirst": "Select a product to view its batches.",
+    "errorLoad": "Select a product to view its batches.",
+    "errorWorkspaceLoad": "Could not load clinic information. Please refresh the page.",
+    "errorNoItemSelected": "You must select a product before continuing.",
+    "errorBatchNotFound": "Batch not found.",
+    "errorOriginalDataNotFound": "Original batch data not found.",
+    "errorCreate": "A problem occurred and the batch could not be registered. Please try again.",
+    "errorUpdate": "Error updating batch.",
+    "errorDelete": "Error deleting batch.",
+    "noChanges": "No changes to save."
+  },
+  "modals": {
+    "create": {
+      "title": "Confirm batch registration"
+    }
+  },
+  "feedback": {
+    "creating": "Registering batch...",
+    "success": "Batch registered successfully!"
+  },
+  "import": {
+    "title": "Bulk Batch Import",
+    "accepted_formats": "Accepted formats: .xlsx, .xls, .csv",
+    "required_fields": "Required fields: Product (name or code), Quantity, Purchase price",
+    "optional_fields": "Optional fields: Supplier, Batch number, Purchase date, Expiration date",
+    "date_format": "Date format: YYYY-MM-DD",
+    "validation": "The product must already exist in the inventory",
+    "example": "Check the visual example below"
+  }
+}

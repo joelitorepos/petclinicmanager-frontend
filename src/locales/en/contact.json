@@ -1,0 +1,20 @@
+{
+  "hero_title": "Contact",
+  "hero_subtitle": "We are here to help you. Write to us and we will respond as soon as possible.",
+
+  "whatsapp_title": "Chat via WhatsApp",
+  "whatsapp_desc": "The fastest way to talk to us. We resolve doubts in minutes.",
+  "whatsapp_button": "Send message",
+
+  "email_title": "Email",
+  "email_desc": "For detailed inquiries, proposals, or technical support.",
+
+  "phone_title": "Phone Call",
+  "phone_desc": "Available during office hours (Monday to Friday).",
+
+  "social_title": "Follow us on social media",
+  "social_desc": "Stay updated with updates, clinic tips, and product news.",
+
+  "faq_title": "Need something more specific?",
+  "faq_desc": "If you're looking for a personalized demo, updated pricing, or want to tell us about your clinic, just write to us. We'll get back to you quickly!"
+}

@@ -1,0 +1,69 @@
+{
+  "titles": {
+    "form": "Nuevo Servicio",
+    "table": "Servicios Registrados"
+  },
+  "placeholders": {
+    "code": "CONS001, VAC-001, etc.",
+    "name": "Consulta general, Vacuna antirrábica...",
+    "price": "150.00",
+    "cost": "80.00",
+    "taxRate": "12",
+    "duration": "30",
+    "description": "Descripción detallada del servicio...",
+    "search": "Buscar por código, nombre o categoría..."
+  },
+  "labels": {
+    "code": "Código",
+    "name": "Nombre",
+    "category": "Categoría",
+    "price": "Precio de venta",
+    "cost": "Costo interno",
+    "taxRate": "Tasa de impuesto (%)",
+    "duration": "Duración (minutos)",
+    "description": "Descripción",
+    "active": "Activo"
+  },
+  "categories": {
+    "consulta": "Consulta",
+    "vacuna": "Vacuna",
+    "cirugia": "Cirugía",
+    "laboratorio": "Laboratorio",
+    "estetica": "Estética",
+    "hospitalizacion": "Hospitalización",
+    "otro": "Otro"
+  },
+  "buttons": {
+    "submit": "Crear Servicio",
+    "submitLoading": "Creando...",
+    "refetch": "Actualizar lista"
+  },
+  "messages": {
+    "loadingWorkspace": "Cargando clínica...",
+    "emptyTable": "No hay servicios registrados aún.",
+    "errorLoad": "Error al cargar los servicios.",
+    "errorWorkspaceLoad": "No se ha podido cargar la información de la clínica. Por favor, recarga la página.",
+    "errorServiceNotFound": "Servicio no encontrado.",
+    "errorOriginalDataNotFound": "Datos originales del servicio no encontrados.",
+    "errorCreate": "Ha ocurrido un problema y no se pudo crear el servicio. Por favor, inténtalo de nuevo.",
+    "errorUpdate": "Error al actualizar el servicio.",
+    "errorDelete": "Error al eliminar el servicio.",
+    "noChanges": "No hay cambios para guardar."
+  },
+  "modals": {
+    "create": {
+      "title": "Confirmar creación de servicio"
+    }
+  },
+  "feedback": {
+    "creating": "Creando servicio...",
+    "success": "¡Servicio creado exitosamente!"
+  },
+  "info": {
+    "title": "Gestión de servicios clínicos",
+    "tip_code": "Código único por clínica (ej: CONS001, VAC-RAB)",
+    "tip_price": "Define precio de venta y costo interno para control de márgenes",
+    "tip_duration": "Usa duración aproximada para estimar tiempo en agenda",
+    "tip_import": "Importa múltiples servicios desde Excel/CSV"
+  }
+}

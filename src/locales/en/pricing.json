@@ -1,0 +1,38 @@
+{
+  "toggle": {
+    "monthly": "Monthly",
+    "annual": "Annual"
+  },
+  "badges": {
+    "mostPopular": "★ Most popular",
+    "currentPlan": "Current plan"
+  },
+  "price": {
+    "perMonth": "month",
+    "perYear": "year",
+    "annualEquiv": "~$",
+    "annualEquivSuffix": "/month · You save",
+    "annualEquivSuffix2": "% vs monthly",
+    "monthlyBilling": "Monthly billing · cancel anytime",
+    "free": "$0",
+    "freeSub": "No cost · limited features"
+  },
+  "buttons": {
+    "activePlan": "Active plan",
+    "subscribeMontly": "Subscribe",
+    "subscribeAnnual": "Subscribe annually",
+    "processing": "Processing...",
+    "includedByDefault": "Included by default"
+  },
+  "notes": {
+    "noWorkspace": "You need an active clinic to subscribe to a plan.",
+    "currentPlanPrefix": "Your clinic",
+    "currentPlanMid": "is currently on the",
+    "mercadopago": "Payments securely processed by",
+    "mercadopagoName": "MercadoPago"
+  },
+  "errors": {
+    "processing": "Error processing",
+    "connection": "Connection error"
+  }
+}

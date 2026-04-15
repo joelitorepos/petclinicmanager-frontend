@@ -1,0 +1,28 @@
+{
+  "welcome_title": "Welcome to Your Clinic",
+  "welcome_subtitle": "Your control center to manage patients, appointments, and finances.",
+  "intro_message": "Use the left sidebar navigation menu (or bottom on mobile) to access all your clinic management tools.",
+
+  "tools_section_title": "Key Tools",
+
+  "tool_home_title": "Home",
+  "tool_home_desc": "The welcome page and overall summary of recent activity.",
+
+  "tool_patients_title": "Patients",
+  "tool_patients_desc": "Manage your complete patient registry, medical history, and contacts.",
+
+  "tool_appointments_title": "Appointments",
+  "tool_appointments_desc": "Schedule, modify, and review your patients' appointment calendar.",
+
+  "tool_inventory_title": "Inventory",
+  "tool_inventory_desc": "Track your clinic's stock of medications, supplies, and equipment.",
+
+  "tool_billing_title": "Billing",
+  "tool_billing_desc": "Manage charges, issue invoices, and keep track of income.",
+
+  "tool_themes_title": "Themes",
+  "tool_themes_desc": "Customize the appearance of your dashboard with different color schemes.",
+
+  "tool_settings_title": "Settings",
+  "tool_settings_desc": "Set up your profile, language preferences, and advanced app settings."
+}

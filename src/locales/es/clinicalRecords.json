@@ -1,0 +1,90 @@
+{
+  "titles": {
+    "form": "Crear Registro Clínico",
+    "table": "Registros Clínicos",
+    "main": "Lista de Registros Clínicos"
+  },
+  "placeholders": {
+    "selectPatient": "Buscar paciente...",
+    "selectAppointment": "Buscar cita (opcional)...",
+    "selectVeterinarian": "Buscar veterinario...",
+    "searchPatient": "Buscar por nombre, código...",
+    "searchAppointment": "Buscar por tipo, fecha...",
+    "searchVeterinarian": "Buscar por nombre, email...",
+    "weight": "Peso en kg (opcional)",
+    "temperature": "Temperatura en °C (opcional)",
+    "notes": "Notas generales del registro (opcional)",
+    "search": "Buscar por paciente, veterinario o fecha...",
+    "diagnostics": {
+      "diagnosis": "Diagnóstico",
+      "notes": "Notas del diagnóstico"
+    },
+    "treatments": {
+      "name": "Nombre del tratamiento",
+      "dose": "Dosis",
+      "duration": "Duración"
+    },
+    "vaccinations": {
+      "vaccine": "Nombre de la vacuna",
+      "dateApplied": "Fecha Aplicación",
+      "nextDue": "Próxima Dosis (Opcional)"
+    }
+  },
+  "buttons": {
+    "form": {
+      "submit": "Crear Registro Clínico",
+      "submitLoading": "Creando..."
+    },
+    "table": {
+      "refetch": "Recargar lista"
+    },
+    "add": "+ Agregar"
+  },
+  "labels": {
+    "patient": "Paciente",
+    "appointment": "Cita",
+    "date": "Fecha y hora",
+    "veterinarian": "Veterinario",
+    "weight": "Peso (kg)",
+    "temperature": "Temperatura (°C)",
+    "diagnostics": "Diagnósticos",
+    "treatments": "Tratamientos",
+    "vaccinations": "Vacunas",
+    "photos": "Imagenes",
+    "notes": "Notas"
+  },
+  "messages": {
+    "loadingRecords": "Cargando registros clínicos...",
+    "loadingWorkspace": "Cargando clínica...",
+    "emptyTable": "No hay registros clínicos aún.",
+    "errorGeneral": "Error: ",
+    "errorWorkspaceLoad": "No se ha podido cargar la información de la clínica. Por favor, recarga la página.",
+    "errorValidationForm": "Por favor, corrige los errores de validación en el formulario antes de continuar.",
+    "errorPostGeneral": "Ha ocurrido un problema y no se pudo crear el registro. Por favor, inténtalo de nuevo.",
+    "errorUpdateGeneral": "Error al actualizar registro clínico",
+    "errorDeleteGeneral": "Error al eliminar registro clínico",
+    "successPost": "¡Registro clínico creado exitosamente!",
+    "successUpdate": "¡Registro clínico actualizado correctamente!",
+    "successDelete": "Registro clínico eliminado"
+  },
+  "modals": {
+    "create": {
+      "title": "Confirmar creación de registro"
+    }
+  },
+  "default": {
+    "record": "Este registro",
+    "noName": "Sin nombre"
+  },
+  "feedback": {
+    "creatingRecord": "Creando registro clínico..."
+  },
+  "export_explanation": {
+    "title": "Importación Masiva de Registros Clínicos",
+    "acepted_formats": "Formatos aceptados: .xlsx, .xls, .csv",
+    "required_fields": "Campos obligatorios: id_paciente, id_veterinario, fecha",
+    "optional_fields": "Campos opcionales: id_cita, peso, temperatura, notas, diagnósticos, tratamientos, vacunas",
+    "validation_phone": "Los IDs deben corresponder a registros existentes en el sistema",
+    "visual_example": "Revisa el ejemplo visual a continuación"
+  }
+}

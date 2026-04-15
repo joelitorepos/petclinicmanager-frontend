@@ -1,0 +1,38 @@
+{
+  "toggle": {
+    "monthly": "Mensual",
+    "annual": "Anual"
+  },
+  "badges": {
+    "mostPopular": "★ Más popular",
+    "currentPlan": "Plan actual"
+  },
+  "price": {
+    "perMonth": "mes",
+    "perYear": "año",
+    "annualEquiv": "~$",
+    "annualEquivSuffix": "/mes · Ahorras",
+    "annualEquivSuffix2": "% vs mensual",
+    "monthlyBilling": "Facturación mensual · cancela cuando quieras",
+    "free": "$0",
+    "freeSub": "Sin costo · funciones limitadas"
+  },
+  "buttons": {
+    "activePlan": "Plan activo",
+    "subscribeMontly": "Suscribirse",
+    "subscribeAnnual": "Suscribirse anualmente",
+    "processing": "Procesando...",
+    "includedByDefault": "Incluido por defecto"
+  },
+  "notes": {
+    "noWorkspace": "Necesitas tener una clínica activa para poder suscribirte a un plan.",
+    "currentPlanPrefix": "Tu clínica",
+    "currentPlanMid": "está actualmente en el plan",
+    "mercadopago": "Pagos procesados de forma segura con",
+    "mercadopagoName": "MercadoPago"
+  },
+  "errors": {
+    "processing": "Error al procesar",
+    "connection": "Error de conexión"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "hero_title": "Nuestros Planes",
+  "hero_subtitle": "Elige el plan que se adapte al tamaño y necesidades de tu clínica veterinaria",
+
+  "plan_free_title": "Plan Free",
+  "plan_free_description": "Ideal para clínicas pequeñas o para empezar sin costo.",
+  "plan_free_feature1": "Hasta 3 miembros por clínica",
+  "plan_free_feature2": "Cantidad limitada de registros clínicos por mes",
+  "plan_free_feature3": "Citas, facturación y pagos con límites mensuales",
+  "plan_free_feature4": "Importación básica de datos y almacenamiento de imágenes limitado",
+  "plan_free_badge": "Gratis",
+
+  "plan_basic_title": "Plan Basic",
+  "plan_basic_description": "Para clínicas en crecimiento que necesitan más capacidad.",
+  "plan_basic_feature1": "Hasta 5 miembros por clínica",
+  "plan_basic_feature2": "Cantidad aumentada de registros clínicos disponibles al mes",
+  "plan_basic_feature3": "Citas, facturación y pagos con límites mayores",
+  "plan_basic_feature4": "Importación mejorada y más almacenamiento para imágenes",
+  "plan_basic_badge": "Básico",
+
+  "plan_pro_title": "Plan Pro",
+  "plan_pro_description": "Para clínicas profesionales con necesidades avanzadas.",
+  "plan_pro_feature1": "Hasta 10 miembros por clínica",
+  "plan_pro_feature2": "Mayor cantidad de registros clínicos por mes",
+  "plan_pro_feature3": "Citas y pagos ilimitados, facturación con límites altos",
+  "plan_pro_feature4": "Importación simultánea y almacenamiento de imágenes expandido",
+  "plan_pro_badge": "Profesional",
+
+  "plan_enterprise_title": "Plan Enterprise",
+  "plan_enterprise_description": "Para clínicas grandes o con requerimientos ilimitados.",
+  "plan_enterprise_feature1": "Miembros ilimitados por clínica",
+  "plan_enterprise_feature2": "Registros clínicos ilimitados por mes",
+  "plan_enterprise_feature3": "Todo ilimitado: citas, facturación, pagos y más",
+  "plan_enterprise_feature4": "Soporte prioritario, importaciones ilimitadas y almacenamiento máximo",
+  "plan_enterprise_badge": "Empresarial",
+
+  "closing_message": "Solo se permite crear 1 area de trabajo por cuenta/usuario, independientemente del plan seleccionado. Consulta y configura tus planes, límites y membresías dentro de tu área de trabajo."
+}

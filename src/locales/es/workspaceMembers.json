@@ -1,0 +1,76 @@
+{
+  "titles": {
+    "form": "Invitar Miembro",
+    "table": "Miembros",
+    "main": "Lista de Miembros"
+  },
+  "placeholders": {
+    "searchEmail": "Buscar usuario por email...",
+    "email": "Email del miembro a invitar",
+    "role": "Selecciona un rol",
+    "search": "Buscar por nombre, email o rol..."
+  },
+  "buttons": {
+    "search": "Buscar",
+    "submit": "Invitar Miembro",
+    "submitLoading": "Invitando...",
+    "refetch": "Recargar lista",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar"
+  },
+  "labels": {
+    "name": "Nombre",
+    "email": "Email",
+    "searchEmail": "Buscar por email",
+    "role": "Rol",
+    "phone": "Teléfono",
+    "status": "Estado"
+  },
+  "options": {
+    "roles": {
+      "admin": "Admin",
+      "veterinario": "Veterinario",
+      "recepcion": "Recepción",
+      "asistente": "Asistente",
+      "contador": "Contador",
+      "auditor": "Auditor"
+    }
+  },
+  "messages": {
+    "loadingMembers": "Cargando miembros...",
+    "loadingWorkspace": "Cargando clínica...",
+    "emptyTable": "No hay miembros registrados aún.",
+    "errorGeneral": "Error: ",
+    "errorWorkspaceLoad": "No se ha podido cargar la información de la clínica. Por favor, recarga la página.",
+    "errorValidationForm": "Por favor, corrige los errores de validación en el formulario antes de continuar.",
+    "errorPostGeneral": "Ha ocurrido un problema y no se pudo enviar la invitación. Por favor, inténtalo de nuevo.",
+    "errorUpdateGeneral": "Error al actualizar miembro",
+    "errorDeleteGeneral": "Error al eliminar miembro",
+    "errorSearchEmail": "Error al buscar email",
+    "userFound": "Usuario encontrado",
+    "userNotFound": "No se encontró ningún usuario con ese email",
+    "successPost": "¡Invitación enviada exitosamente!",
+    "successUpdate": "¡Miembro actualizado correctamente!",
+    "successDelete": "Miembro eliminado"
+  },
+  "modals": {
+    "create": {
+      "title": "Confirmar invitación"
+    }
+  },
+  "default": {
+    "member": "Este miembro"
+  },
+  "feedback": {
+    "inviting": "Enviando invitación..."
+  },
+  "export_explanation": {
+    "title": "Importación Masiva de Miembros",
+    "acepted_formats": "Formatos aceptados: .xlsx, .xls, .csv",
+    "required_fields": "Campos obligatorios: email, rol",
+    "optional_fields": "Campos opcionales: teléfono",
+    "validation_phone": "Teléfono: si no se incluye código de país se asumirá el país definido en tu área de trabajo",
+    "visual_example": "Revisa el ejemplo visual a continuación"
+  }
+}

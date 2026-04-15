@@ -1,0 +1,91 @@
+{
+  "titles": {
+    "form": "Crear Cita",
+    "table": "Citas",
+    "main": "Gestión de Citas"
+  },
+  "placeholders": {
+    "selectPatient": "Buscar paciente...",
+    "selectOwner": "Buscar dueño...",
+    "selectVeterinarian": "Buscar veterinario...",
+    "type": "Selecciona el tipo de cita",
+    "status": "Selecciona el estado",
+    "reason": "Motivo de la cita (opcional)",
+    "notes": "Notas adicionales (opcional)",
+    "searchPatient": "Buscar por nombre, código...",
+    "searchOwner": "Buscar por nombre, teléfono...",
+    "searchVeterinarian": "Buscar por nombre, email...",
+    "search": "Buscar por paciente, veterinario o estado..."
+  },
+  "buttons": {
+    "form": {
+      "submit": "Crear Cita",
+      "submitLoading": "Creando..."
+    },
+    "table": {
+      "refetch": "Recargar lista"
+    }
+  },
+  "labels": {
+    "patient": "Paciente",
+    "owner": "Dueño",
+    "veterinarian": "Veterinario",
+    "startTime": "Hora de inicio",
+    "endTime": "Hora de fin",
+    "status": "Estado",
+    "type": "Tipo",
+    "reason": "Motivo",
+    "notes": "Notas"
+  },
+  "options": {
+    "status": {
+      "scheduled": "Programada",
+      "confirmed": "Confirmada",
+      "in_progress": "En Progreso",
+      "completed": "Completada",
+      "cancelled": "Cancelada",
+      "no_show": "No Asistió"
+    },
+    "type": {
+      "consulta": "Consulta",
+      "vacuna": "Vacuna",
+      "cirugia": "Cirugía",
+      "seguimiento": "Seguimiento"
+    }
+  },
+  "messages": {
+    "loadingAppointments": "Cargando citas...",
+    "loadingWorkspace": "Cargando clínica...",
+    "emptyTable": "No hay citas registradas aún.",
+    "errorGeneral": "Error: ",
+    "errorWorkspaceLoad": "No se ha podido cargar la información de la clínica. Por favor, recarga la página.",
+    "errorValidationForm": "Por favor, corrige los errores de validación en el formulario antes de continuar.",
+    "errorEndTimeBeforeStart": "La fecha de fin debe ser posterior a la de inicio.",
+    "errorPostGeneral": "Ha ocurrido un problema y no se pudo crear la cita. Por favor, inténtalo de nuevo.",
+    "errorUpdateGeneral": "Error al actualizar cita",
+    "errorDeleteGeneral": "Error al eliminar cita",
+    "successPost": "¡Cita creada exitosamente!",
+    "successUpdate": "¡Cita actualizada correctamente!",
+    "successDelete": "Cita eliminada"
+  },
+  "modals": {
+    "create": {
+      "title": "Confirmar creación"
+    }
+  },
+  "default": {
+    "appointment": "Esta cita",
+    "noName": "Sin nombre"
+  },
+  "feedback": {
+    "creatingAppointment": "Creando cita..."
+  },
+  "export_explanation": {
+    "title": "Importación Masiva de Citas",
+    "acepted_formats": "Formatos aceptados: .xlsx, .xls, .csv",
+    "required_fields": "Campos obligatorios: id_paciente, id_dueño, id_veterinario, hora_inicio, hora_fin, tipo",
+    "optional_fields": "Campos opcionales: estado, motivo, notas",
+    "validation_phone": "Los IDs deben corresponder a registros existentes en el sistema",
+    "visual_example": "Revisa el ejemplo visual a continuación"
+  }
+}

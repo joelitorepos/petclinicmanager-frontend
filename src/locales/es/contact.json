@@ -1,0 +1,20 @@
+{
+  "hero_title": "Contacto",
+  "hero_subtitle": "Estamos aquí para ayudarte. Escríbenos y te respondemos lo más pronto posible.",
+
+  "whatsapp_title": "Chatea por WhatsApp",
+  "whatsapp_desc": "La forma más rápida de hablar con nosotros. Resolvemos dudas en minutos.",
+  "whatsapp_button": "Enviar mensaje",
+
+  "email_title": "Correo electrónico",
+  "email_desc": "Para consultas detalladas, propuestas o soporte técnico.",
+  
+  "phone_title": "Llamada telefónica",
+  "phone_desc": "Disponible en horario de oficina (lunes a viernes).",
+
+  "social_title": "Síguenos en redes",
+  "social_desc": "Mantente al día con actualizaciones, tips para clínicas y novedades del producto.",
+
+  "faq_title": "¿Necesitas algo más específico?",
+  "faq_desc": "Si buscas una demo personalizada, precios actualizados o quieres contarnos sobre tu clínica, solo escribe. ¡Te contestamos rápido!"
+}

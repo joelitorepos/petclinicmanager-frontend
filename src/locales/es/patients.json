@@ -1,0 +1,86 @@
+{
+  "titles": {
+    "form": "Crear Paciente",
+    "table": "Pacientes",
+    "main": "Lista de Pacientes"
+  },
+  "placeholders": {
+    "form": {
+      "name": "Nombre de la mascota",
+      "species": "Especie (ej: Perro, Gato)",
+      "breed": "Raza de la mascota",
+      "sex": "Selecciona el sexo",
+      "color": "Color o descripción física (opcional)",
+      "photo": "Subir foto de la mascota (opcional)",
+      "currentWeight": "Peso actual en kg (opcional)",
+      "allergies": "Alergias conocidas (opcional)",
+      "notes": "Notas adicionales (opcional)",
+      "photo": "Foto de la mascota (opcional)"
+    },
+    "selectOwner": "Buscar dueño...",
+    "search": "Buscar por nombre, especie, raza..."
+  },
+  "buttons": {
+    "form": {
+      "submit": "Crear Paciente",
+      "submitLoading": "Creando...",
+      "confirm": "Confirmar",
+      "cancel": "Cancelar",
+      "delete": "Eliminar"
+    },
+    "table": {
+      "refetch": "Recargar lista"
+    }
+  },
+  "messages": {
+    "loadingPatients": "Cargando pacientes...",
+    "loadingWorkspace": "Cargando clínica...",
+    "emptyTable": "No hay pacientes registrados aún.",
+    "errorGeneral": "Error: ",
+    "errorWorkspaceLoad": "No se ha podido cargar la información de la clínica. Por favor, recarga la página.",
+    "errorValidationForm": "Por favor, corrige los errores de validación en el formulario antes de continuar.",
+    "errorPostEmailFormat": "El email no tiene un formato válido.",
+    "errorPostGeneral": "Ha ocurrido un problema y no se pudo crear el paciente. Por favor, inténtalo de nuevo.",
+    "errorUpdateGeneral": "Error al actualizar paciente",
+    "errorDeleteGeneral": "Error al eliminar paciente",
+    "successPost": "¡Paciente creado exitosamente!",
+    "successUpdate": "¡Paciente actualizado correctamente!",
+    "successDelete": "Paciente eliminado"
+  },
+  "labels": {
+    "code": "Código",
+    "name": "Nombre",
+    "species": "Especie",
+    "breed": "Raza",
+    "sex": "Sexo",
+    "birthDate": "Fecha de nacimiento",
+    "color": "Color",
+    "photo": "Foto",
+    "sterilized": "Esterilizado",
+    "currentWeight": "Peso actual",
+    "notes": "Notas",
+    "allergies": "Alergias",
+    "owner": "Dueño"
+  },
+  "options": {
+    "sexo": {
+      "macho": "Macho",
+      "hembra": "Hembra"
+    }
+  },
+  "default": {
+    "patient": "Este paciente",
+    "noOwnerName": "Sin nombre"
+  },
+  "feedback": {
+    "creatingPatient": "Creando paciente..."
+  },
+  "export_explanation": {
+    "title": "Importación Masiva de Pacientes",
+    "acepted_formats": "Formatos aceptados: .xlsx, .xls, .csv",
+    "required_fields": "Campos obligatorios: nombre, especie, raza, sexo, id_dueño",
+    "optional_fields": "Campos opcionales: fecha de nacimiento, color, peso, alergias, notas",
+    "validation_phone": "El dueño debe existir previamente en el sistema",
+    "visual_example": "Revisa el ejemplo visual a continuación"
+  }
+}

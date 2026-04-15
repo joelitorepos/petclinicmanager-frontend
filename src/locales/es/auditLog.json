@@ -1,0 +1,59 @@
+{
+  "title": "Registro de Auditoría",
+  "buttons": {
+    "refresh": "Actualizar",
+    "clearFilters": "Limpiar filtros",
+    "hideChanges": "Ocultar cambios",
+    "viewChanges": "Ver cambios"
+  },
+  "message": "El registro de auditoría está disponible desde el plan Basic en adelante. En el plan Free, las acciones no se registran, por lo que esta lista puede aparecer vacía. Actualiza tu plan para llevar un historial completo de todas las operaciones realizadas en tu clínica.",
+  "filters": {
+    "title": "Filtros",
+    "actionLabel": "Tipo de acción",
+    "allActions": "Todas las acciones",
+    "dateFrom": "Desde",
+    "dateTo": "Hasta"
+  },
+  "actions": {
+    "create": "Creación",
+    "update": "Actualización",
+    "delete": "Eliminación",
+    "login": "Inicio de sesión",
+    "invite": "Invitación",
+    "remove_member": "Expulsión de miembro",
+    "change_role": "Cambio de rol",
+    "payment": "Pago"
+  },
+  "card": {
+    "timestamp": "Fecha y hora",
+    "user": "Usuario",
+    "role": "Rol",
+    "module": "Módulo",
+    "description": "Descripción",
+    "ip": "IP",
+    "changesTitle": "Campos modificados",
+    "changeField": "Campo",
+    "changeOldValue": "Valor anterior",
+    "changeNewValue": "Valor nuevo"
+  },
+  "count": {
+    "showing": "Mostrando",
+    "of": "de",
+    "records": "registros",
+    "empty": "No se encontraron registros",
+    "withFilters": " (con filtros aplicados)"
+  },
+  "states": {
+    "loading": "Cargando registros...",
+    "errorLoad": "Error al cargar los registros de auditoría: ",
+    "noRecordsTitle": "Sin registros",
+    "noRecordsFiltered": "No hay actividad que coincida con los filtros aplicados.",
+    "noRecordsEmpty": "Aún no hay actividad registrada en este workspace."
+  },
+  "pagination": {
+    "previous": "← Anterior",
+    "next": "Siguiente →",
+    "page": "Página",
+    "of": "de"
+  }
+}

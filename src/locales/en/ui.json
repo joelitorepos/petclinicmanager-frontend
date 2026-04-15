@@ -1,0 +1,53 @@
+{
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "update": "Update"
+  },
+  "placeholders": {
+    "edit": "Edit field",
+    "selectOption": "Select an option",
+    "search": "Search..."
+  },
+  "modals": {
+    "titleEdit": "Edit value"
+  },
+  "messages": {
+    "noDataSelected": "No record selected",
+    "noAdditionalData": "No additional information available",
+    "searchAndSelect": "Search and select a new record:",
+    "deletedRecord": "Deleted record",
+    "deletedRecordWarning": "The current record has been deleted. Please select a new one."
+  },
+  "tooltips": {
+    "deletedRecord": "Deleted record · Double-click to reassign"
+  },
+  "dragAndDrop": {
+    "title": "Drag your Excel or CSV file here",
+    "subtitle": "Or click to browse your files",
+    "formats": "Supported formats: .xlsx, .csv (Max.",
+    "formatsSuffix": "MB)",
+    "errorSizePrefix": "The file is too large (maximum",
+    "errorSizeSuffix": "MB)"
+  },
+  "importProgress": {
+    "progressLabel": "Progress:",
+    "progressOf": "of",
+    "statsTotal": "Total",
+    "statsImported": "Imported",
+    "statsErrors": "Errors",
+    "statsStatus": "Status",
+    "statusComplete": "Completed",
+    "statusCompleteWithErrors": "Completed with errors",
+    "statusInProgress": "In progress",
+    "errorsTitle": "View detailed errors",
+    "errorsMore": "... and",
+    "errorsMoreSuffix": "more errors",
+    "limitTitle": "Plan limit reached",
+    "limitMessage": "Your current plan does not allow importing more records. Please upgrade your plan to continue with the import.",
+    "backgroundMessage": "The import is processing in the background. You can continue using the application.",
+    "closeLabel": "Close"
+  }
+}

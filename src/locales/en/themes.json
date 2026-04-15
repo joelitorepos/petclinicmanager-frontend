@@ -1,0 +1,17 @@
+{
+  "default": "Default",
+  "labels": {
+    "indication": "Select a theme",
+    "aclaration": "The selected theme will be applied to the entire application interface."
+  },
+  "types": {
+    "emerald": "Emerald",
+    "violet": "Violet",
+    "sunset": "Sunset",
+    "ocean": "Ocean",
+    "forest": "Forest",
+    "rose": "Rose",
+    "amber": "Amber",
+    "slate": "Dark"
+  }
+}

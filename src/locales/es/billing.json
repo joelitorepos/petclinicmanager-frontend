@@ -1,0 +1,37 @@
+{
+  "title": "Facturación",
+  "taxConfig": {
+    "title": "Configuración de Impuestos",
+    "buttons": {
+      "new": "+ Nueva Configuración"
+    },
+    "messages": {
+      "loading": "Cargando configuraciones...",
+      "errorLoad": "Error al cargar las configuraciones de impuestos.",
+      "noConfigs": "No hay configuraciones de impuestos registradas aún."
+    },
+    "modal": {
+      "createTitle": "Nueva Configuración de Impuesto",
+      "editTitle": "Editar Configuración de Impuesto",
+      "errorSave": "Error al guardar la configuración.",
+      "errorUnexpected": "Ha ocurrido un error inesperado."
+    },
+    "labels": {
+      "country": "País",
+      "region": "Región",
+      "regionPlaceholder": "Ej: Guatemala, California",
+      "taxName": "Nombre del impuesto",
+      "taxCode": "Código del impuesto",
+      "taxRate": "Porcentaje (%)",
+      "taxRateError": "El porcentaje debe estar entre 0 y 100",
+      "appliesTo": "Aplica a",
+      "all": "Todos",
+      "services": "Servicios",
+      "products": "Productos",
+      "default": "Configuración por defecto",
+      "from": "Vigente desde",
+      "until": "Vigente hasta",
+      "rate": "tasa de impuesto"
+    }
+  }
+}

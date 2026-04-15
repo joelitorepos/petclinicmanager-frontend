@@ -1,0 +1,86 @@
+{
+  "titles": {
+    "form": "Create Patient",
+    "table": "Patients",
+    "main": "Patient List"
+  },
+  "placeholders": {
+    "form": {
+      "name": "Pet's name",
+      "species": "Species (e.g., Dog, Cat)",
+      "breed": "Pet's breed",
+      "sex": "Select sex",
+      "color": "Color or physical description (optional)",
+      "photo": "Upload pet photo (optional)",
+      "currentWeight": "Current weight in kg (optional)",
+      "allergies": "Known allergies (optional)",
+      "notes": "Additional notes (optional)",
+      "photo": "Pet photo (optional)"
+    },
+    "selectOwner": "Search owner...",
+    "search": "Search by name, species, breed..."
+  },
+  "buttons": {
+    "form": {
+      "submit": "Create Patient",
+      "submitLoading": "Creating...",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "table": {
+      "refetch": "Reload list"
+    }
+  },
+  "messages": {
+    "loadingPatients": "Loading patients...",
+    "loadingWorkspace": "Loading clinic...",
+    "emptyTable": "No patients registered yet.",
+    "errorGeneral": "Error: ",
+    "errorWorkspaceLoad": "Could not load clinic information. Please refresh the page.",
+    "errorValidationForm": "Please fix the validation errors in the form before continuing.",
+    "errorPostEmailFormat": "The email format is invalid.",
+    "errorPostGeneral": "A problem occurred and the patient could not be created. Please try again.",
+    "errorUpdateGeneral": "Error updating patient",
+    "errorDeleteGeneral": "Error deleting patient",
+    "successPost": "Patient created successfully!",
+    "successUpdate": "Patient updated successfully!",
+    "successDelete": "Patient deleted"
+  },
+  "labels": {
+    "code": "Code",
+    "name": "Name",
+    "species": "Species",
+    "breed": "Breed",
+    "sex": "Sex",
+    "birthDate": "Date of birth",
+    "color": "Color",
+    "photo": "Photo",
+    "sterilized": "Neutered/Spayed",
+    "currentWeight": "Current weight",
+    "notes": "Notes",
+    "allergies": "Allergies",
+    "owner": "Owner"
+  },
+  "options": {
+    "sexo": {
+      "macho": "Male",
+      "hembra": "Female"
+    }
+  },
+  "default": {
+    "patient": "This patient",
+    "noOwnerName": "Unnamed"
+  },
+  "feedback": {
+    "creatingPatient": "Creating patient..."
+  },
+  "export_explanation": {
+    "title": "Bulk Patient Import",
+    "acepted_formats": "Accepted formats: .xlsx, .xls, .csv",
+    "required_fields": "Required fields: name, species, breed, sex, owner_id",
+    "optional_fields": "Optional fields: date of birth, color, weight, allergies, notes",
+    "validation_phone": "The owner must already exist in the system",
+    "visual_example": "Check the visual example below"
+  }
+}

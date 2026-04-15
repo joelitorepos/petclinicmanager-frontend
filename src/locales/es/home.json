@@ -1,0 +1,17 @@
+{
+  "title_part1": "Tu clínica veterinaria,",
+  "title_part2": "sin complicaciones",
+  "subtitle": "Gestiona pacientes, citas y registros de manera sencilla en una sola plataforma hermosa y fácil de usar.",
+  "main_button_logged_in": "Ir a mis clínicas",
+  "main_button_logged_out": "Acceder a mi clínica",
+  "welcome_logged_in_part1": "¡Bienvenido de nuevo, ",
+  "welcome_logged_in_part2": "! Haz clic arriba para administrar tus clínicas",
+  "welcome_logged_out": "¿Primera vez? Solo inicia sesión con Google y tu clínica se crea automáticamente",
+  "feature1_title": "Hecha para veterinarios",
+  "feature1_description": "Obtén todas las herramientas que necesitas en un solo lugar",
+  "feature2_title": "Gestión de citas sencilla",
+  "feature2_description": "Programa y administra tus citas de forma fácil y organizada",
+  "feature3_title": "Importa tus pacientes fácilmente",
+  "feature3_description": "Guarda fácilmente tus datos de manera rápida y segura",
+  "loading": "Cargando..."
+}

@@ -1,0 +1,53 @@
+{
+  "buttons": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "update": "Actualizar"
+  },
+  "placeholders": {
+    "edit": "Editar campo",
+    "selectOption": "Selecciona una opción",
+    "search": "Buscar..."
+  },
+  "modals": {
+    "titleEdit": "Editar valor"
+  },
+  "messages": {
+    "noDataSelected": "Ningún registro seleccionado",
+    "noAdditionalData": "No hay información adicional disponible",
+    "searchAndSelect": "Buscar y seleccionar un nuevo registro:",
+    "deletedRecord": "Registro eliminado",
+    "deletedRecordWarning": "El registro actual ha sido eliminado. Por favor, seleccione uno nuevo."
+  },
+  "tooltips": {
+    "deletedRecord": "Registro eliminado · Doble clic para reasignar"
+  },
+  "dragAndDrop": {
+    "title": "Arrastra tu archivo de Excel o CSV aquí",
+    "subtitle": "O haz clic para explorar tus archivos",
+    "formats": "Formatos admitidos: .xlsx, .csv (Máx.",
+    "formatsSuffix": "MB)",
+    "errorSizePrefix": "El archivo es muy pesado (máximo",
+    "errorSizeSuffix": "MB)"
+  },
+  "importProgress": {
+    "progressLabel": "Progreso:",
+    "progressOf": "de",
+    "statsTotal": "Total",
+    "statsImported": "Importados",
+    "statsErrors": "Errores",
+    "statsStatus": "Estado",
+    "statusComplete": "Completado",
+    "statusCompleteWithErrors": "Completado con errores",
+    "statusInProgress": "En progreso",
+    "errorsTitle": "Ver errores detallados",
+    "errorsMore": "... y",
+    "errorsMoreSuffix": "errores más",
+    "limitTitle": "Límite de plan alcanzado",
+    "limitMessage": "Tu plan actual no permite importar más registros. Por favor, actualiza tu plan para continuar con la importación.",
+    "backgroundMessage": "La importación se está procesando en segundo plano. Puedes continuar usando la aplicación.",
+    "closeLabel": "Cerrar"
+  }
+}

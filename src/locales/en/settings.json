@@ -1,0 +1,28 @@
+{
+    "titles": {
+        "settings": "Settings"
+    },
+    "sections": {
+        "workspaceInfo": "Workspace Information",
+        "preferences": "Preferences"
+    },
+    "labels": {
+        "name": "Clinic name",
+        "logo": "Clinic logo",
+        "phone": "Primary phone",
+        "secondaryPhone": "Secondary phone",
+        "address": "Full address",
+        "country": "Country",
+        "workspaceLanguage": "Clinic language",
+        "changeLogo": "Change logo",
+        "language": "App language",
+        "changeLanguage": "Change the language of the entire interface",
+        "email": "Email"
+    },
+    "buttons": {
+        "save": "Save changes"
+    },
+    "messages": {
+        "success": "Changes saved successfully"
+    }
+}

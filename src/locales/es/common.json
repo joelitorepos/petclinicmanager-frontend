@@ -1,0 +1,67 @@
+{
+  "google_signin": "Iniciar sesión",
+  "google_modal_title": "Inicia sesión para continuar",
+  "google_modal_subtitle": "Necesitas estar logueado con Google para acceder a tu clínica personal.",
+  "language": "Idioma: ",
+  "my_clinic": "Mi clínica",
+  "confirm_creation": "Confirmar creación",
+  "confirm_changes": "Confirmar cambios",
+  "menu": "Menú",
+  "countries": {
+    "GT": "Guatemala",
+    "ES": "España",
+    "US": "Estados Unidos",
+    "MX": "México",
+    "AR": "Argentina"
+  },
+  "tools": {
+    "home": "Inicio",
+    "pricing": "Precios",
+    "owners": "Dueños",
+    "patients": "Pacientes",
+    "workspaceMembers": "Miembros",
+    "appointments": "Citas",
+    "clinicalRecords": "Historial clínico",
+    "inventory": "Inventario",
+    "inventoryBatch": "Lotes de inventario",
+    "services": "Servicios",
+    "billing": "Facturación",
+    "reports": "Reportes",
+    "audit": "Auditoría",
+    "settings": "Configuración"
+  },
+  "languages": {
+    "en": "Inglés",
+    "es": "Español"
+  },
+  "views": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "massiveImport": {
+    "title": "Importación Masiva",
+    "planNote": "La importación se detendrá automáticamente si alcanzas el límite de registros permitidos en tu plan actual.",
+    "planNoteLabel": "Nota sobre el plan:",
+    "buttonImporting": "Importando...",
+    "buttonProcess": "Procesar e Importar Datos",
+    "errorMissingData": "No se puede importar: falta archivo, workspace o usuario",
+    "errorUpload": "Error al subir el archivo",
+    "progressMessage": "Subiendo archivo...",
+    "successMessage": "Importación completada:",
+    "successOf": "de",
+    "successRecords": "registros importados",
+    "failMessage": "Importación fallida:",
+    "failErrors": "errores",
+    "panelTitleDefault": "Progreso de Importación",
+    "panelTitleOwners": "Importación de Dueños",
+    "panelTitlePatients": "Importación de Pacientes",
+    "panelTitleMembers": "Importación de Miembros",
+    "panelTitleAppointments": "Importación de Citas",
+    "panelTitleClinicalRecords": "Importación de Registros Clínicos",
+    "panelTitleInventory": "Importación de Inventario",
+    "panelTitleInventoryBatch": "Importación de Lotes",
+    "panelTitleServices": "Importación de Servicios"
+  }
+}

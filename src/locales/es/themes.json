@@ -1,0 +1,17 @@
+{
+  "default": "Por defecto",
+  "labels": {
+    "indication": "Selecciona un tema",
+    "aclaration": "Los colores afectarán la interfaz completa de la clínica."
+  },
+  "types": {
+    "emerald": "Esmeralda",
+    "violet": "Violeta",
+    "sunset": "Atardecer",
+    "ocean": "Oceano",
+    "forest": "Bosque",
+    "rose": "Rosa",
+    "amber": "Ámbar",
+    "slate": "Oscuro"
+  }
+}

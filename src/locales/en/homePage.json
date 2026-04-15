@@ -1,0 +1,13 @@
+{
+  "welcomeMessage": "Welcome to your digital clinic. Here you will find all the tools to manage your practice efficiently.",
+  "settingsTip": "Customize your experience",
+  "settingsTipDetail": "You can change the language and theme (light/dark) at any time from the Settings section.",
+  "dataManagement": "Core data management",
+  "crudIntro": "From the different sections, you can create, view, edit, and delete records for:",
+  "crudNote": "Some modules require prior data (for example: an appointment requires a registered owner and pet).",
+  "pricingDescription": "Manage your subscription plans, payment methods, and account status.",
+  "billingDescription": "Register invoices, track payments received, and generate receipts for your clients.",
+  "reportsDescription": "View important statistics: sales, patients seen, appointments completed, inventory, and more.",
+  "auditDescription": "Review the history of actions and changes made in the system for better control and security.",
+  "getStarted": "Get started by exploring the menu sections!"
+}

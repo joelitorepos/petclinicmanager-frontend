@@ -1,0 +1,17 @@
+{
+  "title_part1": "Your veterinary clinic,",
+  "title_part2": "without complications",
+  "subtitle": "Manage patients, appointments, and records easily in one beautiful and user-friendly platform.",
+  "main_button_logged_in": "Go to my clinics",
+  "main_button_logged_out": "Access my clinic",
+  "welcome_logged_in_part1": "Welcome back, ",
+  "welcome_logged_in_part2": "! Click above to manage your clinics",
+  "welcome_logged_out": "First time? Just log in with Google and your clinic is created automatically",
+  "feature1_title": "Made for veterinarians",
+  "feature1_description": "Get all the tools you need in one place",
+  "feature2_title": "Simple appointment management",
+  "feature2_description": "Easily schedule and manage your appointments in an organized way",
+  "feature3_title": "Import your patients in seconds",
+  "feature3_description": "Easily save your data quickly and securely",
+  "loading": "Loading..."
+}

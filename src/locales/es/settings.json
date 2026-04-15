@@ -1,0 +1,28 @@
+{
+    "titles": {
+        "settings": "Configuración"
+    },
+    "sections": {
+        "workspaceInfo": "Información de la Clínica",
+        "preferences": "Preferencias"
+    },
+    "labels": {
+        "name": "Nombre de la clínica",
+        "logo": "Logo de la clínica",
+        "phone": "Teléfono principal",
+        "secondaryPhone": "Teléfono secundario",
+        "address": "Dirección completa",
+        "country": "País",
+        "workspaceLanguage": "Idioma de la clinica",
+        "changeLogo": "Cambiar logo",
+        "language": "Idioma de la aplicación",
+        "changeLanguage": "Cambia el idioma de toda la interfaz",
+        "email": "Correo electrónico"
+    },
+    "buttons": {
+        "save": "Guardar cambios"
+    },
+    "messages": {
+        "success": "Cambios guardados correctamente"
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "welcome_title": "Bienvenido a tu Clínica",
+  "welcome_subtitle": "Tu centro de control para gestionar pacientes, citas y finanzas.",
+  "intro_message": "Utiliza el menú de navegación lateral izquierdo (o inferior en móvil) para acceder a todas las herramientas de gestión de tu clínica.",
+  
+  "tools_section_title": "Herramientas Clave",
+
+  "tool_home_title": "Inicio",
+  "tool_home_desc": "La página de bienvenida y resumen general de la actividad reciente.",
+
+  "tool_patients_title": "Pacientes",
+  "tool_patients_desc": "Administra el registro completo de tus pacientes, historial médico y contacto.",
+
+  "tool_appointments_title": "Citas",
+  "tool_appointments_desc": "Programa, modifica y revisa el calendario de las citas de tus pacientes.",
+
+  "tool_inventory_title": "Inventario",
+  "tool_inventory_desc": "Controla el stock de medicamentos, suministros y equipos de tu clínica.",
+
+  "tool_billing_title": "Facturación",
+  "tool_billing_desc": "Gestiona los cobros, emite facturas y lleva el control de los ingresos.",
+
+  "tool_themes_title": "Temas",
+  "tool_themes_desc": "Personaliza la apariencia de tu panel de control con diferentes esquemas de color.",
+
+  "tool_settings_title": "Configuración",
+  "tool_settings_desc": "Configura tu perfil, preferencias de idioma y ajustes avanzados de la aplicación."
+}

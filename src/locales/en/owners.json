@@ -1,0 +1,84 @@
+{
+  "titles": {
+    "form": "Create Pet Owner",
+    "table": "Owners",
+    "modalCreate": "Confirm Creation",
+    "modalUpdate": "Confirm Changes",
+    "modalDelete": "Confirm Deletion"
+  },
+  "placeholders": {
+    "form": {
+      "name": "Pet owner's name",
+      "telephone": "Owner's phone number",
+      "telephone2": "Second phone number (optional)",
+      "email": "Owner's email (optional)",
+      "address": "Owner's address (optional)",
+      "nit": "Owner's NIT/Tax ID (optional)",
+      "validationPhone": "Numbers only (8 to 15 digits)",
+      "validationPhone2": "Numbers only"
+    },
+    "table": {
+      "search": "Search by name, phone or email..."
+    }
+  },
+  "buttons": {
+    "form": {
+      "submit": "Create Pet Owner",
+      "submitLoading": "Creating...",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "table": {
+      "refetch": "Reload List"
+    }
+  },
+  "messages": {
+    "loadingOwners": "Loading owners...",
+    "loadingWorkspace": "Loading clinic...",
+    "emptyTable": "No owners registered yet.",
+    "errorGeneral": "Error: ",
+    "errorWorkspaceLoad": "Could not load clinic information. Please reload the page.",
+    "errorValidationForm": "Please correct the validation errors in the form before proceeding.",
+    "errorOwnerNotFound": "Owner not found",
+    "errorOriginalDataNotFound": "Original data not found",
+    "errorValidationZod": "Validation errors: ",
+    "errorPostEmailFormat": "The email is not in a valid format.",
+    "errorPostGeneral": "A problem occurred and the owner could not be created. Please try again.",
+    "errorUpdateGeneral": "Error updating: ",
+    "errorDeleteGeneral": "Error deleting",
+    "errorSaveGeneral": "Error saving: ",
+    "successPost": "Owner created successfully!",
+    "successUpdate": "Owner updated successfully!",
+    "successDelete": "Owner deleted",
+    "alertNoChanges": "No changes to save.",
+    "modalCreateConfirmation": "Are you sure you want to create the following owner?",
+    "modalUpdateConfirmation": "Are you sure you want to change this data?",
+    "modalDeleteConfirmation": "Are you sure you want to delete",
+    "modalDeleteConfirmation2": "? This action is permanent.",
+    "errorPhoneRequired": "El teléfono principal es requerido"
+  },
+  "labels": {
+    "name": "Name",
+    "telephone": "Phone",
+    "telephone2": "Phone 2",
+    "email": "Email",
+    "address": "Address",
+    "nit": "NIT/Tax ID",
+    "phoneExamplesLabel": "Suggested phone formats:"
+  },
+  "default": {
+    "owner": "This owner"
+  },
+  "feedback": {
+    "creatingOwner": "Creating owner..."
+  },
+  "export_explanation": {
+    "title": "Massive Import of Owners",
+    "acepted_formats": "Accepted formats: .xlsx, .xls, .csv",
+    "required_fields": "Required fields: name, phone",
+    "optional_fields": "Optional fields: secondary phone, email, address, nit",
+    "validation_phone": "Phone: if country code is not included, the country defined in your workspace area will be assumed",
+    "visual_example": "Check the visual example below"
+  }
+}

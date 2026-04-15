@@ -1,0 +1,59 @@
+{
+  "title": "Audit Log",
+  "buttons": {
+    "refresh": "Refresh",
+    "clearFilters": "Clear filters",
+    "hideChanges": "Hide changes",
+    "viewChanges": "View changes"
+  },
+  "message": "Audit logging is available from the Basic plan onwards. In the Free plan, actions are not recorded, so this list may appear empty. Upgrade your plan to maintain a complete history of all operations performed in your clinic.",
+  "filters": {
+    "title": "Filters",
+    "actionLabel": "Action type",
+    "allActions": "All actions",
+    "dateFrom": "From",
+    "dateTo": "To"
+  },
+  "actions": {
+    "create": "Creation",
+    "update": "Update",
+    "delete": "Deletion",
+    "login": "Login",
+    "invite": "Invitation",
+    "remove_member": "Member removal",
+    "change_role": "Role change",
+    "payment": "Payment"
+  },
+  "card": {
+    "timestamp": "Date & Time",
+    "user": "User",
+    "role": "Role",
+    "module": "Module",
+    "description": "Description",
+    "ip": "IP",
+    "changesTitle": "Modified fields",
+    "changeField": "Field",
+    "changeOldValue": "Old value",
+    "changeNewValue": "New value"
+  },
+  "count": {
+    "showing": "Showing",
+    "of": "of",
+    "records": "records",
+    "empty": "No records found",
+    "withFilters": " (with filters applied)"
+  },
+  "states": {
+    "loading": "Loading records...",
+    "errorLoad": "Error loading audit logs: ",
+    "noRecordsTitle": "No records",
+    "noRecordsFiltered": "No activity matches the applied filters.",
+    "noRecordsEmpty": "No activity has been recorded in this workspace yet."
+  },
+  "pagination": {
+    "previous": "← Previous",
+    "next": "Next →",
+    "page": "Page",
+    "of": "of"
+  }
+}

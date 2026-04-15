@@ -1,0 +1,93 @@
+{
+  "my_workspaces": "Tus Espacios de Trabajo",
+  "select_or_create": "Selecciona un espacio de trabajo para acceder o crea uno nuevo.",
+  "tab_my_clinics": "Mis Clínicas",
+  "tab_pending": "Invitaciones Pendientes",
+  "role": "Rol",
+  "enter": "Entrar",
+  "no_clinics_yet": "Aún no tienes ninguna clínica asociada.",
+  "create_new": "Crear nueva clínica",
+  "create_limit_note": "Nota: En la versión actual solo puedes crear un espacio de trabajo. Intentos adicionales serán bloqueados.",
+
+  "invited_you_as": "Te ha invitado como",
+  "invited_by": "Invitado por",
+  "phone": "Teléfono",
+  "expires": "Expira el",
+  "no_pending": "No tienes invitaciones pendientes en este momento.",
+
+  "confirm_accept": "¿Estás seguro de que deseas aceptar esta invitación?",
+  "confirm_reject": "¿Estás seguro de que deseas rechazar esta invitación?",
+  "accepted_success": "¡Invitación aceptada! Ahora formas parte del equipo.",
+  "rejected_success": "Invitación rechazada correctamente.",
+  "error_accept": "No pudimos aceptar la invitación",
+  "error_reject": "No pudimos rechazar la invitación",
+
+  "common": {
+    "loading": "Cargando...",
+    "error_loading": "Error al cargar los datos",
+    "accept": "Aceptar",
+    "reject": "Rechazar"
+  },
+
+  "invitations": {
+    "invited_you_as": "Te ha invitado como",
+    "invited_by": "Invitado por",
+    "phone": "Teléfono",
+    "expires": "Expira el",
+    "no_pending": "No tienes invitaciones pendientes en este momento.",
+    "confirm_accept": "¿Estás seguro de que deseas aceptar esta invitación?",
+    "confirm_reject": "¿Estás seguro de que deseas rechazar esta invitación?",
+    "accepted_success": "¡Invitación aceptada! Ahora formas parte del equipo.",
+    "rejected_success": "Invitación rechazada correctamente.",
+    "error_accept": "No pudimos aceptar la invitación",
+    "error_reject": "No pudimos rechazar la invitación"
+  },
+
+    "modal": {
+    "title": "Configura tu clínica",
+    "step_progress": "Paso {current} de {total}",
+    "error_general": "Ocurrió un error al crear la clínica. Inténtalo de nuevo.",
+    "button_back": "Anterior",
+    "button_next": "Siguiente",
+    "button_finish": "Finalizar configuración",
+    "button_creating": "Creando clínica...",
+    
+    "step1": {
+      "title": "¿Cómo se llama tu clínica?",
+      "name_label": "Nombre de la clínica",
+      "name_placeholder": "Ej: Veterinaria Patitas Felices",
+      "name_error": "El nombre debe tener al menos 3 caracteres",
+      "logo_label": "Logo de la clínica (opcional)",
+      "logo_description": "PNG, JPG o WEBP · Máximo 2MB recomendado",
+      "logo_preview": "Vista previa",
+      "email_label": "Correo electrónico",
+      "email_placeholder": "example@gmail.com"
+    },
+    
+    "step2": {
+      "title": "Información de contacto",
+      "description": "Todos los campos son opcionales, pero nos ayudan a personalizar recordatorios, facturas y reportes.",
+      "phone_label": "Teléfono principal",
+      "phone_placeholder": "Ej: +502 1234 5678",
+      "secondaryPhone_label": "Teléfono secundario",
+      "secondaryPhone_placeholder": "Ej: +502 9876 5432",
+      "address_label": "Dirección de la clínica",
+      "address_placeholder": "Ej: Zona 10, Ciudad de Guatemala"
+    },
+    
+    "step3": {
+      "title": "Configuración regional",
+      "description": "Configura el país y el idioma principal de tu clínica.",
+      "country_label": "País",
+      "country_placeholder": "Seleccionar país",
+      "country_required": "El país es obligatorio",
+      "language_label": "Idioma principal",
+      "language_placeholder": "Seleccionar idioma",
+      "language_required": "El idioma es obligatorio",
+      "language_spanish": "Español",
+      "language_english": "Inglés",
+      "note_title": "Plan por defecto: Gratuito",
+      "note_description": "Tu clínica se creará con el plan gratuito. Puedes actualizar a un plan de pago más tarde desde la configuración de la clínica."
+    }
+  }
+}

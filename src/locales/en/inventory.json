@@ -1,0 +1,80 @@
+{
+  "titles": {
+    "form": "Add Product",
+    "table": "Inventory"
+  },
+  "placeholders": {
+    "name": "Product name",
+    "description": "Product description (optional)",
+    "sellingPrice": "Selling price (optional)",
+    "lowStockThreshold": "Minimum quantity before alert (optional)",
+    "search": "Search by name, category, or unit..."
+  },
+  "labels": {
+    "name": "Name",
+    "category": "Category",
+    "unit": "Unit",
+    "sellingPrice": "Selling price",
+    "lowStockThreshold": "Low stock alert",
+    "currentStock": "Current stock",
+    "description": "Description"
+  },
+  "categories": {
+    "medicamento": "Medication",
+    "alimento": "Food",
+    "accesorio": "Accessory",
+    "equipo": "Equipment",
+    "otro": "Other"
+  },
+  "units": {
+    "unidad": "Unit",
+    "caja": "Box",
+    "kg": "Kilogram (kg)",
+    "g": "Gram (g)",
+    "ml": "Milliliter (ml)",
+    "litro": "Liter",
+    "frasco": "Vial/Bottle",
+    "sobre": "Sachet/Pouch",
+    "otro": "Other"
+  },
+  "buttons": {
+    "form": {
+      "submit": "Add Product",
+      "submitLoading": "Creating..."
+    },
+    "table": {
+      "refetch": "Reload list"
+    }
+  },
+  "messages": {
+    "loadingWorkspace": "Loading clinic...",
+    "loadingInventory": "Loading inventory...",
+    "emptyTable": "No products in inventory yet.",
+    "errorLoad": "Error loading inventory.",
+    "errorWorkspaceLoad": "Could not load clinic information. Please refresh the page.",
+    "errorItemNotFound": "Product not found.",
+    "errorOriginalDataNotFound": "Original product data not found.",
+    "errorCreate": "A problem occurred and the product could not be created. Please try again.",
+    "errorUpdate": "Error updating product.",
+    "errorDelete": "Error deleting product.",
+    "noChanges": "No changes to save."
+  },
+  "modals": {
+    "create": {
+      "title": "Confirm product creation"
+    }
+  },
+  "feedback": {
+    "creating": "Creating product...",
+    "success": "Product created successfully!"
+  },
+  "import": {
+    "title": "Bulk Inventory Import",
+    "accepted_formats": "Accepted formats: .xlsx, .xls, .csv",
+    "required_fields": "Required fields: name",
+    "optional_fields": "Optional fields: category, description, unit, selling price, low stock alert",
+    "validation": "Category: medication, food, accessory, equipment, other",
+    "units": "Unit: unit, box, kg, g, ml, liter, vial, sachet, other",
+    "example": "Check the visual example below"
+  }
+}

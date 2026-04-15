@@ -1,0 +1,76 @@
+{
+  "titles": {
+    "form": "Invite Member",
+    "table": "Members",
+    "main": "Member List"
+  },
+  "placeholders": {
+    "searchEmail": "Search user by email...",
+    "email": "Member's email to invite",
+    "role": "Select a role",
+    "search": "Search by name, email, or role..."
+  },
+  "buttons": {
+    "search": "Search",
+    "submit": "Invite Member",
+    "submitLoading": "Inviting...",
+    "refetch": "Reload list",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "labels": {
+    "name": "Name",
+    "email": "Email",
+    "searchEmail": "Search by email",
+    "role": "Role",
+    "phone": "Phone",
+    "status": "Status"
+  },
+  "options": {
+    "roles": {
+      "admin": "Admin",
+      "veterinario": "Veterinarian",
+      "recepcion": "Receptionist",
+      "asistente": "Assistant",
+      "contador": "Accountant",
+      "auditor": "Auditor"
+    }
+  },
+  "messages": {
+    "loadingMembers": "Loading members...",
+    "loadingWorkspace": "Loading clinic...",
+    "emptyTable": "No members registered yet.",
+    "errorGeneral": "Error: ",
+    "errorWorkspaceLoad": "Could not load clinic information. Please refresh the page.",
+    "errorValidationForm": "Please fix the validation errors in the form before continuing.",
+    "errorPostGeneral": "A problem occurred and the invitation could not be sent. Please try again.",
+    "errorUpdateGeneral": "Error updating member",
+    "errorDeleteGeneral": "Error deleting member",
+    "errorSearchEmail": "Error searching for email",
+    "userFound": "User found",
+    "userNotFound": "No user found with that email",
+    "successPost": "Invitation sent successfully!",
+    "successUpdate": "Member updated successfully!",
+    "successDelete": "Member deleted"
+  },
+  "modals": {
+    "create": {
+      "title": "Confirm invitation"
+    }
+  },
+  "default": {
+    "member": "This member"
+  },
+  "feedback": {
+    "inviting": "Sending invitation..."
+  },
+  "export_explanation": {
+    "title": "Bulk Member Import",
+    "acepted_formats": "Accepted formats: .xlsx, .xls, .csv",
+    "required_fields": "Required fields: email, role",
+    "optional_fields": "Optional fields: phone",
+    "validation_phone": "Phone: if no country code is included, the country defined in your workspace will be assumed",
+    "visual_example": "Check the visual example below"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "title": "Reporting",
+  "subtitle": "Export your clinic's information in Excel or CSV format.",
+  "buttons": {
+    "export": "Export"
+  },
+  "labels": {
+    "format": "Format",
+    "export": "Export"
+  },
+  "formats": {
+    "xlsx": "Excel (.xlsx)",
+    "csv": "CSV (.csv)"
+  },
+  "status": {
+    "generating": "Generating file...",
+    "downloaded": "Exported successfully",
+    "empty": "No data to export",
+    "networkError": "Network error"
+  },
+  "cards": {
+    "owners": {
+      "title": "Owners",
+      "description": "Export the complete list of owners registered in the workspace.",
+      "searchLabel": "Search by name or email",
+      "searchPlaceholder": "Ex: John Doe"
+    },
+    "patients": {
+      "title": "Patients",
+      "description": "Export the list of patients, optionally filtered by owner.",
+      "searchLabel": "Search by name",
+      "searchPlaceholder": "Ex: Buddy",
+      "filterOwnerLabel": "Filter by owner (optional)",
+      "allOwners": "All owners"
+    },
+    "members": {
+      "title": "Members",
+      "description": "Export team members with their roles and access status.",
+      "filterRoleLabel": "Filter by role",
+      "allRoles": "All roles",
+      "filterStatusLabel": "Filter by status",
+      "allStatuses": "All statuses",
+      "roles": {
+        "admin": "Administrator",
+        "veterinario": "Veterinarian",
+        "auditor": "Auditor",
+        "recepcion": "Reception"
+      },
+      "statuses": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "pending": "Pending"
+      }
+    },
+    "appointments": {
+      "title": "Appointments",
+      "description": "Export appointment history with date range and status filters.",
+      "dateFrom": "From",
+      "dateTo": "To",
+      "filterStatusLabel": "Status (optional)",
+      "allStatuses": "All statuses",
+      "statuses": {
+        "scheduled": "Scheduled",
+        "completed": "Completed",
+        "cancelled": "Cancelled",
+        "no_show": "No show"
+      }
+    },
+    "clinicalRecords": {
+      "title": "Clinical Records",
+      "description": "Export clinical records including diagnoses, treatments, and vaccinations.",
+      "dateFrom": "From",
+      "dateTo": "To",
+      "filterPatientLabel": "Filter by patient (optional)",
+      "allPatients": "All patients"
+    }
+  }
+}

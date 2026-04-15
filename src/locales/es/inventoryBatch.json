@@ -1,0 +1,65 @@
+{
+  "titles": {
+    "form": "Registrar Lote",
+    "table": "Lotes de Inventario"
+  },
+  "placeholders": {
+    "product": "Buscar producto...",
+    "quantity": "Cantidad del lote",
+    "purchasePrice": "Precio de compra por unidad",
+    "supplier": "Nombre del proveedor (opcional)",
+    "batchNumber": "Número o código del lote (opcional)",
+    "search": "Buscar por lote, proveedor o fecha..."
+  },
+  "labels": {
+    "product": "Producto",
+    "batchNumber": "Número de lote",
+    "quantity": "Cantidad",
+    "purchasePrice": "Precio de compra",
+    "supplier": "Proveedor",
+    "purchaseDate": "Fecha de compra",
+    "expirationDate": "Fecha de vencimiento"
+  },
+  "buttons": {
+    "form": {
+      "submit": "Registrar Lote",
+      "submitLoading": "Creando..."
+    },
+    "table": {
+      "refetch": "Recargar lista"
+    }
+  },
+  "messages": {
+    "loadingWorkspace": "Cargando clínica...",
+    "loadingBatches": "Cargando lotes...",
+    "emptyTable": "No hay lotes registrados para este producto.",
+    "selectItemFirst": "Selecciona un producto para ver sus lotes.",
+    "errorLoad": "Elige un producto para ver sus lotes.",
+    "errorWorkspaceLoad": "No se ha podido cargar la información de la clínica. Por favor, recarga la página.",
+    "errorNoItemSelected": "Debes seleccionar un producto antes de continuar.",
+    "errorBatchNotFound": "Lote no encontrado.",
+    "errorOriginalDataNotFound": "Datos originales del lote no encontrados.",
+    "errorCreate": "Ha ocurrido un problema y no se pudo registrar el lote. Por favor, inténtalo de nuevo.",
+    "errorUpdate": "Error al actualizar el lote.",
+    "errorDelete": "Error al eliminar el lote.",
+    "noChanges": "No hay cambios para guardar."
+  },
+  "modals": {
+    "create": {
+      "title": "Confirmar registro de lote"
+    }
+  },
+  "feedback": {
+    "creating": "Registrando lote...",
+    "success": "¡Lote registrado exitosamente!"
+  },
+  "import": {
+    "title": "Importación Masiva de Lotes",
+    "accepted_formats": "Formatos aceptados: .xlsx, .xls, .csv",
+    "required_fields": "Campos obligatorios: Producto (nombre o código), Cantidad, Precio de compra",
+    "optional_fields": "Campos opcionales: Proveedor, Número de lote, Fecha de compra, Fecha de vencimiento",
+    "date_format": "Fechas en formato: YYYY-MM-DD",
+    "validation": "El producto debe existir previamente en el inventario",
+    "example": "Revisa el ejemplo visual a continuación"
+  }
+}

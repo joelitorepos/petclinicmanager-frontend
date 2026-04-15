@@ -1,0 +1,93 @@
+{
+  "my_workspaces": "Your Workspaces",
+  "select_or_create": "Select a workspace to access or create a new one.",
+  "tab_my_clinics": "My Clinics",
+  "tab_pending": "Pending Invitations",
+  "role": "Role",
+  "enter": "Enter",
+  "no_clinics_yet": "You don't have any clinics associated yet.",
+  "create_new": "Create New Clinic",
+  "create_limit_note": "Note: In the current version you can only create one workspace. Additional attempts will be blocked.",
+
+  "invited_you_as": "has invited you as",
+  "invited_by": "Invited by",
+  "phone": "Phone",
+  "expires": "Expires on",
+  "no_pending": "You have no pending invitations at the moment.",
+
+  "confirm_accept": "Are you sure you want to accept this invitation?",
+  "confirm_reject": "Are you sure you want to reject this invitation?",
+  "accepted_success": "Invitation accepted! You're now part of the team.",
+  "rejected_success": "Invitation successfully rejected.",
+  "error_accept": "We couldn't accept the invitation",
+  "error_reject": "We couldn't reject the invitation",
+
+  "common": {
+    "loading": "Loading...",
+    "error_loading": "Error loading data",
+    "accept": "Accept",
+    "reject": "Reject"
+  },
+
+  "invitations": {
+    "invited_you_as": "has invited you as",
+    "invited_by": "Invited by",
+    "phone": "Phone",
+    "expires": "Expires on",
+    "no_pending": "You have no pending invitations at the moment.",
+    "confirm_accept": "Are you sure you want to accept this invitation?",
+    "confirm_reject": "Are you sure you want to reject this invitation?",
+    "accepted_success": "Invitation accepted! You're now part of the team.",
+    "rejected_success": "Invitation successfully rejected.",
+    "error_accept": "We couldn't accept the invitation",
+    "error_reject": "We couldn't reject the invitation"
+  },
+
+    "modal": {
+    "title": "Set Up Your Clinic",
+    "step_progress": "Step {current} of {total}",
+    "error_general": "An error occurred while creating the clinic. Please try again.",
+    "button_back": "Back",
+    "button_next": "Next",
+    "button_finish": "Finish Setup",
+    "button_creating": "Creating Clinic...",
+    
+    "step1": {
+      "title": "What is your clinic's name?",
+      "name_label": "Clinic Name",
+      "name_placeholder": "E.g., Happy Paws Veterinary",
+      "name_error": "Name must be at least 3 characters long",
+      "logo_label": "Clinic Logo (optional)",
+      "logo_placeholder": "Upload your clinic's logo here",
+      "logo_preview": "Logo Preview",
+      "email_label": "Email",
+      "email_placeholder": "example@gmail.com"
+    },
+
+    "step2": {
+      "title": "Where is your clinic located?",
+      "description": "Provide the address and contact details for your clinic.",
+      "phone_label": "Clinic Phone (optional)",
+      "phone_placeholder": "E.g., +1 234 567 8901",
+      "secondaryPhone_label": "Secondary Phone (optional)",
+      "secondaryPhone_placeholder": "E.g., +1 098 765 4321",
+      "address_label": "Clinic Address (optional)",
+      "address_placeholder": "E.g., 123 Pet St, Animal City, Country"
+    },
+
+    "step3": {
+      "title": "Select your clinic's country and preferred language",
+      "country_label": "Country",
+      "country_placeholder": "Select your country",
+      "country_required": "Country is required",
+      "language_label": "Language",
+      "language_placeholder": "Select your preferred language",
+      "language_required": "Language is required",
+      "language_spanish": "Spanish",
+      "language_english": "English",
+      "note_title": "by default plan: Free",
+      "note_description": "In this version, the country and language settings are for display purposes only and do not affect functionality."
+    }
+
+  }
+}

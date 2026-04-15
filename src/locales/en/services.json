@@ -1,0 +1,69 @@
+{
+  "titles": {
+    "form": "New Service",
+    "table": "Registered Services"
+  },
+  "placeholders": {
+    "code": "CONS001, VAC-001, etc.",
+    "name": "General consultation, Rabies vaccine...",
+    "price": "150.00",
+    "cost": "80.00",
+    "taxRate": "12",
+    "duration": "30",
+    "description": "Detailed service description...",
+    "search": "Search by code, name, or category..."
+  },
+  "labels": {
+    "code": "Code",
+    "name": "Name",
+    "category": "Category",
+    "price": "Selling price",
+    "cost": "Internal cost",
+    "taxRate": "Tax rate (%)",
+    "duration": "Duration (minutes)",
+    "description": "Description",
+    "active": "Active"
+  },
+  "categories": {
+    "consulta": "Consultation",
+    "vacuna": "Vaccine",
+    "cirugia": "Surgery",
+    "laboratorio": "Laboratory",
+    "estetica": "Grooming",
+    "hospitalizacion": "Hospitalization",
+    "otro": "Other"
+  },
+  "buttons": {
+    "submit": "Create Service",
+    "submitLoading": "Creating...",
+    "refetch": "Update list"
+  },
+  "messages": {
+    "loadingWorkspace": "Loading clinic...",
+    "emptyTable": "No services registered yet.",
+    "errorLoad": "Error loading services.",
+    "errorWorkspaceLoad": "Could not load clinic information. Please refresh the page.",
+    "errorServiceNotFound": "Service not found.",
+    "errorOriginalDataNotFound": "Original service data not found.",
+    "errorCreate": "A problem occurred and the service could not be created. Please try again.",
+    "errorUpdate": "Error updating the service.",
+    "errorDelete": "Error deleting the service.",
+    "noChanges": "No changes to save."
+  },
+  "modals": {
+    "create": {
+      "title": "Confirm service creation"
+    }
+  },
+  "feedback": {
+    "creating": "Creating service...",
+    "success": "Service created successfully!"
+  },
+  "info": {
+    "title": "Clinical Services Management",
+    "tip_code": "Unique code per clinic (e.g., CONS001, VAC-RAB)",
+    "tip_price": "Define selling price and internal cost to monitor margins",
+    "tip_duration": "Use approximate duration to estimate schedule time",
+    "tip_import": "Import multiple services from Excel/CSV"
+  }
+}

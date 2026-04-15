@@ -1,0 +1,80 @@
+{
+  "titles": {
+    "form": "Agregar Producto",
+    "table": "Inventario"
+  },
+  "placeholders": {
+    "name": "Nombre del producto",
+    "description": "Descripción del producto (opcional)",
+    "sellingPrice": "Precio de venta (opcional)",
+    "lowStockThreshold": "Cantidad mínima antes de alerta (opcional)",
+    "search": "Buscar por nombre, categoría o unidad..."
+  },
+  "labels": {
+    "name": "Nombre",
+    "category": "Categoría",
+    "unit": "Unidad",
+    "sellingPrice": "Precio de venta",
+    "lowStockThreshold": "Alerta de stock bajo",
+    "currentStock": "Stock actual",
+    "description": "Descripción"
+  },
+  "categories": {
+    "medicamento": "Medicamento",
+    "alimento": "Alimento",
+    "accesorio": "Accesorio",
+    "equipo": "Equipo",
+    "otro": "Otro"
+  },
+  "units": {
+    "unidad": "Unidad",
+    "caja": "Caja",
+    "kg": "Kilogramo (kg)",
+    "g": "Gramo (g)",
+    "ml": "Mililitro (ml)",
+    "litro": "Litro",
+    "frasco": "Frasco",
+    "sobre": "Sobre",
+    "otro": "Otro"
+  },
+  "buttons": {
+    "form": {
+      "submit": "Agregar Producto",
+      "submitLoading": "Creando..."
+    },
+    "table": {
+      "refetch": "Recargar lista"
+    }
+  },
+  "messages": {
+    "loadingWorkspace": "Cargando clínica...",
+    "loadingInventory": "Cargando inventario...",
+    "emptyTable": "No hay productos en el inventario aún.",
+    "errorLoad": "Error al cargar el inventario.",
+    "errorWorkspaceLoad": "No se ha podido cargar la información de la clínica. Por favor, recarga la página.",
+    "errorItemNotFound": "Producto no encontrado.",
+    "errorOriginalDataNotFound": "Datos originales del producto no encontrados.",
+    "errorCreate": "Ha ocurrido un problema y no se pudo crear el producto. Por favor, inténtalo de nuevo.",
+    "errorUpdate": "Error al actualizar el producto.",
+    "errorDelete": "Error al eliminar el producto.",
+    "noChanges": "No hay cambios para guardar."
+  },
+  "modals": {
+    "create": {
+      "title": "Confirmar creación de producto"
+    }
+  },
+  "feedback": {
+    "creating": "Creando producto...",
+    "success": "¡Producto creado exitosamente!"
+  },
+  "import": {
+    "title": "Importación Masiva de Inventario",
+    "accepted_formats": "Formatos aceptados: .xlsx, .xls, .csv",
+    "required_fields": "Campos obligatorios: nombre",
+    "optional_fields": "Campos opcionales: categoría, descripción, unidad, precio de venta, alerta de stock bajo",
+    "validation": "Categoría: medicamento, alimento, accesorio, equipo, otro",
+    "units": "Unidad: unidad, caja, kg, g, ml, litro, frasco, sobre, otro",
+    "example": "Revisa el ejemplo visual a continuación"
+  }
+}

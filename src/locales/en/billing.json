@@ -1,0 +1,37 @@
+{
+  "title": "Billing",
+  "taxConfig": {
+    "title": "Tax Configuration",
+    "buttons": {
+      "new": "+ New Configuration"
+    },
+    "messages": {
+      "loading": "Loading configurations...",
+      "errorLoad": "Error loading tax configurations.",
+      "noConfigs": "No tax configurations registered yet."
+    },
+    "modal": {
+      "createTitle": "New Tax Configuration",
+      "editTitle": "Edit Tax Configuration",
+      "errorSave": "Error saving configuration.",
+      "errorUnexpected": "An unexpected error has occurred."
+    },
+    "labels": {
+      "country": "Country",
+      "region": "Region",
+      "regionPlaceholder": "e.g., Guatemala, California",
+      "taxName": "Tax name",
+      "taxCode": "Tax code",
+      "taxRate": "Percentage (%)",
+      "taxRateError": "The percentage must be between 0 and 100",
+      "appliesTo": "Applies to",
+      "all": "All",
+      "services": "Services",
+      "products": "Products",
+      "default": "Default configuration",
+      "from": "Effective from",
+      "until": "Effective until",
+      "rate": "tax rate"
+    }
+  }
+}

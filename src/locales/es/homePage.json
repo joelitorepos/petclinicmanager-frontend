@@ -1,0 +1,13 @@
+{
+  "welcomeMessage": "Bienvenido a tu clínica digital. Aquí encontrarás todas las herramientas para gestionar tu consultorio de forma eficiente.",
+  "settingsTip": "Personaliza tu experiencia",
+  "settingsTipDetail": "Puedes cambiar el idioma y el tema (claro/oscuro) cuando lo desees desde la sección Configuración.",
+  "dataManagement": "Gestión de datos principales",
+  "crudIntro": "Desde las diferentes secciones puedes crear, ver, editar y eliminar registros de:",
+  "crudNote": "Algunos módulos requieren datos previos (por ejemplo: una cita necesita un dueño y una mascota registrada).",
+  "pricingDescription": "Administra tus planes de suscripción, métodos de pago y estado de tu cuenta.",
+  "billingDescription": "Registra facturas, controla pagos recibidos y genera comprobantes para tus clientes.",
+  "reportsDescription": "Visualiza estadísticas importantes: ventas, pacientes atendidos, citas realizadas, inventario y más.",
+  "auditDescription": "Revisa el historial de acciones y cambios realizados en el sistema para mayor control y seguridad.",
+  "getStarted": "¡Comienza explorando las secciones del menú!"
+}

@@ -1,0 +1,91 @@
+{
+  "titles": {
+    "form": "Create Appointment",
+    "table": "Appointments",
+    "main": "Appointment Management"
+  },
+  "placeholders": {
+    "selectPatient": "Search patient...",
+    "selectOwner": "Search owner...",
+    "selectVeterinarian": "Search veterinarian...",
+    "type": "Select appointment type",
+    "status": "Select status",
+    "reason": "Reason for appointment (optional)",
+    "notes": "Additional notes (optional)",
+    "searchPatient": "Search by name, code...",
+    "searchOwner": "Search by name, phone...",
+    "searchVeterinarian": "Search by name, email...",
+    "search": "Search by patient, veterinarian, or status..."
+  },
+  "buttons": {
+    "form": {
+      "submit": "Create Appointment",
+      "submitLoading": "Creating..."
+    },
+    "table": {
+      "refetch": "Reload list"
+    }
+  },
+  "labels": {
+    "patient": "Patient",
+    "owner": "Owner",
+    "veterinarian": "Veterinarian",
+    "startTime": "Start time",
+    "endTime": "End time",
+    "status": "Status",
+    "type": "Type",
+    "reason": "Reason",
+    "notes": "Notes"
+  },
+  "options": {
+    "status": {
+      "scheduled": "Scheduled",
+      "confirmed": "Confirmed",
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "no_show": "No Show"
+    },
+    "type": {
+      "consulta": "Consultation",
+      "vacuna": "Vaccination",
+      "cirugia": "Surgery",
+      "seguimiento": "Follow-up"
+    }
+  },
+  "messages": {
+    "loadingAppointments": "Loading appointments...",
+    "loadingWorkspace": "Loading clinic...",
+    "emptyTable": "No appointments registered yet.",
+    "errorGeneral": "Error: ",
+    "errorWorkspaceLoad": "Could not load clinic information. Please refresh the page.",
+    "errorValidationForm": "Please fix the validation errors in the form before continuing.",
+    "errorEndTimeBeforeStart": "The end date must be after the start date.",
+    "errorPostGeneral": "A problem occurred and the appointment could not be created. Please try again.",
+    "errorUpdateGeneral": "Error updating appointment",
+    "errorDeleteGeneral": "Error deleting appointment",
+    "successPost": "Appointment created successfully!",
+    "successUpdate": "Appointment updated successfully!",
+    "successDelete": "Appointment deleted"
+  },
+  "modals": {
+    "create": {
+      "title": "Confirm creation"
+    }
+  },
+  "default": {
+    "appointment": "This appointment",
+    "noName": "No name"
+  },
+  "feedback": {
+    "creatingAppointment": "Creating appointment..."
+  },
+  "export_explanation": {
+    "title": "Bulk Appointment Import",
+    "acepted_formats": "Accepted formats: .xlsx, .xls, .csv",
+    "required_fields": "Required fields: patient_id, owner_id, veterinarian_id, start_time, end_time, type",
+    "optional_fields": "Optional fields: status, reason, notes",
+    "validation_phone": "IDs must correspond to existing records in the system",
+    "visual_example": "Check the visual example below"
+  }
+}

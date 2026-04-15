@@ -1,0 +1,84 @@
+{
+  "titles": {
+    "form": "Crear Dueño de Mascota",
+    "table": "Dueños",
+    "modalCreate": "Confirmar creación",
+    "modalUpdate": "Confirmar cambios",
+    "modalDelete": "Confirmar eliminación"
+  },
+  "placeholders": {
+    "form": {
+      "name": "Nombre del dueño de la mascota",
+      "telephone": "Número de teléfono del dueño",
+      "telephone2": "Segundo número de teléfono (opcional)",
+      "email": "Email del dueño (opcional)",
+      "address": "Dirección del dueño (opcional)",
+      "nit": "NIT del dueño (opcional)",
+      "validationPhone": "Solo números (8 a 15 dígitos)",
+      "validationPhone2": "Solo números"
+    },
+    "table": {
+      "search": "Buscar por nombre, teléfono o email..."
+    }
+  },
+  "buttons": {
+    "form": {
+      "submit": "Crear Dueño de Mascota",
+      "submitLoading": "Creando...",
+      "confirm": "Confirmar",
+      "cancel": "Cancelar",
+      "delete": "Eliminar"
+    },
+    "table": {
+      "refetch": "Recargar lista"
+    }
+  },
+  "messages": {
+    "loadingOwners": "Cargando dueños...",
+    "loadingWorkspace": "Cargando clínica...",
+    "emptyTable": "No hay dueños registrados aún.",
+    "errorGeneral": "Error: ",
+    "errorWorkspaceLoad": "No se ha podido cargar la información de la clínica. Por favor, recarga la página.",
+    "errorValidationForm": "Por favor, corrige los errores de validación en el formulario antes de continuar.",
+    "errorOwnerNotFound": "Dueño no encontrado",
+    "errorOriginalDataNotFound": "Datos originales no encontrados",
+    "errorValidationZod": "Errores de validación: ",
+    "errorPostEmailFormat": "El email no tiene un formato válido.",
+    "errorPostGeneral": "Ha ocurrido un problema y no se pudo crear el dueño. Por favor, inténtalo de nuevo.",
+    "errorSaveGeneral": "Error al guardar: ",
+    "errorDeleteGeneral": "Error al eliminar",
+    "errorUpdateGeneral": "Error al actualizar: ",
+    "successPost": "¡Dueño creado exitosamente!",
+    "successUpdate": "¡Dueño actualizado correctamente!",
+    "successDelete": "Dueño eliminado",
+    "alertNoChanges": "No hay cambios para guardar.",
+    "modalCreateConfirmation": "¿Estás seguro de que deseas crear el siguiente dueño?",
+    "modalUpdateConfirmation": "¿Estás seguro de cambiar estos datos?",
+    "modalDeleteConfirmation": "¿Estás seguro de eliminar a",
+    "modalDeleteConfirmation2": "? Esta acción es permanente.",
+    "errorPhoneRequired": "El teléfono principal es requerido"
+  },
+  "labels": {
+    "name": "Nombre",
+    "telephone": "Teléfono",
+    "telephone2": "Teléfono 2",
+    "email": "Email",
+    "address": "Dirección",
+    "nit": "NIT",
+    "phoneExamplesLabel": "Formatos de teléfono sugeridos:"
+  },
+  "default": {
+    "owner": "Este dueño"
+  },
+  "feedback": {
+    "creatingOwner": "Creando dueño..."
+  },
+  "export_explanation": {
+    "title": "Importación Masiva de Dueños",
+    "acepted_formats": "Formatos aceptados: .xlsx, .xls, .csv",
+    "required_fields": "Campos obligatorios: nombre, telefono",
+    "optional_fields": "Campos opcionales: telefono secundario, email, direccion, nit",
+    "validation_phone": "Teléfono: si no se incluye codigo de pais se asumira el pais definido de tu area de trabajo",
+    "visual_example": "Revisa el ejemplo visual a continuacion"
+  }
+}

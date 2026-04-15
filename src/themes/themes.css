@@ -1,0 +1,163 @@
+/* src/themes/themes.css */
+:root {
+  /* Variables base */
+  --text-dark: 26 26 26;       /* Neutral-900 */
+  --text-light: 255 255 255;
+  
+  /* * TEMA POR DEFECTO: EMERALD (Calibrado con Tailwind CSS)
+   * Referencias de Tailwind:
+   * Emerald-50:  236 253 245 (Surface/Fondos muy claros)
+   * Emerald-100: 209 250 229 (Bordes suaves/Surface highlight)
+   * Emerald-600: 5 150 105   (Primary - Usado en botones del Home)
+   * Emerald-700: 4 120 87    (Hover - Usado en títulos del Home)
+   */
+
+  /* Primary coincide con text-emerald-600 */
+  --primary: 5 150 105; 
+  
+  /* Primary Hover coincide con text-emerald-700 */
+  --primary-hover: 4 120 87; 
+  
+  /* Active un poco más oscuro (Emerald-800) */
+  --primary-active: 6 95 70; 
+
+  /* Fondo blanco puro para continuidad con el Home */
+  --bg: 255 255 255; 
+
+  /* Surface muy suave (Emerald-50) para tarjetas/paneles */
+  --surface: 236 253 245; 
+
+  /* Bordes sutiles (Emerald-200) */
+  --border: 167 243 208; 
+
+  /* Texto base */
+  --text: var(--text-dark);
+  
+  /* Texto secundario (Emerald-800 para buen contraste) */
+  --text-secondary: 6 78 59; 
+
+  /* Estados funcionales (Standard Tailwind colors) */
+  --success: 34 197 94;  /* Green-500 */
+  --warning: 249 115 22; /* Orange-500 */
+  --danger: 239 68 68;   /* Red-500 */
+}
+
+[data-theme="violet"] {
+  --primary: 139 92 246;
+  --primary-hover: 124 58 237;
+  --primary-active: 109 40 217;
+  --bg: 235 225 255;
+  --surface: 248 240 255;                    /* Surface lavanda claro */
+  --border: 221 214 254;
+  --text: var(--text-dark);
+  --text-title: 139 92 246;
+  --text-secondary: 91 33 182;
+  --success: 168 85 247;
+  --warning: 245 158 11;
+  --danger: 236 72 153;
+}
+
+[data-theme="sunset"] {
+  --primary: 249 115 22;
+  --primary-hover: 234 88 12;
+  --primary-active: 194 65 12;
+  --bg: 255 235 220;
+  --surface: 255 244 235;                    /* Surface melocotón claro */
+  --border: 254 215 170;
+  --text: var(--text-dark);
+  --text-title: 249 115 22;
+  --text-secondary: 154 52 18;
+  --success: 34 197 94;
+  --warning: 251 191 36;
+  --danger: 248 113 113;
+}
+
+[data-theme="ocean"] {
+  --primary: 14 165 233;
+  --primary-hover: 2 132 199;
+  --primary-active: 3 105 161;
+  --bg: 225 240 255;
+  --surface: 240 249 255;                    /* Surface azul cielo claro */
+  --border: 186 230 253;
+  --text: var(--text-dark);
+  --text-title: 14 165 233;
+  --text-secondary: 3 105 161;
+  --success: 34 197 94;
+  --warning: 251 146 60;
+  --danger: 239 68 68;
+}
+
+[data-theme="forest"] {
+  --primary: 34 197 94;
+  --primary-hover: 22 163 74;
+  --primary-active: 21 128 61;
+  --bg: 225 245 235;
+  --surface: 240 250 245;                    /* Surface verde menta claro */
+  --border: 187 247 208;
+  --text: var(--text-dark);
+  --text-title: 34 197 94;
+  --text-secondary: 21 128 61;
+  --success: 34 197 94;
+  --warning: 251 146 60;
+  --danger: 239 68 68;
+}
+
+[data-theme="rose"] {
+  --primary: 244 63 94;
+  --primary-hover: 236 72 153;
+  --primary-active: 190 24 93;
+  --bg: 255 230 240;
+  --surface: 255 240 245;                    /* Surface rosa claro */
+  --border: 254 205 211;
+  --text: var(--text-dark);
+  --text-title: 244 63 94;
+  --text-secondary: 190 24 93;
+  --success: 34 197 94;
+  --warning: 251 146 60;
+  --danger: 236 72 153;
+}
+
+[data-theme="amber"] {
+  --primary: 251 146 60;
+  --primary-hover: 245 101 101;
+  --primary-active: 217 119 6;
+  --bg: 255 245 215;
+  --surface: 255 250 235;
+  --border: 254 240 138;
+  --text: var(--text-dark);
+  --text-title: 251 146 60;
+  --text-secondary: 180 83 9;
+  --success: 34 197 94;
+  --warning: 251 146 60;
+  --danger: 239 68 68;
+}
+
+[data-theme="slate"] {
+  --primary: 100 116 139;
+  --primary-hover: 71 85 105;
+  --primary-active: 51 65 85;
+  --bg: 15 23 42;
+  --surface: 30 41 59;
+  --border: 51 65 85;
+  --text: var(--text-light);
+  --text-title: 248 250 252;
+  --text-secondary: 148 163 184;
+  --success: 34 197 94;
+  --warning: 251 146 60;
+  --danger: 239 68 68;
+}
+
+[data-theme="emerald"] {
+  --primary: 5 150 105;
+  --primary-hover: 4 120 87;
+  --primary-active: 6 95 70;
+  --bg: 236 253 245;
+  --surface: 255 255 255;
+  --border: 167 243 208;
+  --text: var(--text-dark);
+  --text-title: 5 150 105;
+  --text-secondary: 6 78 59;
+  --success: 34 197 94;
+  --warning: 249 115 22;
+  --danger: 239 68 68;
+}

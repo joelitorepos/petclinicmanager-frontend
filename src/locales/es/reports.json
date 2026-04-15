@@ -1,0 +1,78 @@
+{
+  "title": "Reportería",
+  "subtitle": "Exporta la información de tu clínica en formato Excel o CSV.",
+  "buttons": {
+    "export": "Exportar"
+  },
+  "labels": {
+    "format": "Formato",
+    "export": "Exportar"
+  },
+  "formats": {
+    "xlsx": "Excel (.xlsx)",
+    "csv": "CSV (.csv)"
+  },
+  "status": {
+    "generating": "Generando archivo...",
+    "downloaded": "Exportado correctamente",
+    "empty": "Sin datos para exportar",
+    "networkError": "Error de red"
+  },
+  "cards": {
+    "owners": {
+      "title": "Dueños",
+      "description": "Exporta el listado completo de dueños registrados en el workspace.",
+      "searchLabel": "Buscar por nombre o email",
+      "searchPlaceholder": "Ej: Juan García"
+    },
+    "patients": {
+      "title": "Pacientes",
+      "description": "Exporta el listado de pacientes, opcionalmente filtrado por dueño.",
+      "searchLabel": "Buscar por nombre",
+      "searchPlaceholder": "Ej: Firulais",
+      "filterOwnerLabel": "Filtrar por dueño (opcional)",
+      "allOwners": "Todos los dueños"
+    },
+    "members": {
+      "title": "Miembros",
+      "description": "Exporta los miembros del equipo con sus roles y estado de acceso.",
+      "filterRoleLabel": "Filtrar por rol",
+      "allRoles": "Todos los roles",
+      "filterStatusLabel": "Filtrar por estado",
+      "allStatuses": "Todos los estados",
+      "roles": {
+        "admin": "Administrador",
+        "veterinario": "Veterinario",
+        "auditor": "Auditor",
+        "recepcion": "Recepción"
+      },
+      "statuses": {
+        "active": "Activo",
+        "inactive": "Inactivo",
+        "pending": "Pendiente"
+      }
+    },
+    "appointments": {
+      "title": "Citas",
+      "description": "Exporta el historial de citas con filtros por rango de fechas y estado.",
+      "dateFrom": "Desde",
+      "dateTo": "Hasta",
+      "filterStatusLabel": "Estado (opcional)",
+      "allStatuses": "Todos los estados",
+      "statuses": {
+        "scheduled": "Programada",
+        "completed": "Completada",
+        "cancelled": "Cancelada",
+        "no_show": "No asistió"
+      }
+    },
+    "clinicalRecords": {
+      "title": "Registros clínicos",
+      "description": "Exporta los registros clínicos con diagnósticos, tratamientos y vacunas.",
+      "dateFrom": "Desde",
+      "dateTo": "Hasta",
+      "filterPatientLabel": "Filtrar por paciente (opcional)",
+      "allPatients": "Todos los pacientes"
+    }
+  }
+}

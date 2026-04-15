@@ -1,0 +1,90 @@
+{
+  "titles": {
+    "form": "Create Clinical Record",
+    "table": "Clinical Records",
+    "main": "Clinical Records List"
+  },
+  "placeholders": {
+    "selectPatient": "Search patient...",
+    "selectAppointment": "Search appointment (optional)...",
+    "selectVeterinarian": "Search veterinarian...",
+    "searchPatient": "Search by name, code...",
+    "searchAppointment": "Search by type, date...",
+    "searchVeterinarian": "Search by name, email...",
+    "weight": "Weight in kg (optional)",
+    "temperature": "Temperature in °C (optional)",
+    "notes": "General record notes (optional)",
+    "search": "Search by patient, veterinarian, or date...",
+    "diagnostics": {
+      "diagnosis": "Diagnosis",
+      "notes": "Diagnosis notes"
+    },
+    "treatments": {
+      "name": "Treatment name",
+      "dose": "Dosage",
+      "duration": "Duration"
+    },
+    "vaccinations": {
+      "vaccine": "Vaccine name",
+      "dateApplied": "Date applied",
+      "nextDue": "Next dose (optional)"
+    }
+  },
+  "buttons": {
+    "form": {
+      "submit": "Create Clinical Record",
+      "submitLoading": "Creating..."
+    },
+    "table": {
+      "refetch": "Reload list"
+    },
+    "add": "+ Add"
+  },
+  "labels": {
+    "patient": "Patient",
+    "appointment": "Appointment",
+    "date": "Date and time",
+    "veterinarian": "Veterinarian",
+    "weight": "Weight (kg)",
+    "temperature": "Temperature (°C)",
+    "diagnostics": "Diagnostics",
+    "treatments": "Treatments",
+    "vaccinations": "Vaccinations",
+    "photos": "Images",
+    "notes": "Notes"
+  },
+  "messages": {
+    "loadingRecords": "Loading clinical records...",
+    "loadingWorkspace": "Loading clinic...",
+    "emptyTable": "No clinical records found yet.",
+    "errorGeneral": "Error: ",
+    "errorWorkspaceLoad": "Could not load clinic information. Please refresh the page.",
+    "errorValidationForm": "Please fix the validation errors in the form before continuing.",
+    "errorPostGeneral": "A problem occurred and the record could not be created. Please try again.",
+    "errorUpdateGeneral": "Error updating clinical record",
+    "errorDeleteGeneral": "Error deleting clinical record",
+    "successPost": "Clinical record created successfully!",
+    "successUpdate": "Clinical record updated successfully!",
+    "successDelete": "Clinical record deleted"
+  },
+  "modals": {
+    "create": {
+      "title": "Confirm record creation"
+    }
+  },
+  "default": {
+    "record": "This record",
+    "noName": "Unnamed"
+  },
+  "feedback": {
+    "creatingRecord": "Creating clinical record..."
+  },
+  "export_explanation": {
+    "title": "Bulk Clinical Records Import",
+    "acepted_formats": "Accepted formats: .xlsx, .xls, .csv",
+    "required_fields": "Required fields: patient_id, veterinarian_id, date",
+    "optional_fields": "Optional fields: appointment_id, weight, temperature, notes, diagnostics, treatments, vaccinations",
+    "validation_phone": "IDs must correspond to existing records in the system",
+    "visual_example": "Check the visual example below"
+  }
+}

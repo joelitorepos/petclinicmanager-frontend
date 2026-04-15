@@ -4,7 +4,7 @@ import BASEURL from '../../../hooks/BaseUrl';
 import Input from '../../ui/Input';
 import Select from '../../ui/Select';
 import Button from '../../ui/Button';
-import InfoNote from '../../ui/InfoNote';
+// import InfoNote from '../../ui/InfoNote';
 import DataTableWithSearch, { type CellConfig } from '../../common/DataTableWithSearch';
 import {
   CreateConfirmationModal,
@@ -17,11 +17,11 @@ import usePost from '../../../hooks/usePost';
 import useDelete from '../../../hooks/useDelete';
 import { useEditableTable } from '../../../hooks/useEditableTable';
 import { useLanguage } from '../../../hooks/useLanguage';
-import { useAuth } from '../../../hooks/useAuth';
+// import { useAuth } from '../../../hooks/useAuth';
 import type { Workspace } from '../../../interfaces/Workspace';
-import MassiveImport from '../../ui/MassiveImport';
-import ExcelTable from '../../excelTable/ExcelTable';
-import { INVENTORY_EXAMPLE_DATA, INVENTORY_HEADERS } from '../../excelTable/inventoryExample';
+// import MassiveImport from '../../ui/MassiveImport';
+// import ExcelTable from '../../excelTable/ExcelTable';
+// import { INVENTORY_EXAMPLE_DATA, INVENTORY_HEADERS } from '../../excelTable/inventoryExample';
 
 const InventoryCreateSchema = z.object({
   name: z.string().min(1, 'El nombre del producto es obligatorio'),
@@ -132,7 +132,7 @@ const Inventory = () => {
     `${BASEURL}/api/workspaces/current`
   );
   const workspaceId = currentWorkspaceData?.workspace?._id;
-  const { user } = useAuth();
+  // const { user } = useAuth();
 
   const {
     data: inventoryResponse,
@@ -186,6 +186,7 @@ const Inventory = () => {
     { field: 'description', header: t('inventory:labels.description'), className: 'w-4/12', multiline: true },
   ];
 
+  // @ts-expect-error: Error de tipado
   const cellConfigs = useMemo((): Partial<Record<keyof TableRow, CellConfig>> => ({
     category: {
       type: 'select',

@@ -7,16 +7,16 @@ import DataTableWithSearch, { type ColumnDef, type CellConfig } from '../../comm
 import { type Patient } from '../../../interfaces/Patient';
 import { type Owner } from '../../../interfaces/Owner';
 import { type Workspace } from '../../../interfaces/Workspace';
-import InfoNote from '../../ui/InfoNote';
+// import InfoNote from '../../ui/InfoNote';
 import Input from '../../ui/Input';
 import Select from '../../ui/Select';
 import FileInput from '../../ui/FileInput';
 import DateInput from '../../ui/DateInput';
 import Checkbox from '../../ui/Checkbox';
 import SelectWithSearch from '../../ui/SelectWithSearch';
-import MassiveImport from '../../ui/MassiveImport';
+// import MassiveImport from '../../ui/MassiveImport';
 import Button from '../../ui/Button';
-import { useAuth } from '../../../hooks/useAuth';
+// import { useAuth } from '../../../hooks/useAuth';
 import { useAuthAwareFetch } from '../../../hooks/useAuthAwareFetch';
 import { useLanguage } from '../../../hooks/useLanguage';
 import useFetch from '../../../hooks/useFetch';
@@ -25,8 +25,8 @@ import { CreateConfirmationModal, DeleteConfirmationModal, UpdateConfirmationMod
 // import ResultModal from '../../modal/ResultModal';
 import findErichedData from '../../../utils/findEnrichedData';
 import { useEditableTable } from '../../../hooks/useEditableTable';
-import ExcelTable from '../../excelTable/ExcelTable';
-import { PATIENT_EXAMPLE_DATA, PATIENTS_HEADERS } from '../../excelTable/patientExample';
+// import ExcelTable from '../../excelTable/ExcelTable';
+// import { PATIENT_EXAMPLE_DATA, PATIENTS_HEADERS } from '../../excelTable/patientExample';
 
 const PatientSchema = z.object({
   nombre: z.string().min(1),
@@ -94,7 +94,7 @@ const Patients = () => {
   const workspaceId = currentWorkspaceData?.workspace?._id;
 
   // user
-  const { user } = useAuth();
+  // const { user } = useAuth();
 
   const { data: ownersResponse, loading: loadingOwners } = useAuthAwareFetch<OwnersListResponse>(
     workspaceId ? `${BASEURL}/api/workspaces/${workspaceId}/owners` : '',
@@ -516,18 +516,18 @@ const Patients = () => {
     return <div className="p-8 text-center text-gray-500">{t('patients:messages.loadingPatients')}</div>;
   }
 
-  const patientInstructions = (
-    <>
-      <p className="font-semibold mb-2">{t('patients:export_explanation.title')}</p>
-      <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
-        <li>{t('patients:export_explanation.acepted_formats')}</li>
-        <li>{t('patients:export_explanation.required_fields')}</li>
-        <li>{t('patients:export_explanation.optional_fields')}</li>
-        <li>{t('patients:export_explanation.validation_phone')}</li>
-        <li>{t('patients:export_explanation.visual_example')}</li>
-      </ul>
-    </>
-  );
+  // const patientInstructions = (
+  //   <>
+  //     <p className="font-semibold mb-2">{t('patients:export_explanation.title')}</p>
+  //     <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
+  //       <li>{t('patients:export_explanation.acepted_formats')}</li>
+  //       <li>{t('patients:export_explanation.required_fields')}</li>
+  //       <li>{t('patients:export_explanation.optional_fields')}</li>
+  //       <li>{t('patients:export_explanation.validation_phone')}</li>
+  //       <li>{t('patients:export_explanation.visual_example')}</li>
+  //     </ul>
+  //   </>
+  // );
 
   return (
     <div className="space-y-6">

@@ -5,13 +5,13 @@ import BASEURL from '../../../hooks/BaseUrl';
 import { z } from 'zod';
 import Input from '../../ui/Input';
 import Button from '../../ui/Button';
-import MassiveImport from '../../ui/MassiveImport';
+// import MassiveImport from '../../ui/MassiveImport';
 import ExampleCards from '../../ui/ExampleCards';
-import InfoNote from '../../ui/InfoNote';
+// import InfoNote from '../../ui/InfoNote';
 import DataTableWithSearch from '../../common/DataTableWithSearch';
 import { CreateConfirmationModal, UpdateConfirmationModal, DeleteConfirmationModal } from '../../modal/ConfirmationModals'
-import ExcelTable from '../../excelTable/ExcelTable';
-import { OWNER_EXAMPLE_DATA, OWNERS_HEADERS } from '../../excelTable/ownerExample';
+// import ExcelTable from '../../excelTable/ExcelTable';
+// import { OWNER_EXAMPLE_DATA, OWNERS_HEADERS } from '../../excelTable/ownerExample';
 import { useAuthAwareFetch } from '../../../hooks/useAuthAwareFetch';
 import type { Workspace } from '../../../interfaces/Workspace';
 import type { IOwner } from '../../../interfaces/Owner';
@@ -22,7 +22,7 @@ import useFetch from '../../../hooks/useFetch';
 import useDelete from '../../../hooks/useDelete';
 import { useEditableTable } from '../../../hooks/useEditableTable';
 import { useLanguage } from '../../../hooks/useLanguage';
-import { useAuth } from '../../../hooks/useAuth';
+// import { useAuth } from '../../../hooks/useAuth';
 
 const phoneSchema = z.object({
   country: z.enum(['GT', 'ES', 'US', 'MX', 'AR']),
@@ -89,7 +89,7 @@ const Owners = () => {
   const { data: currentWorkspaceData } = useFetch<CurrentWorkspaceResponse>(`${BASEURL}/api/workspaces/current`);
   const workspaceId = currentWorkspaceData?.workspace?._id;
   // user
-  const { user } = useAuth();
+  // const { user } = useAuth();
 
   // Cargar lista de dueños
   const { data: ownersResponse, loading: loadingOwners, error: errorOwners, refetch,
@@ -421,18 +421,18 @@ const Owners = () => {
     { country: 'US', examples: ['5551234567', '8005551234'] }
   ];
 
-  const ownerInstructions = (
-    <>
-      <p className="font-semibold mb-2">{t('owners:export_explanation.title')}</p>
-      <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
-        <li>{t('owners:export_explanation.acepted_formats')}</li>
-        <li>{t('owners:export_explanation.required_fields')}</li>
-        <li>{t('owners:export_explanation.optional_fields')}</li>
-        <li>{t('owners:export_explanation.validation_phone')}</li>
-        <li>{t('owners:export_explanation.visual_example')}</li>
-      </ul>
-    </>
-  );
+  // const ownerInstructions = (
+  //   <>
+  //     <p className="font-semibold mb-2">{t('owners:export_explanation.title')}</p>
+  //     <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
+  //       <li>{t('owners:export_explanation.acepted_formats')}</li>
+  //       <li>{t('owners:export_explanation.required_fields')}</li>
+  //       <li>{t('owners:export_explanation.optional_fields')}</li>
+  //       <li>{t('owners:export_explanation.validation_phone')}</li>
+  //       <li>{t('owners:export_explanation.visual_example')}</li>
+  //     </ul>
+  //   </>
+  // );
 
   return (
     <div className="mx-auto">

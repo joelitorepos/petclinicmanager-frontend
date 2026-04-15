@@ -10,19 +10,19 @@ import { type Workspace } from '../../../interfaces/Workspace';
 import { type User } from '../../../interfaces/User';
 import { type IWorkspaceMember } from '../../../interfaces/WorkspaceMember';
 import type { IPhone } from '../../../interfaces/shared.types';
-import InfoNote from '../../ui/InfoNote';
+// import InfoNote from '../../ui/InfoNote';
 import Input from '../../ui/Input';
 import Select from '../../ui/Select';
 import Button from '../../ui/Button';
 import PhoneInput from '../../ui/PhoneInput';
-import MassiveImport from '../../ui/MassiveImport';
-import { useAuth } from '../../../hooks/useAuth';
+// import MassiveImport from '../../ui/MassiveImport';
+// import { useAuth } from '../../../hooks/useAuth';
 import useDelete from '../../../hooks/useDelete';
 import { z } from 'zod';
 import { CreateConfirmationModal, DeleteConfirmationModal, UpdateConfirmationModal } from '../../modal/ConfirmationModals';
 import { useEditableTable } from '../../../hooks/useEditableTable';
-import ExcelTable from '../../excelTable/ExcelTable';
-import { MEMBER_EXAMPLE_DATA, MEMBERS_HEADERS } from '../../excelTable/memberExample';
+// import ExcelTable from '../../excelTable/ExcelTable';
+// import { MEMBER_EXAMPLE_DATA, MEMBERS_HEADERS } from '../../excelTable/memberExample';
 
 const phoneSchema = z.object({
   country: z.enum(['GT', 'ES', 'US', 'MX', 'AR']),
@@ -96,7 +96,7 @@ const WorkspaceMembers = () => {
   const [updateMemberId, setUpdateMemberId] = useState<string | null>(null);
   const [changedFields, setChangedFields] = useState<Partial<UpdatePayload> | null>(null);
 
-  const { user } = useAuth();
+  // const { user } = useAuth();
 
   // Cargar Workspace
   const { data: currentWorkspaceData } = useFetch<CurrentWorkspaceResponse>(`${BASEURL}/api/workspaces/current`);
@@ -404,18 +404,18 @@ const WorkspaceMembers = () => {
     return <div className="p-8 text-center text-gray-500">{t('workspaceMembers:messages.loadingMembers')}</div>;
   }
 
-  const memberInstructions = (
-    <>
-      <p className="font-semibold mb-2">{t('workspaceMembers:export_explanation.title')}</p>
-      <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
-        <li>{t('workspaceMembers:export_explanation.acepted_formats')}</li>
-        <li>{t('workspaceMembers:export_explanation.required_fields')}</li>
-        <li>{t('workspaceMembers:export_explanation.optional_fields')}</li>
-        <li>{t('workspaceMembers:export_explanation.validation_phone')}</li>
-        <li>{t('workspaceMembers:export_explanation.visual_example')}</li>
-      </ul>
-    </>
-  );
+  // const memberInstructions = (
+  //   <>
+  //     <p className="font-semibold mb-2">{t('workspaceMembers:export_explanation.title')}</p>
+  //     <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
+  //       <li>{t('workspaceMembers:export_explanation.acepted_formats')}</li>
+  //       <li>{t('workspaceMembers:export_explanation.required_fields')}</li>
+  //       <li>{t('workspaceMembers:export_explanation.optional_fields')}</li>
+  //       <li>{t('workspaceMembers:export_explanation.validation_phone')}</li>
+  //       <li>{t('workspaceMembers:export_explanation.visual_example')}</li>
+  //     </ul>
+  //   </>
+  // );
 
   return (
     <div className="space-y-6">

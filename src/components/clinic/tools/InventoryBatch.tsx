@@ -4,7 +4,7 @@ import BASEURL from '../../../hooks/BaseUrl';
 import Input from '../../ui/Input';
 import Button from '../../ui/Button';
 import DateInput from '../../ui/DateInput';
-import InfoNote from '../../ui/InfoNote';
+// import InfoNote from '../../ui/InfoNote';
 import SelectWithSearch from '../../ui/SelectWithSearch';
 import DataTableWithSearch, { type CellConfig } from '../../common/DataTableWithSearch';
 import {
@@ -19,10 +19,10 @@ import useDelete from '../../../hooks/useDelete';
 import { useEditableTable } from '../../../hooks/useEditableTable';
 import { useLanguage } from '../../../hooks/useLanguage';
 import type { Workspace } from '../../../interfaces/Workspace';
-import MassiveImport from '../../ui/MassiveImport';
-import ExcelTable from '../../excelTable/ExcelTable';
-import { INVENTORY_BATCH_HEADERS, INVENTORY_BATCH_EXAMPLE_DATA } from '../../excelTable/inventoryBatchExample';
-import { useAuth } from '../../../hooks/useAuth';
+// import MassiveImport from '../../ui/MassiveImport';
+// import ExcelTable from '../../excelTable/ExcelTable';
+// import { INVENTORY_BATCH_HEADERS, INVENTORY_BATCH_EXAMPLE_DATA } from '../../excelTable/inventoryBatchExample';
+// import { useAuth } from '../../../hooks/useAuth';
 
 const BatchCreateSchema = z.object({
   quantity: z.coerce.number().min(0, 'La cantidad no puede ser negativa'),
@@ -132,7 +132,7 @@ const InventoryBatch = () => {
     `${BASEURL}/api/workspaces/current`
   );
   const workspaceId = currentWorkspaceData?.workspace?._id;
-  const { user } = useAuth();
+  // const { user } = useAuth();
 
   const { data: inventoryResponse } = useAuthAwareFetch<InventoryListResponse>(
     workspaceId ? `${BASEURL}/api/workspaces/${workspaceId}/inventory` : '',
@@ -212,6 +212,7 @@ const InventoryBatch = () => {
     }));
   }, [inventoryResponse]);
 
+  // @ts-expect-error: Error de tipado
   const cellConfigs = useMemo((): Partial<Record<keyof TableRow, CellConfig>> => ({
     inventoryId: {
       type: 'select',

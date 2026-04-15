@@ -18,8 +18,8 @@ import Input from "../../ui/Input";
 import Select from "../../ui/Select";
 import DateInput from "../../ui/DateInput";
 import SelectWithSearch from "../../ui/SelectWithSearch";
-import MassiveImport from "../../ui/MassiveImport";
-import { useAuth } from "../../../hooks/useAuth";
+// import MassiveImport from "../../ui/MassiveImport";
+// import { useAuth } from "../../../hooks/useAuth";
 import useDelete from "../../../hooks/useDelete";
 import { z } from "zod";
 import Button from "../../ui/Button";
@@ -31,11 +31,11 @@ import {
 import findErichedData from "../../../utils/findEnrichedData";
 import { useEditableTable } from "../../../hooks/useEditableTable";
 import mongoose from "mongoose";
-import ExcelTable from "../../excelTable/ExcelTable";
-import {
-  APPOINTMENT_EXAMPLE_DATA,
-  APPOINTMENTS_HEADERS,
-} from "../../excelTable/appointmentExample";
+// import ExcelTable from "../../excelTable/ExcelTable";
+// import {
+//   APPOINTMENT_EXAMPLE_DATA,
+//   APPOINTMENTS_HEADERS,
+// } from "../../excelTable/appointmentExample";
 import InfoNote from "../../ui/InfoNote";
 
 const AppointmentSchema = z
@@ -229,7 +229,7 @@ const Appointments = () => {
     unknown
   > | null>(null);
 
-  const { user } = useAuth();
+  // const { user } = useAuth();
 
   // Cargar Workspace
   const { data: currentWorkspaceData } = useFetch<CurrentWorkspaceResponse>(
@@ -925,20 +925,20 @@ const Appointments = () => {
     );
   }
 
-  const appointmentInstructions = (
-    <>
-      <p className="font-semibold mb-2">
-        {t("appointments:export_explanation.title")}
-      </p>
-      <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
-        <li>{t("appointments:export_explanation.acepted_formats")}</li>
-        <li>{t("appointments:export_explanation.required_fields")}</li>
-        <li>{t("appointments:export_explanation.optional_fields")}</li>
-        <li>{t("appointments:export_explanation.validation_phone")}</li>
-        <li>{t("appointments:export_explanation.visual_example")}</li>
-      </ul>
-    </>
-  );
+  // const appointmentInstructions = (
+  //   <>
+  //     <p className="font-semibold mb-2">
+  //       {t("appointments:export_explanation.title")}
+  //     </p>
+  //     <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
+  //       <li>{t("appointments:export_explanation.acepted_formats")}</li>
+  //       <li>{t("appointments:export_explanation.required_fields")}</li>
+  //       <li>{t("appointments:export_explanation.optional_fields")}</li>
+  //       <li>{t("appointments:export_explanation.validation_phone")}</li>
+  //       <li>{t("appointments:export_explanation.visual_example")}</li>
+  //     </ul>
+  //   </>
+  // );
 
   return (
     <div className="space-y-6">

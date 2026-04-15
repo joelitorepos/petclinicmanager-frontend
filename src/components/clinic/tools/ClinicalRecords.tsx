@@ -23,8 +23,8 @@ import mongoose from "mongoose";
 import Input from "../../ui/Input";
 import DateInput from "../../ui/DateInput";
 import SelectWithSearch from "../../ui/SelectWithSearch";
-import MassiveImport from "../../ui/MassiveImport";
-import { useAuth } from "../../../hooks/useAuth";
+// import MassiveImport from "../../ui/MassiveImport";
+// import { useAuth } from "../../../hooks/useAuth";
 import useDelete from "../../../hooks/useDelete";
 import { z } from "zod";
 import Button from "../../ui/Button";
@@ -35,12 +35,12 @@ import {
 } from "../../modal/ConfirmationModals";
 import findErichedData from "../../../utils/findEnrichedData";
 import { useEditableTable } from "../../../hooks/useEditableTable";
-import ExcelTable from "../../excelTable/ExcelTable";
-import {
-  CLINICAL_RECORD_EXAMPLE_DATA,
-  CLINICAL_RECORDS_HEADERS,
-} from "../../excelTable/clinicalRecordExample";
-import InfoNote from "../../ui/InfoNote";
+// import ExcelTable from "../../excelTable/ExcelTable";
+// import {
+//   CLINICAL_RECORD_EXAMPLE_DATA,
+//   CLINICAL_RECORDS_HEADERS,
+// } from "../../excelTable/clinicalRecordExample";
+// import InfoNote from "../../ui/InfoNote";
 import DiagnosticsSection from "../../common/DiagnosticSection";
 import TreatmentsSection from "../../common/TreatmentSection";
 import VaccinationsSection from "../../common/Vaccinationssection";
@@ -180,7 +180,7 @@ const ClinicalRecords = () => {
   );
 
   const { t } = useLanguage();
-  const { user } = useAuth();
+  // const { user } = useAuth();
 
   const { data: currentWorkspaceData } = useFetch<CurrentWorkspaceResponse>(
     `${BASEURL}/api/workspaces/current`,
@@ -834,20 +834,20 @@ const ClinicalRecords = () => {
     );
   }
 
-  const clinicalRecordInstructions = (
-    <>
-      <p className="font-semibold mb-2">
-        {t("clinicalRecords:export_explanation.title")}
-      </p>
-      <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
-        <li>{t("clinicalRecords:export_explanation.acepted_formats")}</li>
-        <li>{t("clinicalRecords:export_explanation.required_fields")}</li>
-        <li>{t("clinicalRecords:export_explanation.optional_fields")}</li>
-        <li>{t("clinicalRecords:export_explanation.validation_phone")}</li>
-        <li>{t("clinicalRecords:export_explanation.visual_example")}</li>
-      </ul>
-    </>
-  );
+  // const clinicalRecordInstructions = (
+  //   <>
+  //     <p className="font-semibold mb-2">
+  //       {t("clinicalRecords:export_explanation.title")}
+  //     </p>
+  //     <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
+  //       <li>{t("clinicalRecords:export_explanation.acepted_formats")}</li>
+  //       <li>{t("clinicalRecords:export_explanation.required_fields")}</li>
+  //       <li>{t("clinicalRecords:export_explanation.optional_fields")}</li>
+  //       <li>{t("clinicalRecords:export_explanation.validation_phone")}</li>
+  //       <li>{t("clinicalRecords:export_explanation.visual_example")}</li>
+  //     </ul>
+  //   </>
+  // );
 
   return (
     <div className="space-y-6">
@@ -1058,6 +1058,7 @@ const ClinicalRecords = () => {
           onRowDelete={handleDelete}
           onRowUpdate={handleUpdate}
           onCellChange={handleCellChange}
+          // @ts-expect-error: Error de tipado
           onPhotoChange={handlePhotoChange}
           searchPlaceholder={t("clinicalRecords:placeholders.search")}
           emptyMessage={t("clinicalRecords:messages.emptyTable")}

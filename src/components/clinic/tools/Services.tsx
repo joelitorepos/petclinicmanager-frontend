@@ -4,7 +4,7 @@ import BASEURL from '../../../hooks/BaseUrl';
 import Input from '../../ui/Input';
 import Select from '../../ui/Select';
 import Button from '../../ui/Button';
-import InfoNote from '../../ui/InfoNote';
+// import InfoNote from '../../ui/InfoNote';
 import Checkbox from '../../ui/Checkbox';
 import DataTableWithSearch from '../../common/DataTableWithSearch';
 import {
@@ -12,9 +12,9 @@ import {
   UpdateConfirmationModal,
   DeleteConfirmationModal,
 } from '../../modal/ConfirmationModals';
-import MassiveImport from '../../ui/MassiveImport';
-import ExcelTable from '../../excelTable/ExcelTable';
-import { SERVICES_HEADERS, SERVICE_EXAMPLE_DATA } from '../../excelTable/serviceExample';
+// import MassiveImport from '../../ui/MassiveImport';
+// import ExcelTable from '../../excelTable/ExcelTable';
+// import { SERVICES_HEADERS, SERVICE_EXAMPLE_DATA } from '../../excelTable/serviceExample';
 import { useAuthAwareFetch } from '../../../hooks/useAuthAwareFetch';
 import useFetch from '../../../hooks/useFetch';
 import usePost from '../../../hooks/usePost';
@@ -253,7 +253,9 @@ const Services = () => {
 
     // Convertir isActive a boolean seguro
     const currentIsActive = current.isActive === true || 
+                           // @ts-expect-error: Error de tipado
                            current.isActive === 'true' || 
+                           // @ts-expect-error: Error de tipado
                            current.isActive === 1;
 
     const currentPayload: ServiceUpdatePayload & { description?: string | null } = {
@@ -280,7 +282,9 @@ const Services = () => {
         : String(original.description).trim();
 
     const originalIsActive = original.isActive === true || 
+                            // @ts-expect-error: Error de tipado
                             original.isActive === 'true' || 
+                            // @ts-expect-error: Error de tipado
                             original.isActive === 1;
 
     const originalPayload: ServiceUpdatePayload & { description?: string | null } = {

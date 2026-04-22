@@ -63,5 +63,8 @@
     "panelTitleInventory": "Importación de Inventario",
     "panelTitleInventoryBatch": "Importación de Lotes",
     "panelTitleServices": "Importación de Servicios"
-  }
+  },
+  "termsAndConditions": "Términos y Condiciones",
+  "privacyPolicy": "Politicas de Privacidad",
+  "refundPolicy": "Politicas de Reembolso"
 }

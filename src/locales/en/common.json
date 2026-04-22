@@ -62,5 +62,8 @@
     "panelTitleInventory": "Importing Inventory",
     "panelTitleInventoryBatch": "Importing Batches",
     "panelTitleServices": "Importing Services"
-  }
+  },
+  "termsAndConditions": "Terms and Conditions",
+  "privacyPolicy": "Privacy Policy",
+  "refundPolicy": "Refund Policy"
 }

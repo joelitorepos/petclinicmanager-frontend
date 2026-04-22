@@ -1,0 +1,187 @@
+{
+  "title": "Privacy Policy",
+  "lastUpdated": "Last updated: April 17, 2026",
+  "introduction": {
+    "paragraph1": {
+      "part1": "This Privacy Policy of Victor Abdias Joel Argueta Gonzalez, independent developer (hereinafter \"I\", \"the Developer\", or \"PetClinicManager\"), describes how and why I might access, collect, store, use, and/or share (\"process\") your personal information when you use my services (\"Services\"), including when you visit the website",
+      "part2": "https://petclinicmanager.armandojoel2004.workers.dev",
+      "part3": "or any other related product or service that refers to this Privacy Policy."
+    },
+    "paragraph2": "Questions or concerns? Reading this Privacy Policy will help you understand your privacy rights and choices. I am responsible for making decisions about how your personal information is processed. If you do not agree with my policies and practices, please do not use my Services."
+  },
+  "summaryOfKeyPoints": {
+    "title": "Summary of Key Points",
+    "intro": "This summary provides key points from my Privacy Policy. You can find more details about any of these topics by consulting the corresponding section in the table of contents.",
+    "points": {
+      "whatPersonalInfo": {
+        "question": "What personal information do I process?",
+        "answer": "When you visit, use, or navigate my Services, I may process personal information depending on how you interact with them, the choices you make, and the products and features you use."
+      },
+      "sensitiveInfo": {
+        "question": "Do I process any sensitive personal information?",
+        "answer": "I do not process sensitive information."
+      },
+      "thirdPartyInfo": {
+        "question": "Do I collect any information from third parties?",
+        "answer": "I may collect information from public databases, marketing partners, social media platforms, and other outside sources."
+      },
+      "howWeProcess": {
+        "question": "How do I process your information?",
+        "answer": "I process your information to provide, improve, and administer my Services, communicate with you, for security and fraud prevention, and to comply with law. I may also process your information for other purposes with your consent. I process your information only when I have a valid legal reason to do so."
+      },
+      "sharingInfo": {
+        "question": "In what situations and with whom do I share personal information?",
+        "answer": "I may share information in specific situations and with specific third parties, such as payment and hosting service providers."
+      },
+      "yourRights": {
+        "question": "What are your rights?",
+        "answer": "Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information."
+      },
+      "howToExercise": {
+        "question": "How do you exercise your rights?",
+        "answer": "The easiest way to exercise your rights is by submitting a data subject access request or by contacting me directly. I will consider and act upon any request in accordance with applicable data protection laws."
+      }
+    }
+  },
+  "tableOfContent": {
+    "title": "Table of Contents",
+    "1": "What information do we collect?",
+    "2": "How do we process your information?",
+    "3": "When and with whom do we share your personal information?",
+    "4": "Do we use cookies and other tracking technologies?",
+    "5": "How do we handle your social logins?",
+    "6": "Is your information transferred internationally?",
+    "7": "How long do we keep your information?",
+    "8": "Do we collect information from minors?",
+    "9": "What are your privacy rights?",
+    "10": "Controls for Do-Not-Track features",
+    "11": "Do we make updates to this policy?",
+    "12": "How can you contact me about this policy?",
+    "13": "How can you review, update, or delete the data I collect from you?"
+  },
+  "sections": {
+    "1": {
+      "title": "What Information Do We Collect?",
+      "personalInfoDisclosed": {
+        "title": "Personal information you disclose to us",
+        "summary": "I collect personal information that you voluntarily provide to me.",
+        "paragraph1": "I collect personal information that you voluntarily provide to me when you register on the Services, express an interest in obtaining information about my products and Services, when you participate in activities on the Services, or otherwise when you contact me.",
+        "sensitiveInfo": "Sensitive information: I do not process sensitive information.",
+        "paragraph2": "All personal information that you provide to me must be true, complete, and accurate, and you must notify me of any changes to such personal information."
+      },
+      "automaticallyCollected": {
+        "title": "Information automatically collected",
+        "summary": "Some information — such as your Internet Protocol (IP) address and browser and device characteristics — is collected automatically when you visit my Services.",
+        "paragraph1": "I automatically collect certain information when you visit, use, or navigate the Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use my Services, and other technical information.",
+        "paragraph2": "This information is primarily needed to maintain the security and operation of my Services, and for my internal analytics and reporting purposes. Like many online services, I also collect information through cookies and similar technologies."
+      }
+    },
+    "2": {
+      "title": "How Do We Process Your Information?",
+      "summary": "I process your information to provide, improve, and administer my Services, communicate with you, for security and fraud prevention, and to comply with law. I may also process your information for other purposes with your consent.",
+      "paragraph1": "I process your personal information for a variety of reasons, depending on how you interact with my Services, including:",
+      "reasons": {
+        "1": "To facilitate account creation and authentication and otherwise manage user accounts.",
+        "2": "To deliver and facilitate delivery of the Services to the user.",
+        "3": "To respond to user inquiries and offer support to users.",
+        "4": "To send you administrative information, such as changes to my terms, conditions, and policies.",
+        "5": "To fulfill and manage your orders, payments, returns, and exchanges.",
+        "6": "To request feedback and to contact you about your use of the Services.",
+        "7": "To send you marketing and promotional communications (if you have opted in to receive them).",
+        "8": "To protect my Services, including fraud detection and monitoring of suspicious activity.",
+        "9": "To comply with my legal obligations and resolve disputes."
+      }
+    },
+    "3": {
+      "title": "When and With Whom Do We Share Your Personal Information?",
+      "summary": "I may share information in specific situations described in this section and/or with the following third parties.",
+      "situations": {
+        "businessTransfers": {
+          "title": "Business transfers",
+          "paragraph": "I may share or transfer your information in connection with, or during negotiations of, any merger, sale of assets, financing, or acquisition of all or a portion of my business to another party."
+        },
+        "businessPartners": {
+          "title": "Business partners and service providers",
+          "paragraph": "I may share your information with my business partners and service providers to offer you certain products, services, or promotions. I currently use Paddle for payment processing and Railway for service hosting. These providers have their own privacy policies governing the use of your information."
+        }
+      }
+    },
+    "4": {
+      "title": "Do We Use Cookies and Other Tracking Technologies?",
+      "summary": "I may use cookies and other tracking technologies to collect and store your information.",
+      "paragraph1": "I may use cookies and similar tracking technologies (like web beacons and pixels) to gather information when you interact with my Services. Some online tracking technologies help me maintain the security of the Services, prevent crashes, fix bugs, save your preferences, and assist with basic site functions.",
+      "paragraph2": "I also permit third parties and service providers to use online tracking technologies on my Services for analytics, including to help manage and display relevant content. You can set your browser to refuse cookies, though this may affect some features of the Services."
+    },
+    "5": {
+      "title": "How Do We Handle Your Social Logins?",
+      "summary": "If you choose to register or log in to my Services using a social media account, I may have access to certain information about you.",
+      "paragraph1": "My Services offer you the ability to register and log in using your third-party social media account details (like your Google login). Where you choose to do this, I will receive certain profile information about you from your social media provider. The profile information I receive may vary depending on the provider, but will often include your name, email address, and profile picture.",
+      "paragraph2": "I will use the information I receive only for the purposes described in this Privacy Policy. Please note that I do not control, and am not responsible for, other uses of your personal information by your third-party social media provider. I recommend that you review their privacy policy to understand how they collect, use, and share your personal information."
+    },
+    "6": {
+      "title": "Is Your Information Transferred Internationally?",
+      "summary": "I may transfer, store, and process your information in countries other than your own.",
+      "paragraph1": "My servers are located in the United States (via Railway). Regardless of your location, please be aware that your information may be transferred to, stored by, and processed in the facilities of the third parties with whom I share your personal information (see section 3), including facilities in other countries.",
+      "paragraph2": "If you are a resident in the European Economic Area (EEA), United Kingdom (UK), or Switzerland, these countries may not necessarily have data protection laws as comprehensive as those in your country. However, I will take all necessary measures to protect your personal information in accordance with this Privacy Policy and applicable law."
+    },
+    "7": {
+      "title": "How Long Do We Keep Your Information?",
+      "summary": "I keep your information for as long as necessary to fulfill the purposes outlined in this Privacy Policy unless otherwise required by law.",
+      "paragraph1": "I will only keep your personal information for as long as it is necessary for the purposes set out in this Privacy Policy, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements).",
+      "paragraph2": "When I have no ongoing legitimate business need to process your personal information, I will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then I will securely store your personal information and isolate it from any further processing until deletion is possible."
+    },
+    "8": {
+      "title": "Do We Collect Information From Minors?",
+      "summary": "I do not knowingly collect data from or market to children under 18 years of age.",
+      "paragraph1": "I do not knowingly collect, solicit data from, or market to children under 18 years of age, nor do I knowingly sell such personal information. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor's use of the Services.",
+      "paragraph2": "If I learn that personal information from users less than 18 years of age has been collected, I will deactivate the account and take reasonable measures to promptly delete such data from my records. If you become aware of any data I may have collected from children under age 18, please contact me at petclinicmanager.app@gmail.com."
+    },
+    "9": {
+      "title": "What Are Your Privacy Rights?",
+      "summary": "You may review, change, or terminate your account at any time, depending on your country, province, or state of residence.",
+      "withdrawConsent": {
+        "title": "Withdrawing your consent",
+        "paragraph": "If I am relying on your consent to process your personal information, you have the right to withdraw your consent at any time. You may do so by contacting me using the contact details provided in the section 'How can you contact me about this policy?' However, please note that this will not affect the lawfulness of the processing before its withdrawal."
+      },
+      "accountInformation": {
+        "title": "Account information",
+        "paragraph1": "If you would at any time like to review or change the information in your account or terminate your account, you can:",
+        "options": {
+          "1": "Log in to your account settings and update your user information.",
+          "2": "Contact me using the contact information provided."
+        },
+        "paragraph2": "Upon your request to terminate your account, I will deactivate or delete your account and information from my active databases. However, I may retain some information in my files to prevent fraud, troubleshoot problems, assist with any investigations, enforce my legal terms, and/or comply with applicable legal requirements."
+      }
+    },
+    "10": {
+      "title": "Controls for Do-Not-Track Features",
+      "paragraph1": "Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (\"DNT\") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected.",
+      "paragraph2": "At this stage, no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, I do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that I must follow in the future, I will inform you about that practice in a revised version of this Privacy Policy."
+    },
+    "11": {
+      "title": "Do We Make Updates to This Policy?",
+      "summary": "Yes, I will update this policy as necessary to stay compliant with relevant laws.",
+      "paragraph1": "I may update this Privacy Policy from time to time. The updated version will be indicated by an updated \"Last updated\" date at the top of this Privacy Policy.",
+      "paragraph2": "If I make material changes to this Privacy Policy, I may notify you either by prominently posting a notice of such changes or by directly sending you a notification. I encourage you to review this Privacy Policy frequently to be informed of how I am protecting your information."
+    },
+    "12": {
+      "title": "How Can You Contact Me About This Policy?",
+      "paragraph1": "If you have questions or comments about this policy, you may contact me by post or email at:",
+      "contact": {
+        "name": "Victor Abdias Joel Argueta Gonzalez",
+        "address": "20 Avenida A, Guatemala City, Guatemala 01057, Guatemala",
+        "phone": "(+502) 3942-3287",
+        "email": "petclinicmanager.app@gmail.com"
+      }
+    },
+    "13": {
+      "title": "How Can You Review, Update, or Delete the Data I Collect From You?",
+      "paragraph1": "Based on the applicable laws of your country, you may have the right to request access to the personal information I collect from you, details about how I have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to my processing of your personal information. These rights may be limited in some circumstances by applicable law.",
+      "paragraph2": "To request to review, update, or delete your personal information, please send me an email at petclinicmanager.app@gmail.com with the subject line 'Data Subject Access Request' and I will respond within a reasonable timeframe."
+    }
+  },
+  "guberningLanguage": {
+    "title": "Language",
+    "paragraph": "This policy is drafted in English. In the event of any discrepancy or conflict between the English version and any translated version in another language (including Spanish), the English version shall prevail and be considered the binding legal text."
+  }
+}

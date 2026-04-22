@@ -1,38 +1,47 @@
 // src/routes/AppRoutes.tsx
-import { Routes, Route, Navigate } from 'react-router-dom';
-import Home from '../pages/Home';
-import About from '../pages/About';
-import ServicesLanding from '../pages/Services';
-import Contact from '../pages/Contact';
-import CurrentClinics from '../pages/CurrentClinics';
-import ClinicDashboard from '../pages/ClinicDashboard';
-import NotFound from '../pages/NotFound';
+import { Routes, Route, Navigate } from "react-router-dom";
+import Home from "../pages/Home";
+import About from "../pages/About";
+import ServicesLanding from "../pages/Services";
+import Contact from "../pages/Contact";
+import CurrentClinics from "../pages/CurrentClinics";
+import ClinicDashboard from "../pages/ClinicDashboard";
+import NotFound from "../pages/NotFound";
 
 // rutas del dasboard
-import HomePage from '../components/clinic/tools/Home'
-import Pricing from '../components/clinic/tools/Pricing';
-import Owners from '../components/clinic/tools/Owners';
-import Patients from '../components/clinic/tools/Patients';
+import HomePage from "../components/clinic/tools/Home";
+import Pricing from "../components/clinic/tools/Pricing";
+import Owners from "../components/clinic/tools/Owners";
+import Patients from "../components/clinic/tools/Patients";
 // import Pacientes from '../components/clinic/tools/Pacientes';
-import WorkspaceMembers from '../components/clinic/tools/WorkspaceMembers'
-import Appointments from '../components/clinic/tools/Appointments';
-import ClinicalRecords from '../components/clinic/tools/ClinicalRecords';
-import Inventory from '../components/clinic/tools/Inventory';
-import InventoryBatch from '../components/clinic/tools/InventoryBatch';
-import Services from '../components/clinic/tools/Services';
-import Billing from '../components/clinic/tools/Billing';
-import Reports from '../components/clinic/tools/Reports';
-import Audit from '../components/clinic/tools/AuditLog';
+import WorkspaceMembers from "../components/clinic/tools/WorkspaceMembers";
+import Appointments from "../components/clinic/tools/Appointments";
+import ClinicalRecords from "../components/clinic/tools/ClinicalRecords";
+import Inventory from "../components/clinic/tools/Inventory";
+import InventoryBatch from "../components/clinic/tools/InventoryBatch";
+import Services from "../components/clinic/tools/Services";
+import Billing from "../components/clinic/tools/Billing";
+import Reports from "../components/clinic/tools/Reports";
+import Audit from "../components/clinic/tools/AuditLog";
 
-import Settings from '../components/clinic/tools/Settings';
+import Settings from "../components/clinic/tools/Settings";
 
 // Layouts
-import PublicLayout from '../components/layout/PublicLayout';
-import PrivateClinicLayout from '../components/layout/PrivateClinicLayout';
+import PublicLayout from "../components/layout/PublicLayout";
+import PrivateClinicLayout from "../components/layout/PrivateClinicLayout";
+
+// Legal pages
+import Terms from "../pages/Terms";
+import Privacy from "../pages/Privacy";
+import Refunds from "../pages/Refunds";
 
 const AppRoutes = () => {
   return (
     <Routes>
+      {/* === RUTAS LEGALES === */}
+      <Route path="/terms" element={<Terms />} />
+      <Route path="/privacy" element={<Privacy />} />
+      <Route path="/refund" element={<Refunds />} />
       {/* === RUTAS PÚBLICAS (con Header y Footer de landing) === */}
       <Route element={<PublicLayout />}>
         <Route path="/" element={<Home />} />

@@ -1,0 +1,327 @@
+{
+  "title": "Términos y Condiciones",
+  "lastUpdated": "Última actualización: 17 de abril de 2026",
+  "agreementToYourLegalTerms": {
+    "title": "Acuerdo de Términos Legales",
+    "paragraph1": {
+      "part1": "Yo, Victor Abdias Joel Argueta Gonzalez, desarrollador independiente (en adelante \"yo\", \"el Desarrollador\", \"PetClinicManager\" o \"nosotros\" cuando se use en plural por conveniencia), opero el sitio web",
+      "part2": "https://petclinicmanager.armandojoel2004.workers.dev",
+      "part3": "(el \"Sitio\"), así como cualquier otro producto o servicio relacionado que haga referencia o enlace a estos Términos Legales (los \"Términos Legales\") (en conjunto, los \"Servicios\")."
+    },
+    "paragraph2": "PetClinicManager es una plataforma en la nube (SaaS) diseñada para clínicas veterinarias, que permite gestionar historiales médicos, citas, facturación y datos de pacientes.",
+    "contact": {
+      "title": "Puedes contactarme por:",
+      "email": "Correo electrónico:",
+      "emailAdress": "petclinicmanager.app@gmail.com",
+      "phone": "(+502) 3942-3287",
+      "address": "20 Avenida A, Ciudad de Guatemala, Guatemala 01057, Guatemala"
+    },
+    "paragraph3": "Estos Términos Legales constituyen un acuerdo legalmente vinculante entre tú (ya sea como persona individual o en representación de una entidad, \"tú\" o \"el Usuario\") y Victor Abdias Joel Argueta Gonzalez, respecto al acceso y uso de los Servicios.",
+    "paragraph4": "Al acceder o utilizar los Servicios, confirmas que has leído, entendido y aceptado estar obligado por todos estos Términos Legales. SI NO ESTÁS DE ACUERDO CON TODOS ESTOS TÉRMINOS, ESTÁS EXPRESAMENTE PROHIBIDO DE USAR LOS SERVICIOS Y DEBES DEJAR DE UTILIZARLOS INMEDIATAMENTE.",
+    "paragraph5": "Los usuarios serán notificados de cambios importantes mediante una notificación dentro de la aplicación o un banner prominente al iniciar sesión.",
+    "paragraph6": "Los Servicios están destinados exclusivamente para usuarios mayores de 18 años. Las personas menores de 18 años no están autorizadas a usar ni registrarse en los Servicios.",
+    "paragraph7": "Te recomendamos que guardes o imprimas una copia de estos Términos Legales para tus registros."
+  },
+  "tableOfContent": {
+    "title": "Tabla de Contenido",
+    "1": "Nuestros servicios",
+    "2": "Derechos de propiedad intelectual",
+    "3": "Representaciones de los usuarios",
+    "4": "Registro de usuarios",
+    "5": "Compras y pagos",
+    "6": "Suscripciones",
+    "7": "Actividades prohibidas",
+    "8": "Contribuciones de usuarios",
+    "9": "Licencia de contribuciones",
+    "10": "Gestión de los servicios",
+    "11": "Política de privacidad",
+    "12": "Infracciones de derechos de autor",
+    "13": "Vigencia y terminación",
+    "14": "Modificaciones e interrupciones",
+    "15": "Ley aplicable",
+    "16": "Resolución de disputas",
+    "17": "Correcciones",
+    "18": "Descargo de responsabilidad",
+    "19": "Limitación de responsabilidad",
+    "20": "Indemnización",
+    "21": "Datos del usuario",
+    "22": "Comunicaciones, transacciones y firmas electrónicas",
+    "23": "Mensajes de texto SMS",
+    "24": "Usuarios y residentes de California",
+    "25": "Misceláneos",
+    "26": "Responsabilidad profesional",
+    "27": "Servicios de terceros",
+    "28": "Contáctanos"
+  },
+  "sections": {
+    "1": {
+      "title": "Nuestros Servicios",
+      "paragraph1": "La información proporcionada al usar los Servicios no está destinada a ser distribuida ni utilizada por ninguna persona o entidad en jurisdicciones o países donde dicha distribución o uso sea contrario a la ley o regulación, o que nos someta a algún requisito de registro en dicha jurisdicción o país. Por lo tanto, las personas que accedan a los Servicios desde otras ubicaciones lo hacen por iniciativa propia y son las únicas responsables del cumplimiento de las leyes locales, en la medida en que dichas leyes sean aplicables.",
+      "paragraph2": "Los Servicios no están diseñados para cumplir con regulaciones específicas de la industria (como la Ley de Portabilidad y Responsabilidad de Seguros de Salud (HIPAA), la Ley Federal de Gestión de Seguridad de la Información (FISMA), etc.), por lo que si tus interacciones están sujetas a dichas leyes, no debes utilizar los Servicios. No puedes usar los Servicios de manera que infrinja la Ley Gramm-Leach-Bliley (GLBA)."
+    },
+    "2": {
+      "title": "Derechos de Propiedad Intelectual",
+      "ourIntellectualProperty": {
+        "title": "Nuestra propiedad intelectual",
+        "paragraph1": "Soy el propietario o licenciatario de todos los derechos de propiedad intelectual de los Servicios, incluyendo todo el código fuente, bases de datos, funcionalidades, software, diseños del sitio web, audio, video, texto, fotografías y gráficos (en conjunto, el \"Contenido\"), así como las marcas comerciales, marcas de servicio y logotipos contenidos en ellos (las \"Marcas\").",
+        "paragraph2": "El Contenido y las Marcas están protegidos por leyes de derechos de autor y marcas comerciales (y otros derechos de propiedad intelectual y leyes de competencia desleal) en Guatemala y en todo el mundo. El Contenido y las Marcas se proporcionan a través de los Servicios \"TAL COMO ESTÁN\" únicamente para tu uso interno con fines comerciales."
+      },
+      "yourUseOfOurServices": {
+        "title": "Tu uso de nuestros Servicios",
+        "paragraph1": "Sujeto al cumplimiento de estos Términos Legales, incluyendo la sección de \"ACTIVIDADES PROHIBIDAS\", te otorgo una licencia no exclusiva, intransferible y revocable para:",
+        "license": {
+          "item1": "Acceder a los Servicios; y",
+          "item2": "Descargar o imprimir una copia de cualquier parte del Contenido al que hayas accedido correctamente, únicamente para tu uso interno con fines comerciales."
+        },
+        "paragraph2": "Salvo lo dispuesto en esta sección o en cualquier otra parte de estos Términos Legales, ninguna parte de los Servicios, ni el Contenido o las Marcas puede ser copiada, reproducida, recopilada, republicada, cargada, publicada, mostrada públicamente, codificada, traducida, transmitida, distribuida, vendida, licenciada ni explotada de ninguna manera con fines comerciales sin mi permiso previo y expreso por escrito.",
+        "paragraph3": "Si deseas hacer algún uso de los Servicios, el Contenido o las Marcas distinto al establecido en esta sección, por favor dirige tu solicitud a: petclinicmanager.app@gmail.com.",
+        "paragraph4": "Si en algún momento te otorgo el permiso de publicar, reproducir o mostrar públicamente alguna parte de los Servicios o el Contenido, debes identificarme como propietario o licenciante y asegurarte de que cualquier aviso de derechos de autor o de propiedad sea visible en dicha publicación, reproducción o exhibición.",
+        "paragraph5": "Me reservo todos los derechos no otorgados expresamente respecto a los Servicios, el Contenido y las Marcas. Cualquier incumplimiento de estos Derechos de Propiedad Intelectual constituirá un incumplimiento material de estos Términos Legales y tu derecho a utilizar los Servicios se terminará de inmediato."
+      },
+      "yourSubmissionsAndContributions": {
+        "title": "Tus envíos y contribuciones",
+        "paragraph1": "Te recomiendo que revises esta sección y la sección de \"ACTIVIDADES PROHIBIDAS\" detenidamente antes de usar los Servicios, para entender (a) los derechos que me otorgas y (b) las obligaciones que tienes al publicar o cargar contenido a través de los Servicios.",
+        "submissions": {
+          "title": "Envíos:",
+          "paragraph": "Al enviarme directamente cualquier pregunta, comentario, sugerencia, idea, retroalimentación u otra información sobre los Servicios (\"Envíos\"), aceptas asignarme todos los derechos de propiedad intelectual sobre dicho Envío. Reconoces que seré el propietario de dicho Envío y tendré derecho a su uso y difusión sin restricciones para cualquier propósito lícito, comercial o de otro tipo, sin reconocimiento ni compensación para ti."
+        },
+        "contributions": {
+          "title": "Contribuciones:",
+          "paragraph1": "Los Servicios pueden invitarte a participar en chats, blogs, foros, tableros de mensajes y otras funcionalidades, durante las cuales podrás crear, enviar, publicar, transmitir o difundir contenido como texto, escritos, video, audio, fotografías, música, gráficos, comentarios, reseñas, sugerencias de calificación, información personal u otro material (\"Contribuciones\"). Todo Envío publicado públicamente también será tratado como una Contribución.",
+          "paragraph2": "Comprendes que las Contribuciones pueden ser visibles para otros usuarios de los Servicios.",
+          "licenseTitle": "Cuando publicas Contribuciones, me otorgas una licencia (incluyendo el uso de tu nombre, marcas y logotipos):",
+          "paragraph3": "Al publicar cualquier Contribución, me otorgas un derecho y licencia irrevocable, perpetuo, no exclusivo, transferible, libre de regalías, totalmente pagado y mundial para: usar, copiar, reproducir, distribuir, vender, publicar, transmitir, almacenar, reformatear, traducir, y explotar tus Contribuciones para cualquier propósito, incluyendo preparar obras derivadas e incorporarlas a otras obras, y sublicenciar las licencias otorgadas en esta sección. Esta licencia incluye el uso de tu nombre, nombre de usuario, marcas comerciales, logotipos e imágenes personales o comerciales que proporciones.",
+          "paragraph4": "Eres responsable de lo que publicas o cargas: al enviarme Envíos y/o publicar Contribuciones, confirmas que tienes los derechos y permisos necesarios para hacerlo, y que el contenido no infringe derechos de terceros ni viola ninguna ley aplicable."
+        }
+      }
+    },
+    "3": {
+      "title": "Representaciones de los Usuarios",
+      "paragraph1": "Al usar los Servicios, declaras y garantizas que:",
+      "items": {
+        "1": "Tienes la capacidad legal y aceptas cumplir con estos Términos Legales.",
+        "2": "No eres menor de 18 años.",
+        "3": "No accederás a los Servicios mediante medios automatizados o no humanos, ya sea a través de un bot, script u otro medio.",
+        "4": "No utilizarás los Servicios para ningún propósito ilegal o no autorizado.",
+        "5": "Tu uso de los Servicios no violará ninguna ley o regulación aplicable."
+      },
+      "paragraph2": "Si proporcionas información falsa, inexacta, desactualizada o incompleta, tengo el derecho de suspender o cancelar tu cuenta y rechazar cualquier uso actual o futuro de los Servicios."
+    },
+    "4": {
+      "title": "Registro de Usuarios",
+      "paragraph1": "Es posible que debas registrarte para usar los Servicios. Aceptas mantener la confidencialidad de tu contraseña y serás responsable de todo uso que se haga de tu cuenta y contraseña. Me reservo el derecho de eliminar, reclamar o cambiar un nombre de usuario que elijas si determino, a mi exclusivo criterio, que dicho nombre de usuario es inapropiado, obsceno o de otro modo objetable."
+    },
+    "5": {
+      "title": "Compras y Pagos",
+      "paragraph1": "Acepto los siguientes métodos de pago:",
+      "paymentMethods": {
+        "item1": "Tarjeta de crédito / débito",
+        "item2": "Plataforma de pagos Paddle"
+      },
+      "paragraph2": "Es posible que se te solicite información de compra, como el número de tu tarjeta de crédito y la fecha de vencimiento. Declaras y garantizas que: (1) tienes el derecho legal de usar cualquier método de pago en relación con cualquier compra; y (2) la información que me proporcionas es veraz, correcta y completa.",
+      "paragraph3": "Me reservo el derecho de rechazar cualquier pedido realizado a través de los Servicios. Puedo, a mi exclusivo criterio, limitar o cancelar las cantidades adquiridas por persona, por hogar o por pedido. Estas restricciones pueden incluir pedidos realizados bajo la misma cuenta de cliente, el mismo método de pago y/o pedidos que utilicen la misma dirección de facturación o envío. Te notificaré por correo electrónico y/o a través de la dirección de facturación/número de teléfono proporcionado al momento de realizar el pedido, en caso de que decida limitar o cancelar un pedido."
+    },
+    "6": {
+      "title": "Suscripciones",
+      "billing": {
+        "title": "Facturación y renovación",
+        "paragraph": "Tu suscripción continuará y se renovará automáticamente a menos que la canceles. Aceptas que se realicen cargos recurrentes a tu método de pago elegido, sin requerir tu aprobación previa para cada cargo recurrente, hasta que canceles la suscripción. El período de facturación es mensual o anual, según el plan que hayas elegido."
+      },
+      "freeTrial": {
+        "title": "Período de prueba gratuito",
+        "paragraph": "Ofrezco un período de prueba gratuito de 14 días al registrarte. La cuenta se cargará según tu plan elegido al finalizar el período de prueba gratuito, a menos que canceles antes de que finalice dicho período."
+      },
+      "cancellation": {
+        "title": "Cancelación",
+        "paragraph": "Puedes cancelar tu suscripción en cualquier momento accediendo a la configuración de tu cuenta. Tu cancelación tendrá efecto al final del período de pago actual. Si tienes preguntas o no estás satisfecho con los Servicios, escríbeme a petclinicmanager.app@gmail.com."
+      },
+      "feeChanges": {
+        "title": "Cambios en las tarifas",
+        "paragraph": "Puedo, a mi exclusivo criterio, modificar las tarifas de suscripción en cualquier momento. Cualquier cambio en la tarifa de suscripción entrará en vigencia al final del período de facturación actual. Te notificaré con anticipación razonable sobre cualquier cambio en las tarifas de suscripción para que puedas cancelar tu suscripción antes de que dicho cambio entre en vigor."
+      }
+    },
+    "7": {
+      "title": "Actividades Prohibidas",
+      "paragraph1": "No puedes acceder ni utilizar los Servicios para ningún propósito distinto a aquel para el que los pongo a disposición. Los Servicios no pueden utilizarse en conexión con ninguna actividad comercial, excepto aquellas que estén expresamente respaldadas o aprobadas por mí.",
+      "paragraph2": "Como usuario de los Servicios, aceptas no:",
+      "items": {
+        "1": "Recuperar datos u otro contenido de los Servicios de manera sistemática para crear o compilar, directa o indirectamente, una colección, compilación, base de datos o directorio sin mi permiso por escrito.",
+        "2": "Engañarme o inducirme a error a mí o a otros usuarios, especialmente en cualquier intento de obtener información sensible de las cuentas, como contraseñas.",
+        "3": "Eludir, deshabilitar o interferir de cualquier otra manera con las funciones de seguridad de los Servicios, incluyendo aquellas que impidan o restrinjan el uso o la copia de cualquier Contenido.",
+        "4": "Denigrar, manchar o dañar de otro modo mi reputación.",
+        "5": "Usar cualquier información obtenida de los Servicios para acosar, abusar o dañar a otra persona.",
+        "6": "Hacer un uso indebido de mis servicios de soporte o enviar informes falsos de abuso o conducta inapropiada.",
+        "7": "Usar los Servicios de manera inconsistente con cualquier ley o regulación aplicable.",
+        "8": "Participar en la creación de marcos no autorizados o en el establecimiento de vínculos con los Servicios.",
+        "9": "Cargar o transmitir (o intentar hacerlo) virus u otro material que interfiera con el uso ininterrumpido de los Servicios.",
+        "10": "Participar en cualquier uso automatizado del sistema, como el uso de scripts para enviar comentarios o mensajes, o el uso de minería de datos, robots u herramientas similares de recopilación y extracción de datos.",
+        "11": "Eliminar el aviso de derechos de autor u otros derechos de propiedad de cualquier Contenido.",
+        "12": "Intentar hacerse pasar por otro usuario o persona o usar el nombre de usuario de otro usuario.",
+        "13": "Interferir, interrumpir o crear una carga indebida en los Servicios o en las redes o servicios conectados a los Servicios.",
+        "14": "Acosar, molestar, intimidar o amenazar a cualquier empleado o agente mío que proporcione cualquier parte de los Servicios.",
+        "15": "Intentar eludir cualquier medida de los Servicios diseñada para prevenir o restringir el acceso a los Servicios o a cualquier parte de los mismos.",
+        "16": "Copiar o adaptar el software de los Servicios.",
+        "17": "Usar los Servicios como parte de cualquier esfuerzo por competir conmigo o de cualquier otra manera usar los Servicios y/o el Contenido para cualquier empresa generadora de ingresos o iniciativa comercial.",
+        "18": "Usar los Servicios para anunciar u ofrecer vender bienes y servicios."
+      }
+    },
+    "8": {
+      "title": "Contribuciones de Usuarios",
+      "paragraph1": "Los Servicios no ofrecen a los usuarios la posibilidad de enviar o publicar contenido. Puedo ofrecerte la oportunidad de crear, enviar, publicar, mostrar, transmitir, realizar, publicar, distribuir o difundir contenido y materiales, incluyendo pero no limitado a texto, escritos, video, audio, fotografías, gráficos, comentarios, sugerencias o información personal u otro material (en conjunto, las \"Contribuciones\").",
+      "paragraph2": "Las Contribuciones pueden ser vistas por otros usuarios de los Servicios. Las Contribuciones deben cumplir con las siguientes directrices:",
+      "items": {
+        "1": "No deben contener material falso, inexacto o engañoso.",
+        "2": "No deben ser obscenas, lascivas, sucias, violentas, acosadoras, difamatorias, calumniosas o de otro modo objetables.",
+        "3": "No deben ridiculizar, burlarse, menospreciar, intimidar o abusar de ninguna persona.",
+        "4": "No deben usarse para acosar o amenazar a ninguna persona ni para promover violencia contra una persona o grupo específico.",
+        "5": "No deben violar leyes aplicables, regulaciones o reglas.",
+        "6": "No deben violar los derechos de privacidad o publicidad de terceros.",
+        "7": "No deben contener ningún material que solicite información personal de menores de 18 años.",
+        "8": "No deben violar ninguna ley aplicable relacionada con pornografía infantil."
+      }
+    },
+    "9": {
+      "title": "Licencia de Contribuciones",
+      "paragraph1": "Al publicar tus Contribuciones en cualquier parte de los Servicios, me otorgas automáticamente un derecho y licencia irrevocable, perpetuo, no exclusivo, transferible, libre de regalías y mundial para alojar, usar, copiar, reproducir, divulgar, vender, revender, publicar, difundir, retitular, archivar, almacenar, almacenar en caché, realizar públicamente, mostrar públicamente, reformatear, traducir, transmitir, extraer (en su totalidad o en parte) y distribuir dichas Contribuciones para cualquier propósito, comercial, publicitario o de otro tipo, y para preparar obras derivadas de, o incorporar en otras obras, dichas Contribuciones, y otorgar y autorizar sublicencias de lo anterior.",
+      "paragraph2": "Esta licencia se aplicará a cualquier forma, medio o tecnología conocida actualmente o desarrollada en el futuro, e incluye mi uso de tu nombre, nombre de la empresa y nombre de franquicia, según corresponda, y cualquiera de las marcas comerciales, marcas de servicio, nombres comerciales, logotipos e imágenes personales y comerciales que proporciones.",
+      "paragraph3": "Me reservo el derecho, a mi exclusivo criterio, de (1) editar, redactar o cambiar de cualquier otra manera cualquier Contribución; (2) recategorizar cualquier Contribución para colocarla en lugares más apropiados en los Servicios; y (3) preseleccionar o eliminar cualquier Contribución en cualquier momento y por cualquier motivo, sin previo aviso."
+    },
+    "10": {
+      "title": "Gestión de los Servicios",
+      "paragraph1": "Me reservo el derecho, pero no la obligación, de:",
+      "items": {
+        "1": "Monitorear los Servicios en busca de violaciones de estos Términos Legales.",
+        "2": "Tomar las acciones legales apropiadas contra cualquier persona que, a mi exclusivo criterio, viole la ley o estos Términos Legales.",
+        "3": "Rechazar, restringir el acceso, limitar la disponibilidad o deshabilitar (en la medida en que sea tecnológicamente factible) cualquiera de tus Contribuciones o cualquier parte de las mismas.",
+        "4": "A mi exclusivo criterio y sin limitación, aviso o responsabilidad, eliminar de los Servicios o deshabilitar de otro modo todos los archivos y contenidos que sean excesivos en tamaño o que sean de cualquier manera una carga para mis sistemas.",
+        "5": "Gestionar los Servicios de manera diseñada para proteger mis derechos y propiedad y para facilitar el funcionamiento correcto de los Servicios."
+      }
+    },
+    "11": {
+      "title": "Política de Privacidad",
+      "paragraph1": "Me preocupa la privacidad y la seguridad de tus datos. Por favor revisa mi Política de Privacidad. Al usar los Servicios, aceptas estar sujeto a mi Política de Privacidad, que se incorpora a estos Términos Legales.",
+      "paragraph2": "Ten en cuenta que los Servicios están alojados en Guatemala. Si accedes a los Servicios desde cualquier otra región del mundo con leyes u otros requisitos que rijan la recopilación, uso o divulgación de datos personales que difieran de las leyes aplicables en Guatemala, entonces a través de tu uso continuo de los Servicios, estás transfiriendo tus datos a Guatemala y aceptas que tus datos sean transferidos y procesados en Guatemala."
+    },
+    "12": {
+      "title": "Infracciones de Derechos de Autor",
+      "paragraph1": "Respeto los derechos de propiedad intelectual de terceros. Si crees que cualquier material disponible en o a través de los Servicios infringe cualquier derecho de autor que poseas o controles, por favor notifícame de inmediato utilizando la información de contacto proporcionada a continuación (una \"Notificación\").",
+      "paragraph2": "Una copia de tu Notificación será enviada a la persona que publicó o almacenó el material al que hace referencia la Notificación. Ten en cuenta que, de acuerdo con la ley aplicable, podrías ser responsable de daños y perjuicios si realizas declaraciones falsas en una Notificación. Por lo tanto, si no estás seguro de que el material ubicado en o vinculado a través de los Servicios infrinja tu derecho de autor, deberías considerar primero contactar a un abogado."
+    },
+    "13": {
+      "title": "Vigencia y Terminación",
+      "paragraph1": "Estos Términos Legales permanecerán en plena vigencia y efecto mientras uses los Servicios. SIN LIMITAR NINGUNA OTRA DISPOSICIÓN DE ESTOS TÉRMINOS LEGALES, ME RESERVO EL DERECHO, A MI EXCLUSIVO CRITERIO Y SIN PREVIO AVISO NI RESPONSABILIDAD, DE DENEGAR EL ACCESO Y EL USO DE LOS SERVICIOS (INCLUYENDO EL BLOQUEO DE CIERTAS DIRECCIONES IP) A CUALQUIER PERSONA, POR CUALQUIER RAZÓN O SIN RAZÓN ALGUNA, INCLUYENDO SIN LIMITACIÓN EL INCUMPLIMIENTO DE CUALQUIER REPRESENTACIÓN, GARANTÍA O CONVENIO CONTENIDO EN ESTOS TÉRMINOS LEGALES O DE CUALQUIER LEY O REGULACIÓN APLICABLE.",
+      "paragraph2": "Puedo cancelar tu cuenta o terminar tu acceso a los Servicios en cualquier momento, con o sin causa, sin previo aviso ni responsabilidad hacia ti. Si cancelo o suspendo tu cuenta por cualquier razón, tienes prohibido registrarte y crear una nueva cuenta bajo tu nombre, un nombre falso o prestado, o el nombre de un tercero. Además de cancelar o suspender tu cuenta, me reservo el derecho de emprender acciones legales, incluyendo buscar compensación civil y penal.",
+      "paragraph3": "Si termino o suspendo tu cuenta, cualquier información que hayas proporcionado y cualquier contenido que hayas publicado permanecerá de acuerdo con lo establecido en la sección de Contribuciones y en la Política de Privacidad."
+    },
+    "14": {
+      "title": "Modificaciones e Interrupciones",
+      "paragraph1": "Me reservo el derecho de cambiar, modificar o eliminar el contenido de los Servicios en cualquier momento o por cualquier razón, a mi exclusivo criterio y sin previo aviso. Sin embargo, no tengo ninguna obligación de actualizar ninguna información en los Servicios. No seré responsable ante ti ni ante ningún tercero por ninguna modificación, cambio de precio, suspensión o interrupción de los Servicios.",
+      "paragraph2": "No puedo garantizar que los Servicios estén disponibles en todo momento. Es posible que experimente problemas de hardware, software u otros inconvenientes, o que necesite realizar mantenimiento relacionado con los Servicios, lo que podría resultar en interrupciones, retrasos o errores. Me reservo el derecho de cambiar, revisar, actualizar, suspender, interrumpir o modificar de cualquier otra manera los Servicios en cualquier momento o por cualquier razón sin previo aviso.",
+      "paragraph3": "Aceptas que no tengo ninguna responsabilidad por cualquier pérdida, daño o inconveniente causado por tu incapacidad de acceder o utilizar los Servicios durante cualquier tiempo de inactividad o interrupción de los Servicios. Nada en estos Términos Legales se interpretará como una obligación de mantener y soportar los Servicios o de suministrar correcciones, actualizaciones o versiones en relación con los mismos."
+    },
+    "15": {
+      "title": "Ley Aplicable",
+      "paragraph1": "Estos Términos Legales se regirán e interpretarán de acuerdo con las leyes de la República de Guatemala, y el uso de la Convención de las Naciones Unidas sobre los Contratos para la Venta Internacional de Bienes está expresamente excluido. Si tu residencia habitual está en la UE y eres consumidor, además gozarás de la protección que te otorguen las disposiciones imperativas de la ley del país en el que resides. PetClinicManager y tú aceptan someter a la jurisdicción no exclusiva de los tribunales de Ciudad de Guatemala, Guatemala, lo que significa que puedes presentar un reclamo para defender tus derechos de protección al consumidor en relación con estos Términos Legales en Guatemala o en el Estado de la UE donde residas."
+    },
+    "16": {
+      "title": "Resolución de Disputas",
+      "informalNegotiations": {
+        "title": "Negociaciones informales",
+        "paragraph": "Para acelerar la resolución y controlar el costo de cualquier disputa, controversia o reclamo relacionado con estos Términos Legales (cada uno de ellos, una \"Disputa\" y en conjunto, las \"Disputas\") presentados por ti o por mí (de forma individual, una \"Parte\" y en conjunto, las \"Partes\"), las Partes acuerdan intentar primero negociar cualquier Disputa (excepto las Disputas indicadas más abajo) de manera informal durante al menos treinta (30) días antes de iniciar el arbitraje. Dicha negociación informal comenzará con un aviso escrito de una Parte a la otra."
+      },
+      "bindingArbitration": {
+        "title": "Arbitraje vinculante",
+        "paragraph": "Cualquier Disputa que surja de o esté relacionada con estos Términos Legales será finalmente resuelta mediante arbitraje vinculante presentado ante el Centro de Arbitraje de la Cámara de Comercio de Guatemala, bajo las Reglas de Arbitraje de dicha institución, con un árbitro único, con sede en Ciudad de Guatemala, Guatemala. El arbitraje se llevará a cabo en español."
+      },
+      "restrictions": {
+        "title": "Restricciones",
+        "paragraph": "Las Partes acuerdan que cualquier arbitraje se limitará a la Disputa entre las Partes de manera individual. En la medida máxima permitida por la ley, no se unirá ningún arbitraje con ningún otro procedimiento; no existe ningún derecho o autoridad para que ninguna Disputa sea arbitrada sobre una base de demanda colectiva o se utilicen procedimientos de demanda colectiva; y no existe ningún derecho o autoridad para que cualquier Disputa sea presentada en supuesta capacidad representativa en nombre del público en general o de cualquier otra persona."
+      },
+      "exceptions": {
+        "title": "Excepciones a las negociaciones informales y al arbitraje",
+        "paragraph": "Las Partes acuerdan que las siguientes Disputas no están sujetas a las disposiciones anteriores sobre negociaciones informales y arbitraje vinculante: (a) cualquier Disputa que busque hacer valer o proteger, o que se refiera a la validez de, cualquiera de los derechos de propiedad intelectual de una Parte; (b) cualquier Disputa relacionada con, o que surja de, alegaciones de robo, piratería, invasión de la privacidad o uso no autorizado; y (c) cualquier reclamo de medida cautelar."
+      }
+    },
+    "17": {
+      "title": "Correcciones",
+      "paragraph1": "Puede haber información en los Servicios que contenga errores tipográficos, inexactitudes u omisiones, incluyendo descripciones, precios, disponibilidad y otra información diversa. Me reservo el derecho de corregir cualquier error, inexactitud u omisión y de cambiar o actualizar la información en los Servicios en cualquier momento, sin previo aviso."
+    },
+    "18": {
+      "title": "Descargo de Responsabilidad",
+      "paragraph1": "LOS SERVICIOS SE PROPORCIONAN TAL COMO ESTÁN Y SEGÚN DISPONIBILIDAD. ACEPTAS QUE TU USO DE LOS SERVICIOS SERÁ BAJO TU PROPIO RIESGO. EN LA MEDIDA MÁXIMA PERMITIDA POR LA LEY, RENUNCIO A TODAS LAS GARANTÍAS, EXPRESAS O IMPLÍCITAS, EN RELACIÓN CON LOS SERVICIOS Y TU USO DE LOS MISMOS, INCLUYENDO, SIN LIMITACIÓN, LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. NO OFREZCO GARANTÍAS NI DECLARACIONES SOBRE LA EXACTITUD O INTEGRIDAD DEL CONTENIDO DE LOS SERVICIOS O EL CONTENIDO DE CUALQUIER SITIO WEB O APLICACIÓN MÓVIL VINCULADOS A LOS SERVICIOS Y NO ASUMIRÉ NINGUNA RESPONSABILIDAD POR (1) ERRORES, EQUIVOCACIONES O INEXACTITUDES DE CONTENIDO Y MATERIALES, (2) LESIONES PERSONALES O DAÑOS A LA PROPIEDAD, DE CUALQUIER NATURALEZA, COMO RESULTADO DE TU ACCESO Y USO DE LOS SERVICIOS, (3) CUALQUIER ACCESO NO AUTORIZADO A O USO DE MIS SERVIDORES SEGUROS Y/O CUALQUIER INFORMACIÓN PERSONAL Y/O FINANCIERA ALMACENADA EN ELLOS, (4) CUALQUIER INTERRUPCIÓN O CESE DE TRANSMISIÓN HACIA O DESDE LOS SERVICIOS, (5) CUALQUIER ERROR, VIRUS, TROYANO O SIMILAR QUE PUEDA SER TRANSMITIDO A O A TRAVÉS DE LOS SERVICIOS POR CUALQUIER TERCERO, Y/O (6) CUALQUIER ERROR U OMISIÓN EN CUALQUIER CONTENIDO Y MATERIALES O POR CUALQUIER PÉRDIDA O DAÑO DE CUALQUIER TIPO INCURRIDO COMO RESULTADO DEL USO DE CUALQUIER CONTENIDO PUBLICADO, TRANSMITIDO O PUESTO A DISPOSICIÓN A TRAVÉS DE LOS SERVICIOS. NO GARANTIZO, RECOMIENDO, GARANTIZO NI ASUMO RESPONSABILIDAD POR NINGÚN PRODUCTO O SERVICIO ANUNCIADO U OFRECIDO POR UN TERCERO A TRAVÉS DE LOS SERVICIOS."
+    },
+    "19": {
+      "title": "Limitación de Responsabilidad",
+      "paragraph1": "EN NINGÚN CASO YO, MIS REPRESENTANTES O AGENTES SEREMOS RESPONSABLES ANTE TI O ANTE CUALQUIER TERCERO POR DAÑOS DIRECTOS, INDIRECTOS, CONSECUENTES, EJEMPLARES, INCIDENTALES, ESPECIALES O PUNITIVOS, INCLUYENDO PÉRDIDA DE GANANCIAS, PÉRDIDA DE INGRESOS, PÉRDIDA DE DATOS U OTROS DAÑOS QUE SURJAN DE TU USO DE LOS SERVICIOS, INCLUSO SI HE SIDO ADVERTIDO DE LA POSIBILIDAD DE TALES DAÑOS.",
+      "paragraph2": "NO OBSTANTE LO CONTRARIO CONTENIDO EN ESTE DOCUMENTO, MI RESPONSABILIDAD ANTE TI, POR CUALQUIER CAUSA Y INDEPENDIENTEMENTE DE LA FORMA DE LA ACCIÓN, ESTARÁ EN TODO MOMENTO LIMITADA AL MENOR ENTRE: EL MONTO PAGADO, SI LO HUBIERA, POR TI DURANTE EL PERÍODO DE SEIS (6) MESES PREVIO A QUE SURJA CUALQUIER CAUSA DE ACCIÓN, O $250.00 USD.",
+      "paragraph3": "CIERTAS LEYES DE ALGUNOS PAÍSES Y LEYES INTERNACIONALES NO PERMITEN LIMITACIONES EN GARANTÍAS IMPLÍCITAS O LA EXCLUSIÓN O LIMITACIÓN DE CIERTOS DAÑOS. SI ESTAS LEYES TE APLICAN, ES POSIBLE QUE ALGUNOS O TODOS LOS DESCARGOS O LIMITACIONES ANTERIORES NO TE APLIQUEN Y QUE TENGAS DERECHOS ADICIONALES."
+    },
+    "20": {
+      "title": "Indemnización",
+      "paragraph1": "Aceptas defenderme, indemnizarme y eximirme de toda responsabilidad frente a cualquier pérdida, daño, responsabilidad, reclamación o demanda, incluidos los honorarios y gastos razonables de abogados, presentados por cualquier tercero debido a o como resultado de: (1) tus Contribuciones; (2) el uso de los Servicios; (3) el incumplimiento de estos Términos Legales; (4) cualquier incumplimiento de tus declaraciones y garantías establecidas en estos Términos Legales; (5) tu violación de los derechos de un tercero, incluyendo pero no limitado a los derechos de propiedad intelectual; o (6) cualquier acto dañino manifiesto hacia cualquier otro usuario de los Servicios con quien te hayas conectado a través de los Servicios.",
+      "paragraph2": "Sin perjuicio de lo anterior, me reservo el derecho, a tu costa, de asumir la defensa y el control exclusivos de cualquier asunto por el que debas indemnizarme, y aceptas cooperar, a tu costa, con mi defensa de dichas reclamaciones. Haré esfuerzos razonables para notificarte de cualquier reclamación, acción o procedimiento sujeto a esta indemnización al tener conocimiento del mismo."
+    },
+    "21": {
+      "title": "Datos del Usuario",
+      "paragraph1": "Mantendré ciertos datos que transmitas a los Servicios con el propósito de gestionar el rendimiento de los Servicios, así como datos relacionados con tu uso de los mismos. Aunque realizo copias de seguridad de datos de forma rutinaria, eres el único responsable de todos los datos que transmitas o que se relacionen con cualquier actividad que hayas realizado utilizando los Servicios.",
+      "paragraph2": "Aceptas que no tendré ninguna responsabilidad ante ti por cualquier pérdida o corrupción de dichos datos, y por la presente renuncias a cualquier derecho de acción contra mí que surja de cualquier pérdida o corrupción de dichos datos."
+    },
+    "22": {
+      "title": "Comunicaciones, Transacciones y Firmas Electrónicas",
+      "paragraph1": "Visitar los Servicios, enviarme correos electrónicos y completar formularios en línea constituyen comunicaciones electrónicas. Consientes recibir comunicaciones electrónicas y aceptas que todos los acuerdos, avisos, divulgaciones y otras comunicaciones que te proporcione electrónicamente, por correo electrónico y a través de los Servicios, satisfacen cualquier requisito legal de que dicha comunicación sea por escrito.",
+      "paragraph2": "POR LA PRESENTE ACEPTAS EL USO DE FIRMAS ELECTRÓNICAS, CONTRATOS, PEDIDOS Y OTROS REGISTROS, Y LA ENTREGA ELECTRÓNICA DE AVISOS, POLÍTICAS Y REGISTROS DE TRANSACCIONES INICIADAS O COMPLETADAS POR MÍ O A TRAVÉS DE LOS SERVICIOS. Por la presente renuncias a cualquier derecho o requisito bajo cualquier ley, reglamento, regla, ordenanza u otra normativa en cualquier jurisdicción que requiera una firma original o la entrega o retención de registros no electrónicos."
+    },
+    "23": {
+      "title": "Mensajes de Texto SMS / WhatsApp",
+      "programDescription": {
+        "title": "Descripción del programa",
+        "paragraph": "Al optar por cualquier programa de mensajería de texto (WhatsApp/SMS), consientes expresamente recibir mensajes a tu número de teléfono. Los mensajes pueden incluir recordatorios de citas y actualizaciones del servicio."
+      },
+      "optingOut": {
+        "title": "Darse de baja",
+        "paragraph": "Los usuarios pueden darse de baja haciendo clic en el enlace para cancelar la suscripción proporcionado en el mensaje, ajustando la configuración de notificaciones en el panel de su cuenta, o respondiendo con 'STOP'."
+      },
+      "messageRates": {
+        "title": "Tarifas de mensajes y datos",
+        "paragraph": "Ten en cuenta que pueden aplicarse tarifas de mensajes y datos a cualquier mensaje SMS enviado o recibido. Las tarifas son determinadas por tu operador y las especificaciones de tu plan de telefonía. Los operadores no son responsables de los mensajes retrasados o no entregados. Si tienes preguntas sobre tu plan, comunícate con tu proveedor de telefonía."
+      },
+      "support": {
+        "title": "Soporte",
+        "paragraph": "Si tienes preguntas o necesitas asistencia con nuestras comunicaciones, responde con la palabra clave HELP. También puedes enviarnos un correo a petclinicmanager.app@gmail.com o llamarnos al (+502) 3942-3287."
+      }
+    },
+    "24": {
+      "title": "Usuarios y Residentes de California",
+      "paragraph1": "Si alguna queja presentada ante mí no se resuelve satisfactoriamente, puedes comunicarte con la Unidad de Asistencia de Quejas de la División de Servicios al Consumidor del Departamento de Asuntos del Consumidor de California por escrito a 1625 North Market Blvd., Suite N 112, Sacramento, California 95834, o por teléfono al (800) 952-5210 o (916) 445-1254."
+    },
+    "25": {
+      "title": "Misceláneos",
+      "paragraph1": "Estos Términos Legales y cualquier política o regla operativa que publique en o con respecto a los Servicios constituyen el acuerdo y entendimiento completo entre tú y yo. Mi falta de ejercicio o aplicación de cualquier derecho o disposición de estos Términos Legales no operará como una renuncia a dicho derecho o disposición.",
+      "paragraph2": "Estos Términos Legales operan en la mayor medida permitida por la ley. Puedo ceder cualquiera o todos mis derechos y obligaciones a otros en cualquier momento. No seré responsable de ninguna pérdida, daño, retraso o falta de acción causada por cualquier causa fuera de mi control razonable.",
+      "paragraph3": "Si alguna disposición o parte de una disposición de estos Términos Legales se determina que es ilegal, nula o inaplicable, esa disposición o parte de la disposición se considera separable de estos Términos Legales y no afecta la validez y aplicabilidad de las disposiciones restantes.",
+      "paragraph4": "No existe ninguna empresa conjunta, asociación, relación de empleo o agencia creada entre tú y yo como resultado de estos Términos Legales o del uso de los Servicios. Aceptas que estos Términos Legales no se interpretarán en mi contra por haberlos redactado. Por la presente renuncias a cualquier defensa que puedas tener basada en la forma electrónica de estos Términos Legales y la falta de firma de las partes para ejecutar estos Términos Legales."
+    },
+    "26": {
+      "title": "Responsabilidad Profesional",
+      "paragraph1": "La plataforma es únicamente una herramienta de gestión. Cualquier decisión clínica, diagnóstico o prescripción realizada por el usuario es de su exclusiva responsabilidad. No ofrezco asesoramiento veterinario y no soy responsable de ninguna negligencia veterinaria resultante de los datos ingresados o recuperados del sistema."
+    },
+    "27": {
+      "title": "Servicios de Terceros",
+      "paragraph1": "Mi servicio depende de proveedores externos, incluyendo Paddle (pagos) y Railway (alojamiento). No soy responsable de ninguna interrupción, pérdida de datos o errores causados por estos proveedores externos, aunque haré esfuerzos razonables para mantener el tiempo de actividad del sistema."
+    },
+    "28": {
+      "title": "Contáctanos",
+      "paragraph1": "Para resolver una queja relacionada con los Servicios o para recibir más información sobre el uso de los Servicios, comunícate conmigo a:",
+      "contact": {
+        "name": "Victor Abdias Joel Argueta Gonzalez",
+        "address": "20 Avenida A, Ciudad de Guatemala, Guatemala 01057, Guatemala",
+        "phone": "(+502) 3942-3287",
+        "email": "petclinicmanager.app@gmail.com"
+      }
+    }
+  },
+  "guberningLanguage": {
+    "title": "Idioma",
+    "paragraph": "Esta política está redactada en inglés. En caso de discrepancia o conflicto entre la versión en inglés y cualquier versión traducida a otro idioma (incluyendo el español), prevalecerá la versión en inglés y se considerará el texto legal vinculante."
+  }
+}

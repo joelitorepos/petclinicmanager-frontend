@@ -1,0 +1,187 @@
+{
+  "title": "Política de Privacidad",
+  "lastUpdated": "Última actualización: 17 de abril de 2026",
+  "introduction": {
+    "paragraph1": {
+      "part1": "Esta Política de Privacidad de Victor Abdias Joel Argueta Gonzalez, desarrollador independiente (en adelante \"yo\", \"el Desarrollador\" o \"PetClinicManager\"), describe cómo y por qué podría acceder, recopilar, almacenar, usar y/o compartir (\"procesar\") tu información personal cuando utilizas mis servicios (\"Servicios\"), incluyendo cuando visitas el sitio web",
+      "part2": "https://petclinicmanager.armandojoel2004.workers.dev",
+      "part3": "o cualquier otro producto o servicio relacionado que haga referencia a esta Política de Privacidad."
+    },
+    "paragraph2": "¿Preguntas o dudas? Leer esta Política de Privacidad te ayudará a comprender tus derechos y opciones de privacidad. Soy responsable de las decisiones sobre cómo se procesa tu información personal. Si no estás de acuerdo con mis políticas y prácticas, por favor no uses mis Servicios."
+  },
+  "summaryOfKeyPoints": {
+    "title": "Resumen de Puntos Clave",
+    "intro": "Este resumen proporciona los puntos clave de mi Política de Privacidad. Puedes encontrar más detalles sobre cualquiera de estos temas consultando la sección correspondiente en la tabla de contenido.",
+    "points": {
+      "whatPersonalInfo": {
+        "question": "¿Qué información personal proceso?",
+        "answer": "Cuando visitas, usas o navegas mis Servicios, puedo procesar información personal según cómo interactúas con ellos, las elecciones que haces y los productos y funciones que utilizas."
+      },
+      "sensitiveInfo": {
+        "question": "¿Proceso información personal sensible?",
+        "answer": "No proceso información sensible."
+      },
+      "thirdPartyInfo": {
+        "question": "¿Recopilo información de terceros?",
+        "answer": "Puedo recopilar información de bases de datos públicas, socios de marketing, plataformas de redes sociales y otras fuentes externas."
+      },
+      "howWeProcess": {
+        "question": "¿Cómo proceso tu información?",
+        "answer": "Proceso tu información para proporcionar, mejorar y administrar mis Servicios, comunicarme contigo, para la seguridad y prevención de fraudes, y para cumplir con la ley. También puedo procesar tu información para otros propósitos con tu consentimiento. Proceso tu información solo cuando tengo una razón legal válida para hacerlo."
+      },
+      "sharingInfo": {
+        "question": "¿En qué situaciones y con quién comparto información personal?",
+        "answer": "Puedo compartir información en situaciones específicas y con terceros específicos, como proveedores de servicios de pago y alojamiento."
+      },
+      "yourRights": {
+        "question": "¿Cuáles son tus derechos?",
+        "answer": "Dependiendo de tu ubicación geográfica, la ley de privacidad aplicable puede otorgarte ciertos derechos sobre tu información personal."
+      },
+      "howToExercise": {
+        "question": "¿Cómo ejerces tus derechos?",
+        "answer": "La forma más sencilla de ejercer tus derechos es enviando una solicitud de acceso a datos o contactándome directamente. Consideraré y actuaré en consecuencia de acuerdo con las leyes de protección de datos aplicables."
+      }
+    }
+  },
+  "tableOfContent": {
+    "title": "Tabla de Contenido",
+    "1": "¿Qué información recopilamos?",
+    "2": "¿Cómo procesamos tu información?",
+    "3": "¿Cuándo y con quién compartimos tu información personal?",
+    "4": "¿Usamos cookies y otras tecnologías de seguimiento?",
+    "5": "¿Cómo manejamos tus inicios de sesión en redes sociales?",
+    "6": "¿Se transfiere tu información internacionalmente?",
+    "7": "¿Cuánto tiempo conservamos tu información?",
+    "8": "¿Recopilamos información de menores?",
+    "9": "¿Cuáles son tus derechos de privacidad?",
+    "10": "Controles para las funciones de No Rastrear (Do-Not-Track)",
+    "11": "¿Actualizamos esta política?",
+    "12": "¿Cómo puedes contactarme sobre esta política?",
+    "13": "¿Cómo puedes revisar, actualizar o eliminar los datos que recopilo de ti?"
+  },
+  "sections": {
+    "1": {
+      "title": "¿Qué Información Recopilamos?",
+      "personalInfoDisclosed": {
+        "title": "Información personal que nos proporcionas",
+        "summary": "Recopilo la información personal que me proporcionas voluntariamente.",
+        "paragraph1": "Recopilo información personal que me proporcionas voluntariamente cuando te registras en los Servicios, expresas interés en obtener información sobre mis productos y Servicios, cuando participas en actividades en los Servicios o cuando te comunicas conmigo.",
+        "sensitiveInfo": "Información sensible: No proceso información sensible.",
+        "paragraph2": "Toda la información personal que me proporciones debe ser verdadera, completa y precisa, y debes notificarme cualquier cambio en dicha información."
+      },
+      "automaticallyCollected": {
+        "title": "Información recopilada automáticamente",
+        "summary": "Cierta información, como tu dirección IP y características del navegador y dispositivo, se recopila automáticamente cuando visitas mis Servicios.",
+        "paragraph1": "Recopilo automáticamente cierta información cuando visitas, usas o navegas los Servicios. Esta información no revela tu identidad específica (como tu nombre o información de contacto), pero puede incluir información del dispositivo y de uso, como tu dirección IP, características del navegador y dispositivo, sistema operativo, preferencias de idioma, URLs de referencia, nombre del dispositivo, país, ubicación, información sobre cómo y cuándo usas mis Servicios, y otra información técnica.",
+        "paragraph2": "Esta información es necesaria principalmente para mantener la seguridad y el funcionamiento de mis Servicios, y para mis propósitos internos de análisis e informes. Al igual que muchos servicios en línea, también recopilo información a través de cookies y tecnologías similares."
+      }
+    },
+    "2": {
+      "title": "¿Cómo Procesamos tu Información?",
+      "summary": "Proceso tu información para proporcionar, mejorar y administrar mis Servicios, comunicarme contigo, para la seguridad y prevención de fraudes, y para cumplir con la ley. También puedo procesar tu información para otros propósitos con tu consentimiento.",
+      "paragraph1": "Proceso tu información personal por diversas razones, dependiendo de cómo interactúas con mis Servicios, incluyendo:",
+      "reasons": {
+        "1": "Para facilitar la creación y autenticación de cuentas y gestionar cuentas de usuario.",
+        "2": "Para entregarte y facilitar la entrega de los Servicios al usuario.",
+        "3": "Para responder a consultas y resolver cualquier problema potencial que puedas tener.",
+        "4": "Para enviarte información administrativa, como cambios en mis términos, condiciones y políticas.",
+        "5": "Para cumplir y gestionar tus pedidos, pagos, devoluciones e intercambios.",
+        "6": "Para solicitar retroalimentación y comunicarme contigo sobre tu uso de los Servicios.",
+        "7": "Para enviarte comunicaciones de marketing y promocionales (si has optado por recibirlas).",
+        "8": "Para proteger mis Servicios, incluyendo la detección de fraudes y la supervisión de actividades sospechosas.",
+        "9": "Para cumplir con mis obligaciones legales y resolver disputas."
+      }
+    },
+    "3": {
+      "title": "¿Cuándo y con Quién Compartimos tu Información Personal?",
+      "summary": "Puedo compartir información en situaciones específicas descritas en esta sección y/o con los siguientes terceros.",
+      "situations": {
+        "businessTransfers": {
+          "title": "Transferencias comerciales",
+          "paragraph": "Puedo compartir o transferir tu información en conexión con, o durante las negociaciones de, cualquier fusión, venta de activos, financiamiento o adquisición de la totalidad o una parte de mis actividades a otra parte."
+        },
+        "businessPartners": {
+          "title": "Socios comerciales y proveedores de servicios",
+          "paragraph": "Puedo compartir tu información con mis socios comerciales y proveedores de servicios para ofrecerte ciertos productos, servicios o promociones. Actualmente utilizo Paddle para el procesamiento de pagos y Railway para el alojamiento del servicio. Estos proveedores tienen sus propias políticas de privacidad que rigen el uso de tu información."
+        }
+      }
+    },
+    "4": {
+      "title": "¿Usamos Cookies y Otras Tecnologías de Seguimiento?",
+      "summary": "Puedo usar cookies y otras tecnologías de seguimiento para recopilar y almacenar tu información.",
+      "paragraph1": "Puedo usar cookies y tecnologías de seguimiento similares (como balizas web y píxeles) para recopilar información cuando interactúas con mis Servicios. Algunas tecnologías de seguimiento en línea me ayudan a mantener la seguridad de los Servicios, prevenir fallos, corregir errores, guardar tus preferencias y asistir con funciones básicas del sitio.",
+      "paragraph2": "También permito que terceros y proveedores de servicios usen tecnologías de seguimiento en línea en mis Servicios para análisis, incluyendo para ayudar a gestionar y mostrar contenido relevante. Puedes configurar tu navegador para rechazar cookies, aunque esto puede afectar algunas funciones de los Servicios."
+    },
+    "5": {
+      "title": "¿Cómo Manejamos tus Inicios de Sesión en Redes Sociales?",
+      "summary": "Si eliges registrarte o iniciar sesión en mis Servicios usando una cuenta de red social, puedo tener acceso a cierta información tuya.",
+      "paragraph1": "Mis Servicios te ofrecen la posibilidad de registrarte e iniciar sesión usando los detalles de tu cuenta de red social de terceros (como tu inicio de sesión de Google). Cuando eliges hacer esto, recibiré cierta información de perfil tuya de tu proveedor de red social. La información de perfil que reciba puede variar según el proveedor, pero a menudo incluirá tu nombre, dirección de correo electrónico y foto de perfil.",
+      "paragraph2": "Usaré la información que reciba únicamente para los propósitos descritos en esta Política de Privacidad. Ten en cuenta que no controlo ni soy responsable de otros usos de tu información personal por parte de tu proveedor de red social. Te recomiendo que revises su política de privacidad para entender cómo recopilan, usan y comparten tu información personal."
+    },
+    "6": {
+      "title": "¿Se Transfiere tu Información Internacionalmente?",
+      "summary": "Puedo transferir, almacenar y procesar tu información en países distintos al tuyo.",
+      "paragraph1": "Mis servidores están ubicados en Estados Unidos (a través de Railway). Independientemente de tu ubicación, ten en cuenta que tu información puede ser transferida, almacenada y procesada en las instalaciones de los terceros con quienes comparto tu información personal (ver sección 3), incluyendo instalaciones en otros países.",
+      "paragraph2": "Si eres residente del Espacio Económico Europeo (EEE), el Reino Unido (RU) o Suiza, estos países pueden no tener leyes de protección de datos tan completas como las de tu país. Sin embargo, tomaré todas las medidas necesarias para proteger tu información personal de acuerdo con esta Política de Privacidad y la ley aplicable."
+    },
+    "7": {
+      "title": "¿Cuánto Tiempo Conservamos tu Información?",
+      "summary": "Conservo tu información durante el tiempo necesario para cumplir con los propósitos descritos en esta Política de Privacidad, a menos que la ley exija lo contrario.",
+      "paragraph1": "Solo conservaré tu información personal durante el tiempo que sea necesario para los propósitos establecidos en esta Política de Privacidad, a menos que un período de retención más largo sea requerido o permitido por la ley (como requisitos fiscales, contables u otros requisitos legales).",
+      "paragraph2": "Cuando no tenga ninguna necesidad comercial legítima en curso para procesar tu información personal, la eliminaré o anonimizaré. Si esto no es posible (por ejemplo, porque tu información personal ha sido almacenada en archivos de respaldo), la almacenaré de forma segura y la aislaré de cualquier procesamiento adicional hasta que sea posible su eliminación."
+    },
+    "8": {
+      "title": "¿Recopilamos Información de Menores?",
+      "summary": "No recopilo datos de niños menores de 18 años de manera consciente.",
+      "paragraph1": "No recopilo, solicito datos ni comercializo a niños menores de 18 años de manera consciente, ni vendo dicha información personal. Al usar los Servicios, declaras que tienes al menos 18 años, o que eres el padre, madre o tutor de dicho menor y que consientes el uso de los Servicios por parte de dicho menor.",
+      "paragraph2": "Si llego a saber que se ha recopilado información personal de usuarios menores de 18 años, desactivaré la cuenta y tomaré medidas razonables para eliminar dicha información de mis registros. Si tienes conocimiento de algún dato que pueda haber recopilado de niños menores de 18 años, por favor contáctame a petclinicmanager.app@gmail.com."
+    },
+    "9": {
+      "title": "¿Cuáles son tus Derechos de Privacidad?",
+      "summary": "Puedes revisar, cambiar o cancelar tu cuenta en cualquier momento, según el país, provincia o estado donde residas.",
+      "withdrawConsent": {
+        "title": "Retirar tu consentimiento",
+        "paragraph": "Si me baso en tu consentimiento para procesar tu información personal, tienes el derecho de retirar dicho consentimiento en cualquier momento. Puedes hacerlo contactándome a través de la información de contacto proporcionada en la sección '¿Cómo puedes contactarme sobre esta política?' Sin embargo, ten en cuenta que esto no afectará la legalidad del procesamiento antes de su retiro."
+      },
+      "accountInformation": {
+        "title": "Información de la cuenta",
+        "paragraph1": "Si en algún momento deseas revisar o cambiar la información de tu cuenta o cancelarla, puedes:",
+        "options": {
+          "1": "Iniciar sesión en la configuración de tu cuenta y actualizar tu información de usuario.",
+          "2": "Contactarme usando la información de contacto proporcionada."
+        },
+        "paragraph2": "Cuando solicites la cancelación de tu cuenta, desactivaré o eliminaré tu cuenta e información de mis bases de datos activas. Sin embargo, puedo retener cierta información en mis archivos para prevenir fraudes, solucionar problemas, asistir con investigaciones, hacer cumplir mis términos legales y/o cumplir con los requisitos legales aplicables."
+      }
+    },
+    "10": {
+      "title": "Controles para las Funciones de No Rastrear (Do-Not-Track)",
+      "paragraph1": "La mayoría de los navegadores web y algunos sistemas operativos y aplicaciones móviles incluyen una función o configuración de No Rastrear ('DNT') que puedes activar para indicar tu preferencia de privacidad de no tener datos sobre tus actividades de navegación en línea monitoreados y recopilados.",
+      "paragraph2": "En este momento, no existe un estándar de tecnología uniforme para reconocer e implementar señales DNT. Por lo tanto, actualmente no respondo a las señales DNT del navegador ni a ningún otro mecanismo que comunique automáticamente tu elección de no ser rastreado en línea. Si en el futuro se adopta un estándar de seguimiento en línea que deba seguir, te informaré sobre esa práctica en una versión revisada de esta Política de Privacidad."
+    },
+    "11": {
+      "title": "¿Actualizamos esta Política?",
+      "summary": "Sí, actualizaré esta política según sea necesario para cumplir con las leyes relevantes.",
+      "paragraph1": "Puedo actualizar esta Política de Privacidad de vez en cuando. La versión actualizada se indicará con una fecha de 'Última actualización' revisada en la parte superior de esta Política de Privacidad.",
+      "paragraph2": "Si realizo cambios materiales a esta Política de Privacidad, puedo notificarte publicando de manera prominente un aviso de dichos cambios o enviándote una notificación directamente. Te recomiendo que revises esta Política de Privacidad con frecuencia para estar informado sobre cómo protejo tu información."
+    },
+    "12": {
+      "title": "¿Cómo Puedes Contactarme sobre esta Política?",
+      "paragraph1": "Si tienes preguntas o comentarios sobre esta política, puedes contactarme por correo postal o electrónico a:",
+      "contact": {
+        "name": "Victor Abdias Joel Argueta Gonzalez",
+        "address": "20 Avenida A, Ciudad de Guatemala, Guatemala 01057, Guatemala",
+        "phone": "(+502) 3942-3287",
+        "email": "petclinicmanager.app@gmail.com"
+      }
+    },
+    "13": {
+      "title": "¿Cómo Puedes Revisar, Actualizar o Eliminar los Datos que Recopilo de Ti?",
+      "paragraph1": "Según las leyes aplicables de tu país, puedes tener el derecho de solicitar acceso a la información personal que recopilo de ti, detalles sobre cómo la he procesado, corregir inexactitudes o eliminar tu información personal. También puedes tener el derecho de retirar tu consentimiento para que procese tu información personal. Estos derechos pueden estar limitados en algunas circunstancias por la ley aplicable.",
+      "paragraph2": "Para solicitar revisar, actualizar o eliminar tu información personal, envíame un correo a petclinicmanager.app@gmail.com con el asunto 'Solicitud de acceso a datos' y responderé en un plazo razonable."
+    }
+  },
+  "guberningLanguage": {
+    "title": "Idioma",
+    "paragraph": "Esta política está redactada en inglés. En caso de discrepancia o conflicto entre la versión en inglés y cualquier versión traducida a otro idioma (incluyendo el español), prevalecerá la versión en inglés y se considerará el texto legal vinculante."
+  }
+}

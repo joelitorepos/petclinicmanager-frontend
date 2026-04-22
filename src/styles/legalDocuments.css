@@ -1,0 +1,105 @@
+/* Estilos base para el contenedor de documentos legales.
+  Usamos una fuente sans-serif limpia (system-ui) que se adapta bien al sistema operativo del usuario.
+*/
+.legal-container {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  color: #374151; /* Un gris oscuro (Tailwind gray-700) es mejor para la vista que el negro puro */
+  line-height: 1.6; /* Interlineado amplio para facilitar la lectura de bloques de texto */
+  padding: 2rem; /* Espaciado interno para que el texto no toque los bordes */
+  border-radius: 8px; /* Opcional: suaviza las esquinas si decides darle un fondo distinto al Wrapper */
+}
+
+/* Jerarquía de Títulos
+*/
+.legal-container h1 {
+  font-size: 2.25rem; /* 36px */
+  font-weight: 700;
+  color: #111827; /* gray-900 */
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+.legal-container h2 {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 600;
+  color: #1f2937; /* gray-800 */
+  margin-top: 2.5rem; /* Más espacio arriba para separar secciones */
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.legal-container h3 {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 600;
+  color: #374151; /* gray-700 */
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Párrafos y Textos
+*/
+.legal-container p {
+  font-size: 1rem; /* 16px - Tamaño estándar y legible */
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  text-align: left; /* Evita 'text-justify' en web, ya que crea "ríos" de espacio blanco que dificultan la lectura */
+}
+
+/* Listas (muy comunes en documentos legales)
+*/
+.legal-container ul,
+.legal-container ol {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.legal-container li {
+  margin-bottom: 0.5rem;
+}
+
+.legal-container li > ul,
+.legal-container li > ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+/* Enlaces y Énfasis
+*/
+.legal-container a {
+  color: #2563eb; /* blue-600 */
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+.legal-container a:hover {
+  color: #1d4ed8; /* blue-700 */
+}
+
+.legal-container strong,
+.legal-container b {
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Bloques de notas o citas (por si necesitas destacar alguna cláusula)
+*/
+.legal-container blockquote {
+  border-left: 4px solid #d1d5db; /* gray-300 */
+  padding-left: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  font-style: italic;
+  color: #4b5563; /* gray-600 */
+}

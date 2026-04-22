@@ -1,0 +1,32 @@
+{
+  "title": "Política de Devoluciones",
+  "lastUpdated": "Última actualización: 19 de abril de 2026",
+  "refunds": {
+    "title": "Reembolsos",
+    "paragraph1": "Todas las ventas son finales y no se emitirán reembolsos.",
+    "noRecurringBilling": {
+      "title": "Sin facturación recurrente",
+      "paragraph": "Mi servicio opera bajo un modelo de pago único por un período fijo (por ejemplo, mensual o anual). No utilizo renovaciones automáticas ni facturación recurrente."
+    },
+    "serviceDuration": {
+      "title": "Duración del servicio",
+      "paragraph": "Una vez adquirido un plan, permanecerá activo durante toda la duración del período seleccionado. El acceso no puede cancelarse ni pausarse una vez iniciado el período. Al finalizar el período pagado, tu cuenta volverá automáticamente al Plan Gratuito a menos que se adquiera un nuevo período."
+    },
+    "refundExceptions": {
+      "title": "Excepciones de reembolso",
+      "paragraph": "Todas las ventas son finales. Los reembolsos solo se considerarán a mi exclusivo criterio en caso de una falla técnica verificada que impida el acceso al servicio durante un período prolongado, siempre que el usuario haya contactado a mi equipo de soporte y haya permitido un plazo razonable para la resolución del problema."
+    }
+  },
+  "questions": {
+    "title": "¿Preguntas?",
+    "paragraph": "Si tienes alguna pregunta sobre mi política de devoluciones, puedes contactarme a:",
+    "contact": {
+      "phone": "(+502) 3942-3287",
+      "email": "petclinicmanager.app@gmail.com"
+    }
+  },
+  "guberningLanguage": {
+    "title": "Idioma",
+    "paragraph": "Esta política está redactada en inglés. En caso de discrepancia o conflicto entre la versión en inglés y cualquier versión traducida a otro idioma (incluyendo el español), prevalecerá la versión en inglés y se considerará el texto legal vinculante."
+  }
+}

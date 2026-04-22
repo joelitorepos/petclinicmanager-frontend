@@ -1,0 +1,32 @@
+{
+  "title": "Return Policy",
+  "lastUpdated": "Last updated: April 19, 2026",
+  "refunds": {
+    "title": "Refunds",
+    "paragraph1": "All sales are final and no refund will be issued.",
+    "noRecurringBilling": {
+      "title": "No recurring billing",
+      "paragraph": "My service operates on a one-time payment basis for a fixed term (e.g., monthly or annually). I do not use automatic renewals or recurring billing."
+    },
+    "serviceDuration": {
+      "title": "Service duration",
+      "paragraph": "Once a plan is purchased, it will remain active for the full duration of the selected term. Access cannot be canceled or paused once the term has started. At the end of the paid term, your account will automatically revert to the Free Plan unless a new term is purchased."
+    },
+    "refundExceptions": {
+      "title": "Refund exceptions",
+      "paragraph": "All sales are final. Refunds are only considered at my sole discretion in the event of a verified technical failure that prevents access to the service for an extended period, provided that the user has contacted my support team and allowed a reasonable timeframe for resolution."
+    }
+  },
+  "questions": {
+    "title": "Questions?",
+    "paragraph": "If you have any questions concerning my return policy, please contact me at:",
+    "contact": {
+      "phone": "(+502) 3942-3287",
+      "email": "petclinicmanager.app@gmail.com"
+    }
+  },
+  "guberningLanguage": {
+    "title": "Language",
+    "paragraph": "This policy is drafted in English. In the event of any discrepancy or conflict between the English version and any translated version in another language (including Spanish), the English version shall prevail and be considered the binding legal text."
+  }
+}

@@ -17,8 +17,10 @@ export const useLanguage = () => {
   return {
     ...context,
     translate: (key: string, options?: TOptions | string) =>
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       context.t(key, options as any),
     translateNS: (ns: string, key: string, options?: TOptions | string) =>
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       context.t(`${ns}:${key}`, options as any),
   };
 };

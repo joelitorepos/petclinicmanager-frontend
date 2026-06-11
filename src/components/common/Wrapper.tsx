@@ -1,5 +1,6 @@
 import LanguageSwitcher from "./LanguageSwitcher";
 import "../../styles/legalDocuments.css";
+import BackButton from "../ui/BackButton";
 
 interface PageWrapperProps {
   children: React.ReactNode;
@@ -13,6 +14,9 @@ const Wrapper = ({ children, className = "" }: PageWrapperProps) => {
     >
       <div className="absolute top-5 right-4">
         <LanguageSwitcher />
+      </div>
+      <div className="absolute top-5 left-4">
+        <BackButton />
       </div>
       <div className="pt-5 min-h-[calc(100vh-100px)] bg-gray-50 mt-10">
         {children}
